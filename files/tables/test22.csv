@@ -1,0 +1,7 @@
+Notation,Load Effect,Notes
+Ein ,Maximum seismic load effect of horizontal and vertical forces as set forth in ASCE/SEI 12.4.3,"See IBC 1613, ASCE/SEI 12.4.3 and Chapter 6 of this publication"
+F,Load due to fluids with well-defined pressures and maximum heights,--- 
+Fa ,Flood load,See IBC 1612
+H,"Load due to lateral earth pressures, ground water pressure or pressure of bulk materials",See IBC 1610 for soil lateral loads
+L,"Live load, except roof live load, including any permitted live load reduction",See IBC 1607 and Chapter 3 of this publication
+T,"Self-straining force arising from contraction or expansion resulting from temperature change, shrinkage, moisture change, creep in component materials, movement due to differential settlement or combinations thereof",--- 

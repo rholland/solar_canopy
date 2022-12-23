@@ -1,0 +1,21 @@
+"Shear Force  
+Bending Moment  
+Equation 
+Location 
+Load Combination 
+(kips) 
+(ft-kips) 
+No.","","","",""
+"16-16","D+L","Support","-300","65"
+"","","Midspan","205","---"
+"16-17 
+16-18","D+L+1.3W","Support","-430","78"
+"","","Midspan","205","---"
+"","0.67D + L-1.3W","Support","-88","36"
+"","","Midspan","149","---"
+"16-19","D+L + 0.65W","Support","-365","72"
+"","","Midspan","205","---"
+"16-20","1.07D + L+(QE11.4)","Support","- 353","72"
+"","","Midspan","217","---"
+"16-21","0.83D - (QE /1.4)","Support","- 172","38"
+"","","Midspan","141","---"

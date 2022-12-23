@@ -1,0 +1,402 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+                                   E T A B S                                   
+ 
+            Extended Three Dimensional Analysis of Building Systems            
+ 
+                             NONLINEAR Version 6.22                            
+ 
+                            Copyright (C) 1983-1998                            
+                         COMPUTERS AND STRUCTURES, INC.                        
+                              All rights reserved                              
+ 
+                 This copy of ETABS is for the exclusive use of                
+ 
+                                      StL                                      
+ 
+           Unauthorized use is in violation of Federal copyright laws          
+ 
+               It is the responsibility of the user to verify all              
+                        results produced by this program                       
+                              4 Sep 2020  00:35:21                             
+StL                                                                  PAGE    2
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ COORDINATES OF CENTERS OF CUMULATIVE MASS & CENTERS OF RIGIDITY
+
+ STORY  DIAPHRAGM /----------CENTER OF MASS----------//--CENTER OF RIGIDITY--/
+ LEVEL     NUMBER        MASS  ORDINATE-X  ORDINATE-Y  ORDINATE-X  ORDINATE-Y
+ ROOF    
+                1       0.135     285.316     204.460     278.083     200.777
+ WINTOP  
+                1       0.147     285.141     203.800     279.509     184.838
+ WINBOT  
+                1       0.161     284.410     202.861     275.477     192.900
+ FLOOR   
+                1       0.330     282.838     204.815     264.326     206.572
+ FNDTOP  
+                1       0.333     283.557     205.675     284.767     149.726
+ FNDMID  
+                1       0.334     284.212     206.146     533.998     347.999
+ FNDBOT  
+                1       0.335     284.555     206.372     533.996     348.000
+StL                                                                  PAGE    3
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ STATIC LOAD CONDITION LATERAL DISPLACEMENTS FOR DIAPHRAGM     1
+
+ VALUES ARE AT THE CENTER OF MASS OF THE
+ CORRESPONDING DIAPHRAGM IN GLOBAL COORDINATES
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X      0.0000    0.0000    0.0000    1.9654   -0.0345    0.0000
+ ROOF         Y      0.0000    0.0000    0.0000   -0.0338    1.8890    0.0000
+ ROOF      ROTZ   0.000E+00 0.000E+00 0.000E+00-5.834E-05 1.597E-04 0.000E+00
+ 
+ WINTOP       X      0.0000    0.0000    0.0000    1.6658   -0.0471    0.0000
+ WINTOP       Y      0.0000    0.0000    0.0000   -0.0300    1.5006    0.0000
+ WINTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.962E-04 1.238E-04 0.000E+00
+ 
+ WINBOT       X      0.0000    0.0000    0.0000    0.9573   -0.0186    0.0000
+ WINBOT       Y      0.0000    0.0000    0.0000   -0.0238    0.8511    0.0000
+ WINBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-6.318E-05 1.159E-04 0.000E+00
+ 
+ FLOOR        X      0.0000    0.0000    0.0000    0.2522   -0.0072    0.0000
+ FLOOR        Y      0.0000    0.0000    0.0000   -0.0114    0.2664    0.0000
+ FLOOR     ROTZ   0.000E+00 0.000E+00 0.000E+00 3.695E-05 6.809E-05 0.000E+00
+ 
+ FNDTOP       X      0.0000    0.0000    0.0000    0.0248   -0.0152    0.0000
+ FNDTOP       Y      0.0000    0.0000    0.0000   -0.0090    0.0130    0.0000
+ FNDTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.193E-04 9.991E-05 0.000E+00
+ 
+ FNDMID       X      0.0000    0.0000    0.0000    0.8883   -2.3586    0.0000
+ FNDMID       Y      0.0000    0.0000    0.0000   -2.3298    6.2092    0.0000
+ FNDMID    ROTZ   0.000E+00 0.000E+00 0.000E+00 2.099E-02-5.637E-02 0.000E+00
+ 
+ FNDBOT       X      0.0000    0.0000    0.0000    0.0054   -0.0197    0.0000
+ FNDBOT       Y      0.0000    0.0000    0.0000   -0.4483    1.1547    0.0000
+ FNDBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00 1.188E-02-3.243E-02 0.000E+00
+StL                                                                  PAGE    4
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ STATIC LOAD CONDITION LATERAL STORY LOADS FOR DIAPHRAGM     1
+
+ LOADS ARE AT THE CENTERS OF MASS OF THE RESPECTIVE STORY LEVELS
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X        0.00      0.00      0.00     13.15      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00     13.15      0.00
+ ROOF      ROTZ   0.000E+00 0.000E+00 0.000E+00 8.594E-14 1.392E-13 0.000E+00
+ 
+ WINTOP       X        0.00      0.00      0.00      0.97      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00      0.97      0.00
+ WINTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00 6.803E-14 9.292E-15 0.000E+00
+ 
+ WINBOT       X        0.00      0.00      0.00      0.81      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00      0.81      0.00
+ WINBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-3.149E-13-6.690E-14 0.000E+00
+ 
+ FLOOR        X        0.00      0.00      0.00      5.47      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00      5.47      0.00
+ FLOOR     ROTZ   0.000E+00 0.000E+00 0.000E+00-9.131E-16-1.426E-14 0.000E+00
+ 
+ FNDTOP       X        0.00      0.00      0.00      0.06      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00      0.06      0.00
+ FNDTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00 1.795E-12-2.361E-12 0.000E+00
+ 
+ FNDMID       X        0.00      0.00      0.00      0.02      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00      0.02      0.00
+ FNDMID    ROTZ   0.000E+00 0.000E+00 0.000E+00-3.711E-12 3.849E-12 0.000E+00
+ 
+ FNDBOT       X        0.00      0.00      0.00      0.00      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00      0.00      0.00
+ FNDBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.764E-14 2.078E-13 0.000E+00
+StL                                                                  PAGE    5
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ STATIC LOAD CONDITION LATERAL STORY SHEARS FOR DIAPHRAGM     1
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X        0.00      0.00      0.00     13.15      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00     13.15      0.00
+ 
+ WINTOP       X        0.00      0.00      0.00     14.13      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00     14.13      0.00
+ 
+ WINBOT       X        0.00      0.00      0.00     14.94      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00     14.94      0.00
+ 
+ FLOOR        X        0.00      0.00      0.00     20.41      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00     20.41      0.00
+ 
+ FNDTOP       X        0.00      0.00      0.00     20.47      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00     20.47      0.00
+ 
+ FNDMID       X        0.00      0.00      0.00     20.49      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00     20.49      0.00
+ 
+ FNDBOT       X        0.00      0.00      0.00     20.49      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00     20.49      0.00
+StL                                                                  PAGE    6
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ STATIC LOAD CONDITION LATERAL STORY LOADS FOR ALL DIAPHRAGMS 
+
+ VALUES ARE AT THE GLOBAL ORIGIN IN THE GLOBAL COORDINATES
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X        0.00      0.00      0.00     13.15      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00     13.15      0.00
+ ROOF      ROTZ   0.000E+00 0.000E+00 0.000E+00-2.690E+03 3.753E+03 0.000E+00
+ 
+ WINTOP       X        0.00      0.00      0.00      0.97      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00      0.97      0.00
+ WINTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.913E+02 2.756E+02 0.000E+00
+ 
+ WINBOT       X        0.00      0.00      0.00      0.81      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00      0.81      0.00
+ WINBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.559E+02 2.235E+02 0.000E+00
+ 
+ FLOOR        X        0.00      0.00      0.00      5.47      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00      5.47      0.00
+ FLOOR     ROTZ   0.000E+00 0.000E+00 0.000E+00-1.131E+03 1.540E+03 0.000E+00
+ 
+ FNDTOP       X        0.00      0.00      0.00      0.06      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00      0.06      0.00
+ FNDTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.935E+01 2.334E+01 0.000E+00
+ 
+ FNDMID       X        0.00      0.00      0.00      0.02      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00      0.02      0.00
+ FNDMID    ROTZ   0.000E+00 0.000E+00 0.000E+00-5.177E+00 7.164E+00 0.000E+00
+ 
+ FNDBOT       X        0.00      0.00      0.00      0.00      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00      0.00      0.00
+ FNDBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00 9.023E-14 2.837E-12 0.000E+00
+StL                                                                  PAGE    7
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ STATIC LOAD CONDITION LATERAL STORY SHEARS FOR ALL DIAPHRAGMS 
+
+ VALUES ARE AT THE GLOBAL ORIGIN IN THE GLOBAL COORDINATES
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X        0.00      0.00      0.00     13.15      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00     13.15      0.00
+ 
+ WINTOP       X        0.00      0.00      0.00     14.13      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00     14.13      0.00
+ 
+ WINBOT       X        0.00      0.00      0.00     14.94      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00     14.94      0.00
+ 
+ FLOOR        X        0.00      0.00      0.00     20.41      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00     20.41      0.00
+ 
+ FNDTOP       X        0.00      0.00      0.00     20.47      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00     20.47      0.00
+ 
+ FNDMID       X        0.00      0.00      0.00     20.49      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00     20.49      0.00
+ 
+ FNDBOT       X        0.00      0.00      0.00     20.49      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00     20.49      0.00
+StL                                                                  PAGE    8
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ STATIC LOAD CONDITION LATERAL OVERTURNING MOMENTS FOR ALL DIAPHRAGMS 
+
+ VALUES ARE AT THE GLOBAL ORIGIN IN THE GLOBAL COORDINATES
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X   0.000E+00 0.000E+00 0.000E+00 0.395E+03 0.163E-14 0.000E+00
+ ROOF         Y   0.000E+00 0.000E+00 0.000E+00 0.712E-14 0.395E+03 0.000E+00
+ 
+ WINTOP       X   0.000E+00 0.000E+00 0.000E+00 0.903E+03-0.145E-13 0.000E+00
+ WINTOP       Y   0.000E+00 0.000E+00 0.000E+00 0.154E-13 0.903E+03 0.000E+00
+ 
+ WINBOT       X   0.000E+00 0.000E+00 0.000E+00 0.153E+04-0.395E-13 0.000E+00
+ WINBOT       Y   0.000E+00 0.000E+00 0.000E+00 0.239E-13 0.153E+04 0.000E+00
+ 
+ FLOOR        X   0.000E+00 0.000E+00 0.000E+00 0.190E+04-0.588E-13 0.000E+00
+ FLOOR        Y   0.000E+00 0.000E+00 0.000E+00 0.268E-13 0.190E+04 0.000E+00
+ 
+ FNDTOP       X   0.000E+00 0.000E+00 0.000E+00 0.227E+04 0.215E-13 0.000E+00
+ FNDTOP       Y   0.000E+00 0.000E+00 0.000E+00 0.158E-12 0.227E+04 0.000E+00
+ 
+ FNDMID       X   0.000E+00 0.000E+00 0.000E+00 0.264E+04-0.243E-12 0.000E+00
+ FNDMID       Y   0.000E+00 0.000E+00 0.000E+00 0.289E-12 0.264E+04 0.000E+00
+ 
+ FNDBOT       X   0.000E+00 0.000E+00 0.000E+00 0.300E+04-0.419E-12 0.000E+00
+ FNDBOT       Y   0.000E+00 0.000E+00 0.000E+00 0.420E-12 0.300E+04 0.000E+00
+StL                                                                  PAGE    9
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ FRAME ID ....                                 
+
+ STATIC LOAD CONDITION LATERAL FRAME DISPLACEMENTS FOR DIAPHRAGM    1
+
+ VALUES ARE AT THE FRAME ORIGIN IN THE FRAME LOCAL COORDINATES
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X      0.0000    0.0000    0.0000    1.9534   -0.0018    0.0000
+ ROOF         Y      0.0000    0.0000    0.0000   -0.0171    1.8434    0.0000
+ ROOF      ROTZ      0.0000    0.0000    0.0000   -0.0001    0.0002    0.0000
+ 
+ WINTOP       X      0.0000    0.0000    0.0000    1.6272   -0.0228    0.0000
+ WINTOP       Y      0.0000    0.0000    0.0000    0.0256    1.4655    0.0000
+ WINTOP    ROTZ      0.0000    0.0000    0.0000   -0.0002    0.0001    0.0000
+ 
+ WINBOT       X      0.0000    0.0000    0.0000    0.9451    0.0038    0.0000
+ WINBOT       Y      0.0000    0.0000    0.0000   -0.0063    0.8190    0.0000
+ WINBOT    ROTZ      0.0000    0.0000    0.0000   -0.0001    0.0001    0.0000
+ 
+ FLOOR        X      0.0000    0.0000    0.0000    0.2599    0.0069    0.0000
+ FLOOR        Y      0.0000    0.0000    0.0000   -0.0218    0.2472    0.0000
+ FLOOR     ROTZ      0.0000    0.0000    0.0000    0.0000    0.0001    0.0000
+ 
+ FNDTOP       X      0.0000    0.0000    0.0000   -0.0112    0.0149    0.0000
+ FNDTOP       Y      0.0000    0.0000    0.0000    0.0343   -0.0233    0.0000
+ FNDTOP    ROTZ      0.0000    0.0000    0.0000   -0.0001    0.0001    0.0000
+ 
+ FNDMID       X      0.0000    0.0000    0.0000    7.3212  -19.6347    0.0000
+ FNDMID       Y      0.0000    0.0000    0.0000  -11.2307   30.1128    0.0000
+ FNDMID    ROTZ      0.0000    0.0000    0.0000    0.0210   -0.0564    0.0000
+ 
+ FNDBOT       X      0.0000    0.0000    0.0000    4.1384  -11.3069    0.0000
+ FNDBOT       Y      0.0000    0.0000    0.0000   -6.3670   17.3190    0.0000
+ FNDBOT    ROTZ      0.0000    0.0000    0.0000    0.0119   -0.0324    0.0000
+StL                                                                  PAGE   10
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ FRAME ID ....                                 
+
+ STATIC LOAD CONDITION LATERAL FRAME DRIFT RATIOS  FOR DIAPHRAGM    1
+
+ VALUES ARE AT THE FRAME ORIGIN IN THE FRAME LOCAL COORDINATES
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X     0.00000   0.00000   0.00000   0.01087   0.00070   0.00000
+ ROOF         Y     0.00000   0.00000   0.00000  -0.00142   0.01260   0.00000
+ ROOF      ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ 
+ WINTOP       X     0.00000   0.00000   0.00000   0.01895  -0.00074   0.00000
+ WINTOP       Y     0.00000   0.00000   0.00000   0.00089   0.01796   0.00000
+ WINTOP    ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ 
+ WINBOT       X     0.00000   0.00000   0.00000   0.01632  -0.00007   0.00000
+ WINBOT       Y     0.00000   0.00000   0.00000   0.00037   0.01361   0.00000
+ WINBOT    ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ 
+ FLOOR        X     0.00000   0.00000   0.00000   0.01506  -0.00044   0.00000
+ FLOOR        Y     0.00000   0.00000   0.00000  -0.00312   0.01503   0.00000
+ FLOOR     ROTZ     0.00000   0.00000   0.00000   0.00001   0.00000   0.00000
+ 
+ FNDTOP       X     0.00000   0.00000   0.00000  -0.40736   1.09164   0.00000
+ FNDTOP       Y     0.00000   0.00000   0.00000   0.62583  -1.67423   0.00000
+ FNDTOP    ROTZ     0.00000   0.00000   0.00000  -0.00117   0.00314   0.00000
+ 
+ FNDMID       X     0.00000   0.00000   0.00000   0.17683  -0.46265   0.00000
+ FNDMID       Y     0.00000   0.00000   0.00000  -0.27020   0.71077   0.00000
+ FNDMID    ROTZ     0.00000   0.00000   0.00000   0.00051  -0.00133   0.00000
+ 
+ FNDBOT       X     0.00000   0.00000   0.00000   0.22991  -0.62816   0.00000
+ FNDBOT       Y     0.00000   0.00000   0.00000  -0.35372   0.96217   0.00000
+ FNDBOT    ROTZ     0.00000   0.00000   0.00000   0.00066  -0.00180   0.00000
+StL                                                                  PAGE   11
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod21.STR
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ FRAME ID ....                                 
+
+ STATIC LOAD CONDITION LATERAL FRAME STORY SHEARS  FOR DIAPHRAGM    1
+
+ VALUES ARE AT THE FRAME ORIGIN IN THE FRAME LOCAL COORDINATES
+
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ 
+ ROOF         X        0.00      0.00      0.00     13.15      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00     13.15      0.00
+ ROOF      ROTZ    0.00E+00  0.00E+00  0.00E+00 -2.69E+03  3.75E+03  0.00E+00
+ 
+ WINTOP       X        0.00      0.00      0.00     14.13      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00     14.13      0.00
+ WINTOP    ROTZ    0.00E+00  0.00E+00  0.00E+00 -2.88E+03  4.03E+03  0.00E+00
+ 
+ WINBOT       X        0.00      0.00      0.00     14.94      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00     14.94      0.00
+ WINBOT    ROTZ    0.00E+00  0.00E+00  0.00E+00 -3.04E+03  4.25E+03  0.00E+00
+ 
+ FLOOR        X        0.00      0.00      0.00     20.41      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00     20.41      0.00
+ FLOOR     ROTZ    0.00E+00  0.00E+00  0.00E+00 -4.17E+03  5.79E+03  0.00E+00
+ 
+ FNDTOP       X        0.00      0.00      0.00     20.47      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00     20.47      0.00
+ FNDTOP    ROTZ    0.00E+00  0.00E+00  0.00E+00 -4.19E+03  5.82E+03  0.00E+00
+ 
+ FNDMID       X        0.00      0.00      0.00     20.49      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00     20.49      0.00
+ FNDMID    ROTZ    0.00E+00  0.00E+00  0.00E+00 -4.19E+03  5.82E+03  0.00E+00
+ 
+ FNDBOT       X        0.00      0.00      0.00     20.49      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00     20.49      0.00
+ FNDBOT    ROTZ    0.00E+00  0.00E+00  0.00E+00 -4.19E+03  5.82E+03  0.00E+00

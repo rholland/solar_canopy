@@ -1,0 +1,193 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+                                   E T A B S                                   
+ 
+            Extended Three Dimensional Analysis of Building Systems            
+ 
+                             NONLINEAR Version 6.22                            
+ 
+                            Copyright (C) 1983-1998                            
+                         COMPUTERS AND STRUCTURES, INC.                        
+                              All rights reserved                              
+ 
+                 This copy of ETABS is for the exclusive use of                
+ 
+                                      StL                                      
+ 
+           Unauthorized use is in violation of Federal copyright laws          
+ 
+               It is the responsibility of the user to verify all              
+                        results produced by this program                       
+                              3 Sep 2020  13:55:33                             
+StL                                                                  PAGE    2
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod20.EIG
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ STRUCTURAL TIME PERIODS AND FREQUENCIES
+
+   MODE                   PERIOD           FREQUENCY       CIRCULAR/FREQ
+ NUMBER                   (TIME)  (CYCLES/UNIT TIME) (RADIANS/UNIT TIME)
+      1                 25.26130             0.03959             0.24873
+      2                 16.30546             0.06133             0.38534
+      3                  2.48960             0.40167             2.52377
+      4                  2.40732             0.41540             2.61003
+      5                  1.74022             0.57464             3.61057
+      6                  0.64812             1.54294             9.69455
+      7                  0.56870             1.75841            11.04839
+      8                  0.44701             2.23709            14.05603
+      9                  0.33627             2.97379            18.68486
+     10                  0.32085             3.11669            19.58277
+StL                                                                  PAGE    3
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod20.EIG
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ MODAL PARTICIPATION FACTORS
+
+   MODE                  X-TRANS             Y-TRANS              Z-ROTN
+ NUMBER                DIRECTION           DIRECTION           DIRECTION
+      1                 -0.27860             0.82042          -136.44273
+      2                 -0.04859            -0.34028            -0.42415
+      3                 13.21451             0.22776           -24.86972
+      4                  0.17735           -13.16720           -44.17764
+      5                  0.45717            -0.21640          2799.66508
+      6                 10.68623            -0.41817            61.42007
+      7                  0.36002            10.74045           -19.00619
+      8                  0.79215            -0.15972         -2122.39687
+      9                  0.84556             0.04080            89.39239
+     10                 -0.02183            -1.18650            38.67531
+StL                                                                  PAGE    4
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod20.EIG
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ MODAL DIRECTION FACTORS
+
+   MODE                  X-TRANS             Y-TRANS              Z-ROTN
+ NUMBER                DIRECTION           DIRECTION           DIRECTION
+      1                  4.99035            36.23752            58.77213
+      2                  0.15192            42.23620            57.61188
+      3                 99.93845             0.02341             0.03813
+      4                  0.02254            99.95347             0.02399
+      5                  0.07961             0.02422            99.89618
+      6                 99.45334             0.13699             0.40967
+      7                  0.14916            99.83411             0.01673
+      8                  0.51975             0.04361            99.43664
+      9                 99.63852             0.08362             0.27786
+     10                  0.08087            99.82372             0.09541
+StL                                                                  PAGE    5
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod20.EIG
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ EFFECTIVE MASS FACTORS
+
+   MODE    /--X  TRANSLATION--//--Y  TRANSLATION--//----Z ROTATION----/
+ NUMBER        %-MASS  <%-SUM>     %-MASS  <%-SUM>     %-MASS  <%-SUM>
+      1          0.03  <  0.0>       0.23  <  0.2>       0.15  <  0.1>
+      2          0.00  <  0.0>       0.04  <  0.3>       0.00  <  0.1>
+      3         59.10  < 59.1>       0.02  <  0.3>       0.00  <  0.2>
+      4          0.01  < 59.1>      58.68  < 59.0>       0.02  <  0.2>
+      5          0.07  < 59.2>       0.02  < 59.0>      62.21  < 62.4>
+      6         38.65  < 97.9>       0.06  < 59.0>       0.03  < 62.4>
+      7          0.04  < 97.9>      39.04  < 98.1>       0.00  < 62.4>
+      8          0.21  < 98.1>       0.01  < 98.1>      35.75  < 98.2>
+      9          0.24  < 98.4>       0.00  < 98.1>       0.06  < 98.2>
+     10          0.00  < 98.4>       0.48  < 98.6>       0.01  < 98.2>
+StL                                                                  PAGE    6
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod20.EIG
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ STRUCTURAL MODE SHAPES FOR DIAPHRAGM     1
+
+ VALUES ARE AT THE CENTERS OF MASS OF THE
+ CORRESPONDING DIAPHRAGM IN GLOBAL COORDINATES
+
+ LEVEL     DIRN     MODE  1     MODE  2     MODE  3     MODE  4     MODE  5
+ ID          ID
+ 
+ ROOF         X  1.2139E-06  2.9110E-07  8.4717E-02  1.2302E-03  1.1737E-03
+ ROOF         Y -6.9080E-08  1.5217E-07  1.2655E-03 -8.5151E-02 -1.2843E-03
+ ROOF      ROTZ  7.8637E-10  3.9629E-10 -6.3130E-06 -6.2297E-06  4.0043E-04
+ 
+ WINTOP       X  1.2020E-06  2.6793E-07  7.1819E-02  1.5685E-03  3.3633E-04
+ WINTOP       Y -4.8805E-08  1.1794E-07  8.8466E-04 -6.8713E-02 -7.2218E-04
+ WINTOP    ROTZ  7.4714E-10  3.4097E-10 -1.1084E-05 -4.5012E-06  3.3497E-04
+ 
+ WINBOT       X  1.1445E-06  2.4448E-07  4.0322E-02  5.2070E-04  2.4749E-03
+ WINBOT       Y -3.9588E-08  5.6636E-08  5.7204E-04 -3.7067E-02 -1.2550E-03
+ WINBOT    ROTZ  6.5435E-10  1.8214E-10 -2.6545E-06 -3.1538E-06  1.8206E-04
+ 
+ FLOOR        X  1.2000E-06  2.3536E-07  7.8903E-03 -3.8450E-05  1.9681E-03
+ FLOOR        Y -6.9928E-09  6.4534E-09  3.6094E-04 -7.7613E-03 -2.0288E-04
+ FLOOR     ROTZ  5.8950E-10  5.0453E-11  3.6278E-06 -7.5487E-07  3.8628E-05
+ 
+ FNDTOP       X -1.0431E-08  1.7830E-08  1.1111E-04  6.4119E-05 -1.8212E-04
+ FNDTOP       Y  1.5839E-08 -1.3873E-08 -4.2507E-05 -5.5414E-05  1.0927E-04
+ FNDTOP    ROTZ -6.5896E-12 -1.3898E-10 -5.2619E-07 -4.0870E-07  1.0403E-06
+ 
+ FNDMID       X -1.7890E-01 -3.1214E-02 -4.6974E-05  3.4085E-04 -3.3268E-04
+ FNDMID       Y  4.7367E-01  8.2636E-02 -1.5357E-04  2.6564E-04 -1.3910E-04
+ FNDMID    ROTZ -4.3075E-03 -7.5155E-04 -6.3563E-07  7.6823E-07 -5.3889E-08
+ 
+ FNDBOT       X  1.5344E-06 -2.0584E-07 -2.0732E-04  6.4694E-04 -5.3111E-04
+ FNDBOT       Y  1.5311E-01 -8.7757E-01 -2.1927E-04  5.1436E-04 -3.3430E-04
+ FNDBOT    ROTZ -4.2964E-03  2.4626E-02 -4.5754E-06  1.0717E-05 -6.9386E-06
+
+ LEVEL     DIRN     MODE  6     MODE  7     MODE  8     MODE  9     MODE 10
+ ID          ID
+ 
+ ROOF         X -1.2668E-02 -8.7525E-04  8.9056E-04  1.9372E-02 -5.1629E-04
+ ROOF         Y  3.4819E-04 -1.3039E-02  8.0495E-05 -7.5119E-04 -1.7918E-02
+ ROOF      ROTZ -1.3995E-05  1.2923E-06  7.0089E-05  1.1478E-06  1.5977E-06
+ 
+ WINTOP       X  1.1628E-02  1.6406E-03 -5.3318E-03 -1.1812E-01  4.2117E-03
+ WINTOP       Y -5.0862E-04  1.7914E-02 -6.6587E-04  4.7176E-03  1.2624E-01
+ WINTOP    ROTZ  6.0002E-06  8.3395E-07 -9.0421E-05 -3.5431E-05 -3.0563E-06
+ 
+ WINBOT       X  6.3055E-02  3.7630E-03 -3.9047E-03 -2.2580E-01  5.9514E-03
+ WINBOT       Y -2.8737E-03  7.4255E-02  3.1132E-03  5.9324E-03  2.1924E-01
+ WINBOT    ROTZ  1.6842E-05 -1.0639E-05 -3.7581E-04  7.7319E-06 -2.4207E-05
+StL                                                                  PAGE    7
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod20.EIG
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+ LEVEL     DIRN     MODE  6     MODE  7     MODE  8     MODE  9     MODE 10
+ ID          ID
+ 
+ FLOOR        X  8.1485E-02  2.9010E-03  5.7169E-03  2.1763E-02 -6.7175E-04
+ FLOOR        Y -2.9897E-03  8.0539E-02 -1.4304E-03 -2.9414E-05 -2.5616E-02
+ FLOOR     ROTZ  2.2497E-05 -3.4920E-06 -3.9512E-04  1.8550E-05  9.3398E-06
+ 
+ FNDTOP       X  1.3158E-03 -6.5345E-04  2.4904E-03  3.1553E-04  1.6000E-04
+ FNDTOP       Y -4.8857E-04  7.5885E-04 -1.4331E-03 -8.9531E-05 -2.2035E-04
+ FNDTOP    ROTZ -6.0812E-06  4.3502E-06 -1.4194E-05 -1.3911E-06 -1.0927E-06
+ 
+ FNDMID       X  6.9794E-04 -4.7248E-04  1.4276E-03 -8.1869E-05  3.1713E-04
+ FNDMID       Y -5.9891E-04  4.7153E-04 -1.5124E-03 -3.6531E-04  4.7496E-05
+ FNDMID    ROTZ -4.7114E-06  3.6262E-06 -1.1438E-05 -1.8544E-06 -4.0312E-07
+ 
+ FNDBOT       X  3.3784E-04 -5.8621E-04  1.0525E-03 -4.7041E-04  5.4521E-04
+ FNDBOT       Y -7.0084E-04  5.8069E-04 -2.0038E-03 -5.6830E-04  2.5213E-04
+ FNDBOT    ROTZ -1.4500E-05  1.2011E-05 -4.1443E-05 -1.1752E-05  5.2137E-06

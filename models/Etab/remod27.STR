@@ -1,0 +1,236 @@
+                                   E T A B S                                   
+            Extended Three Dimensional Analysis of Building Systems            
+                             NONLINEAR Version 6.22                            
+                            Copyright (C) 1983-1998                            
+                         COMPUTERS AND STRUCTURES, INC.                        
+                              All rights reserved                              
+                 This copy of ETABS is for the exclusive use of                
+                                      StL                                      
+           Unauthorized use is in violation of Federal copyright laws          
+               It is the responsibility of the user to verify all              
+                        results produced by this program                       
+                             30 Nov 2020  10:14:49                             
+ COORDINATES OF CENTERS OF CUMULATIVE MASS & CENTERS OF RIGIDITY
+ STORY  DIAPHRAGM /----------CENTER OF MASS----------//--CENTER OF RIGIDITY--/
+ LEVEL     NUMBER        MASS  ORDINATE-X  ORDINATE-Y  ORDINATE-X  ORDINATE-Y
+ ROOF    
+                1       0.046     277.763     202.598     264.774     203.475
+ WINTOP  
+                1       0.054     278.706     200.942     262.890     190.041
+ WINBOT  
+                1       0.063     278.026     198.763     245.047     203.759
+ FLOOR   
+                1       0.130     280.866     205.918     171.905     238.081
+ FNDTOP  
+                1       0.134     282.490     208.273      43.027     297.137
+ FNDMID  
+                1       0.135     284.189     209.256     532.139     347.254
+ FNDBOT  
+                1       0.136     285.420     209.878     283.134     204.655
+ STATIC LOAD CONDITION LATERAL DISPLACEMENTS FOR DIAPHRAGM     1
+ VALUES ARE AT THE CENTER OF MASS OF THE
+ CORRESPONDING DIAPHRAGM IN GLOBAL COORDINATES
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X      0.0000    0.0000    0.0000    0.6913   -0.0259    0.0000
+ ROOF         Y      0.0000    0.0000    0.0000   -0.0262    0.7693    0.0000
+ ROOF      ROTZ   0.000E+00 0.000E+00 0.000E+00 3.146E-05 1.668E-04 0.000E+00
+ WINTOP       X      0.0000    0.0000    0.0000    0.5845   -0.0254    0.0000
+ WINTOP       Y      0.0000    0.0000    0.0000   -0.0189    0.6308    0.0000
+ WINTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.705E-05 1.662E-04 0.000E+00
+ WINBOT       X      0.0000    0.0000    0.0000    0.3277   -0.0080    0.0000
+ WINBOT       Y      0.0000    0.0000    0.0000   -0.0112    0.3908    0.0000
+ WINBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00 3.270E-05 1.833E-04 0.000E+00
+ FLOOR        X      0.0000    0.0000    0.0000    0.0652   -0.0003    0.0000
+ FLOOR        Y      0.0000    0.0000    0.0000   -0.0007    0.1669    0.0000
+ FLOOR     ROTZ   0.000E+00 0.000E+00 0.000E+00 5.924E-05 1.813E-04 0.000E+00
+ FNDTOP       X      0.0000    0.0000    0.0000    0.0048   -0.0016    0.0000
+ FNDTOP       Y      0.0000    0.0000    0.0000   -0.0017    0.0843    0.0000
+ FNDTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-6.715E-06 2.641E-04 0.000E+00
+ FNDMID       X      0.0000    0.0000    0.0000    0.0048   -0.0027    0.0000
+ FNDMID       Y      0.0000    0.0000    0.0000   -0.0052    0.0593    0.0000
+ FNDMID    ROTZ   0.000E+00 0.000E+00 0.000E+00 2.878E-05 8.281E-05 0.000E+00
+ FNDBOT       X      0.0000    0.0000    0.0000    0.0000   -0.0004    0.0000
+ FNDBOT       Y      0.0000    0.0000    0.0000   -0.0001    0.0010    0.0000
+ FNDBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-3.418E-07 4.141E-06 0.000E+00
+ STATIC LOAD CONDITION LATERAL STORY LOADS FOR DIAPHRAGM     1
+ LOADS ARE AT THE CENTERS OF MASS OF THE RESPECTIVE STORY LEVELS
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X        0.00      0.00      0.00      4.66      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00      4.66      0.00
+ ROOF      ROTZ   0.000E+00 0.000E+00 0.000E+00 2.240E-13 1.854E-13 0.000E+00
+ WINTOP       X        0.00      0.00      0.00      0.67      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00      0.67      0.00
+ WINTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00 9.254E-14-3.947E-14 0.000E+00
+ WINBOT       X        0.00      0.00      0.00      0.55      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00      0.55      0.00
+ WINBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-2.585E-15-1.339E-13 0.000E+00
+ FLOOR        X        0.00      0.00      0.00      2.31      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00      2.31      0.00
+ FLOOR     ROTZ   0.000E+00 0.000E+00 0.000E+00-1.002E-13-4.633E-13 0.000E+00
+ FNDTOP       X        0.00      0.00      0.00      0.07      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00      0.07      0.00
+ FNDTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.549E-13 4.719E-12 0.000E+00
+ FNDMID       X        0.00      0.00      0.00      0.02      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00      0.02      0.00
+ FNDMID    ROTZ   0.000E+00 0.000E+00 0.000E+00 5.711E-15-1.576E-14 0.000E+00
+ FNDBOT       X        0.00      0.00      0.00      0.00      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00      0.00      0.00
+ FNDBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.783E-15-1.252E-13 0.000E+00
+ STATIC LOAD CONDITION LATERAL STORY SHEARS FOR DIAPHRAGM     1
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X        0.00      0.00      0.00      4.66      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00      4.66      0.00
+ WINTOP       X        0.00      0.00      0.00      5.34      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00      5.34      0.00
+ WINBOT       X        0.00      0.00      0.00      5.89      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00      5.89      0.00
+ FLOOR        X        0.00      0.00      0.00      8.20      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00      8.20      0.00
+ FNDTOP       X        0.00      0.00      0.00      8.27      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00      8.27      0.00
+ FNDMID       X        0.00      0.00      0.00      8.29      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00      8.29      0.00
+ FNDBOT       X        0.00      0.00      0.00      8.29      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00      8.29      0.00
+ STATIC LOAD CONDITION LATERAL STORY LOADS FOR ALL DIAPHRAGMS 
+ VALUES ARE AT THE GLOBAL ORIGIN IN THE GLOBAL COORDINATES
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X        0.00      0.00      0.00      4.66      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00      4.66      0.00
+ ROOF      ROTZ   0.000E+00 0.000E+00 0.000E+00-9.450E+02 1.296E+03 0.000E+00
+ WINTOP       X        0.00      0.00      0.00      0.67      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00      0.67      0.00
+ WINTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.292E+02 1.915E+02 0.000E+00
+ WINBOT       X        0.00      0.00      0.00      0.55      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00      0.55      0.00
+ WINBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-1.021E+02 1.505E+02 0.000E+00
+ FLOOR        X        0.00      0.00      0.00      2.31      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00      2.31      0.00
+ FLOOR     ROTZ   0.000E+00 0.000E+00 0.000E+00-4.916E+02 6.557E+02 0.000E+00
+ FNDTOP       X        0.00      0.00      0.00      0.07      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00      0.07      0.00
+ FNDTOP    ROTZ   0.000E+00 0.000E+00 0.000E+00-2.240E+01 2.572E+01 0.000E+00
+ FNDMID       X        0.00      0.00      0.00      0.02      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00      0.02      0.00
+ FNDMID    ROTZ   0.000E+00 0.000E+00 0.000E+00-5.436E+00 7.938E+00 0.000E+00
+ FNDBOT       X        0.00      0.00      0.00      0.00      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00      0.00      0.00
+ FNDBOT    ROTZ   0.000E+00 0.000E+00 0.000E+00-3.570E-14 6.187E-15 0.000E+00
+ STATIC LOAD CONDITION LATERAL STORY SHEARS FOR ALL DIAPHRAGMS 
+ VALUES ARE AT THE GLOBAL ORIGIN IN THE GLOBAL COORDINATES
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X        0.00      0.00      0.00      4.66      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00      4.66      0.00
+ WINTOP       X        0.00      0.00      0.00      5.34      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00      5.34      0.00
+ WINBOT       X        0.00      0.00      0.00      5.89      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00      5.89      0.00
+ FLOOR        X        0.00      0.00      0.00      8.20      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00      8.20      0.00
+ FNDTOP       X        0.00      0.00      0.00      8.27      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00      8.27      0.00
+ FNDMID       X        0.00      0.00      0.00      8.29      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00      8.29      0.00
+ FNDBOT       X        0.00      0.00      0.00      8.29      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00      8.29      0.00
+ STATIC LOAD CONDITION LATERAL OVERTURNING MOMENTS FOR ALL DIAPHRAGMS 
+ VALUES ARE AT THE GLOBAL ORIGIN IN THE GLOBAL COORDINATES
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X   0.000E+00 0.000E+00 0.000E+00 0.140E+03 0.106E-14 0.000E+00
+ ROOF         Y   0.000E+00 0.000E+00 0.000E+00-0.976E-15 0.140E+03 0.000E+00
+ WINTOP       X   0.000E+00 0.000E+00 0.000E+00 0.332E+03 0.108E-14 0.000E+00
+ WINTOP       Y   0.000E+00 0.000E+00 0.000E+00 0.106E-13 0.332E+03 0.000E+00
+ WINBOT       X   0.000E+00 0.000E+00 0.000E+00 0.579E+03 0.475E-14 0.000E+00
+ WINBOT       Y   0.000E+00 0.000E+00 0.000E+00 0.247E-13 0.579E+03 0.000E+00
+ FLOOR        X   0.000E+00 0.000E+00 0.000E+00 0.727E+03 0.892E-14 0.000E+00
+ FLOOR        Y   0.000E+00 0.000E+00 0.000E+00 0.277E-13 0.727E+03 0.000E+00
+ FNDTOP       X   0.000E+00 0.000E+00 0.000E+00 0.876E+03 0.121E-13 0.000E+00
+ FNDTOP       Y   0.000E+00 0.000E+00 0.000E+00 0.290E-13 0.876E+03 0.000E+00
+ FNDMID       X   0.000E+00 0.000E+00 0.000E+00 0.103E+04 0.148E-13 0.000E+00
+ FNDMID       Y   0.000E+00 0.000E+00 0.000E+00 0.308E-13 0.103E+04 0.000E+00
+ FNDBOT       X   0.000E+00 0.000E+00 0.000E+00 0.117E+04 0.240E-13 0.000E+00
+ FNDBOT       Y   0.000E+00 0.000E+00 0.000E+00 0.315E-13 0.117E+04 0.000E+00
+ FRAME ID ....                                 
+ STATIC LOAD CONDITION LATERAL FRAME DISPLACEMENTS FOR DIAPHRAGM    1
+ VALUES ARE AT THE FRAME ORIGIN IN THE FRAME LOCAL COORDINATES
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X      0.0000    0.0000    0.0000    0.6977    0.0079    0.0000
+ ROOF         Y      0.0000    0.0000    0.0000   -0.0350    0.7230    0.0000
+ ROOF      ROTZ      0.0000    0.0000    0.0000    0.0000    0.0002    0.0000
+ WINTOP       X      0.0000    0.0000    0.0000    0.5812    0.0064    0.0000
+ WINTOP       Y      0.0000    0.0000    0.0000   -0.0140    0.5836    0.0000
+ WINTOP    ROTZ      0.0000    0.0000    0.0000    0.0000    0.0002    0.0000
+ WINBOT       X      0.0000    0.0000    0.0000    0.3338    0.0260    0.0000
+ WINBOT       Y      0.0000    0.0000    0.0000   -0.0202    0.3406    0.0000
+ WINBOT    ROTZ      0.0000    0.0000    0.0000    0.0000    0.0002    0.0000
+ FLOOR        X      0.0000    0.0000    0.0000    0.0778    0.0382    0.0000
+ FLOOR        Y      0.0000    0.0000    0.0000   -0.0175    0.1155    0.0000
+ FLOOR     ROTZ      0.0000    0.0000    0.0000    0.0001    0.0002    0.0000
+ FNDTOP       X      0.0000    0.0000    0.0000    0.0028    0.0783    0.0000
+ FNDTOP       Y      0.0000    0.0000    0.0000    0.0006   -0.0075    0.0000
+ FNDTOP    ROTZ      0.0000    0.0000    0.0000    0.0000    0.0003    0.0000
+ FNDMID       X      0.0000    0.0000    0.0000    0.0131    0.0212    0.0000
+ FNDMID       Y      0.0000    0.0000    0.0000   -0.0174    0.0244    0.0000
+ FNDMID    ROTZ      0.0000    0.0000    0.0000    0.0000    0.0001    0.0000
+ FNDBOT       X      0.0000    0.0000    0.0000   -0.0001    0.0008    0.0000
+ FNDBOT       Y      0.0000    0.0000    0.0000    0.0001   -0.0009    0.0000
+ FNDBOT    ROTZ      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000
+ FRAME ID ....                                 
+ STATIC LOAD CONDITION LATERAL FRAME DRIFT RATIOS  FOR DIAPHRAGM    1
+ VALUES ARE AT THE FRAME ORIGIN IN THE FRAME LOCAL COORDINATES
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X     0.00000   0.00000   0.00000   0.00388   0.00005   0.00000
+ ROOF         Y     0.00000   0.00000   0.00000  -0.00070   0.00465   0.00000
+ ROOF      ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ WINTOP       X     0.00000   0.00000   0.00000   0.00687  -0.00055   0.00000
+ WINTOP       Y     0.00000   0.00000   0.00000   0.00017   0.00675   0.00000
+ WINTOP    ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ WINBOT       X     0.00000   0.00000   0.00000   0.00610  -0.00029   0.00000
+ WINBOT       Y     0.00000   0.00000   0.00000  -0.00006   0.00536   0.00000
+ WINBOT    ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ FLOOR        X     0.00000   0.00000   0.00000   0.00416  -0.00223   0.00000
+ FLOOR        Y     0.00000   0.00000   0.00000  -0.00101   0.00684   0.00000
+ FLOOR     ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ FNDTOP       X     0.00000   0.00000   0.00000  -0.00057   0.00318   0.00000
+ FNDTOP       Y     0.00000   0.00000   0.00000   0.00100  -0.00177   0.00000
+ FNDTOP    ROTZ     0.00000   0.00000   0.00000   0.00000   0.00001   0.00000
+ FNDMID       X     0.00000   0.00000   0.00000   0.00073   0.00113   0.00000
+ FNDMID       Y     0.00000   0.00000   0.00000  -0.00097   0.00141   0.00000
+ FNDMID    ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ FNDBOT       X     0.00000   0.00000   0.00000   0.00000   0.00005   0.00000
+ FNDBOT       Y     0.00000   0.00000   0.00000   0.00000  -0.00005   0.00000
+ FNDBOT    ROTZ     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ FRAME ID ....                                 
+ STATIC LOAD CONDITION LATERAL FRAME STORY SHEARS  FOR DIAPHRAGM    1
+ VALUES ARE AT THE FRAME ORIGIN IN THE FRAME LOCAL COORDINATES
+                 /---------------------LOAD  CONDITIONS---------------------/
+ LEVEL     DIRN           I        II       III         A         B         C
+ ROOF         X        0.00      0.00      0.00      4.66      0.00      0.00
+ ROOF         Y        0.00      0.00      0.00      0.00      4.66      0.00
+ ROOF      ROTZ    0.00E+00  0.00E+00  0.00E+00 -9.45E+02  1.30E+03  0.00E+00
+ WINTOP       X        0.00      0.00      0.00      5.34      0.00      0.00
+ WINTOP       Y        0.00      0.00      0.00      0.00      5.34      0.00
+ WINTOP    ROTZ    0.00E+00  0.00E+00  0.00E+00 -1.07E+03  1.49E+03  0.00E+00
+ WINBOT       X        0.00      0.00      0.00      5.89      0.00      0.00
+ WINBOT       Y        0.00      0.00      0.00      0.00      5.89      0.00
+ WINBOT    ROTZ    0.00E+00  0.00E+00  0.00E+00 -1.18E+03  1.64E+03  0.00E+00
+ FLOOR        X        0.00      0.00      0.00      8.20      0.00      0.00
+ FLOOR        Y        0.00      0.00      0.00      0.00      8.20      0.00
+ FLOOR     ROTZ    0.00E+00  0.00E+00  0.00E+00 -1.67E+03  2.29E+03  0.00E+00
+ FNDTOP       X        0.00      0.00      0.00      8.27      0.00      0.00
+ FNDTOP       Y        0.00      0.00      0.00      0.00      8.27      0.00
+ FNDTOP    ROTZ    0.00E+00  0.00E+00  0.00E+00 -1.69E+03  2.32E+03  0.00E+00
+ FNDMID       X        0.00      0.00      0.00      8.29      0.00      0.00
+ FNDMID       Y        0.00      0.00      0.00      0.00      8.29      0.00
+ FNDMID    ROTZ    0.00E+00  0.00E+00  0.00E+00 -1.70E+03  2.33E+03  0.00E+00
+ FNDBOT       X        0.00      0.00      0.00      8.29      0.00      0.00
+ FNDBOT       Y        0.00      0.00      0.00      0.00      8.29      0.00
+ FNDBOT    ROTZ    0.00E+00  0.00E+00  0.00E+00 -1.70E+03  2.33E+03  0.00E+00

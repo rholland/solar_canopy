@@ -1,0 +1,231 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+                                   E T A B S                                   
+ 
+            Extended Three Dimensional Analysis of Building Systems            
+ 
+                             NONLINEAR Version 6.22                            
+ 
+                            Copyright (C) 1983-1998                            
+                         COMPUTERS AND STRUCTURES, INC.                        
+                              All rights reserved                              
+ 
+                 This copy of ETABS is for the exclusive use of                
+ 
+                                      StL                                      
+ 
+           Unauthorized use is in violation of Federal copyright laws          
+ 
+               It is the responsibility of the user to verify all              
+                        results produced by this program                       
+                              5 Sep 2020  02:26:58                             
+ StL                                                                  PAGE    1
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ LOAD CASE DEFINITION DATA                   
+
+ LOAD LTYP       I      II     III       A       B       C      D1      D2
+    1    0   0.000   0.000   0.000   1.000   0.300   0.300   0.000   0.000
+    2    0   0.000   0.000   0.000   0.300   1.000   0.300   0.000   0.000
+
+
+
+
+
+ FOR DYNAMICS BY THE RESPONSE SPECTRUM METHOD
+
+ DYNAMIC 1 . . . SPECTRAL DIRECTION 1        
+ DYNAMIC 2 . . . SPECTRAL DIRECTION 2        
+
+
+ FOR DYNAMICS BY THE TIME HISTORY METHOD     
+
+ DYNAMIC 1 . . . TIME HISTORY MODAL ANALYSIS 
+ DYNAMIC 2 . . . NOT USED                    
+
+
+
+ StL                                                                  PAGE    2
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+ DISPLACEMENT MAXIMA & MINIMA  IN FRAME                                 
+ WITH (COLUMN#,CASE#)
+
+                LOCAL      LOCAL      LOCAL      LOCAL      LOCAL      LOCAL
+               X-TRAN     Y-TRAN     Z-TRAN    XX-ROTN    YY-ROTN    ZZ-ROTN
+ 
+      MIN    -0.04213   -0.06437   -1.88272   -0.04089   -0.00842   -0.00012
+           (   2,  2) (  27,  2) (  59,  1) (  29,  2) (  60,  1) (   1,  1)
+      MAX     1.95413    2.05825    0.64863    0.00520    0.03227    0.00056
+           (  64,  1) (  82,  2) (  49,  2) (  12,  2) (  16,  1) (  19,  2)
+ StL                                                                  PAGE    3
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+ COLUMN FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+
+ PROP           MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+   ID          MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+    1
+      MIN -0.7259E+00-0.2067E-01-0.2267E+01-0.1187E+00-0.9705E+00-0.8658E-03
+           (  16,  1) (  37,  2) (   4,  2) (   3,  2) (  37,  2) (   2,  2)
+      MAX  0.7535E+00 0.1183E+00 0.2266E+01 0.5181E+00 0.7935E+00 0.2187E-02
+           (  15,  1) (  16,  1) (   4,  2) (   4,  2) (   5,  2) (  77,  2)
+ StL                                                                  PAGE    4
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+ BEAM   FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+
+ PROP           MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+   ID          MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+    1
+      MIN -0.7211E+00-0.1277E-01 0.0000E+00 0.0000E+00 0.0000E+00-0.3270E-01
+           (  15,  2) (  15,  2) (   1,  1) (   1,  1) (   1,  1) (  22,  1)
+      MAX  0.7948E+00 0.5122E-02 0.0000E+00 0.0000E+00 0.0000E+00 0.8756E-01
+           (  19,  2) (  14,  1) (  86,  2) (  86,  2) (  86,  2) (  16,  1)
+    2
+      MIN -0.2716E+00-0.1200E-02 0.0000E+00 0.0000E+00 0.0000E+00-0.5800E-02
+           (  78,  1) (  37,  2) (  34,  1) (  34,  1) (  34,  1) (  66,  2)
+      MAX  0.2782E+00 0.1173E-01 0.0000E+00 0.0000E+00 0.0000E+00 0.6660E-02
+           (  75,  1) (  75,  1) (  85,  2) (  85,  2) (  85,  2) (  64,  2)
+    3
+      MIN -0.1566E+01-0.3482E-01 0.0000E+00 0.0000E+00 0.0000E+00-0.9351E-01
+           (  15,  2) (  15,  2) (  55,  1) (  55,  1) (  55,  1) (  22,  1)
+      MAX  0.1863E+01 0.8025E-02 0.0000E+00 0.0000E+00 0.0000E+00 0.9586E-01
+           (  15,  2) (  32,  1) (  32,  2) (  32,  2) (  32,  2) (  15,  1)
+ StL                                                                  PAGE    5
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+ WALL FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+
+                MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+               MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+ 
+      MIN -0.4679E+03-0.8891E+01-0.4845E-03-0.4828E-04-0.2892E+01-0.5907E-02
+           ( 101,  2) ( 101,  2) ( 107,  1) ( 106,  2) ( 107,  2) ( 108,  1)
+      MAX  0.3499E+03 0.6236E+01 0.6512E-03 0.2762E-04 0.2137E+01 0.1781E-02
+           ( 107,  2) ( 107,  2) ( 104,  2) ( 102,  2) ( 102,  2) ( 109,  2)
+ StL                                                                  PAGE    6
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+ FLOOR  FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+
+ PROP           FORCE      FORCE
+   ID              11         22
+    1
+      MIN -0.6618E-03-0.2795E-02
+           (   8,  2) (   8,  2)
+      MAX  0.5451E-03 0.2609E-02
+           (  14,  2) (   8,  2)
+    2
+      MIN -0.6311E-04-0.1999E-03
+           (  86,  2) (  86,  2)
+      MAX  0.8498E-04 0.2386E-03
+           (  86,  2) (  86,  2)
+ StL                                                                  PAGE    7
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+ SPRING FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+
+ PROP           MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+   ID          MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+    1
+      MIN  0.0000E+00-0.1411E+00 0.0000E+00-0.4388E+00-0.2557E+01 0.0000E+00
+           (   1,  1) (  32,  2) (   1,  1) (  27,  2) (  12,  2) (   1,  1)
+      MAX  0.0000E+00 0.1096E+02 0.0000E+00 0.2475E+01 0.2166E+01 0.0000E+00
+           (  35,  2) (  78,  1) (  35,  2) (  10,  2) (   5,  2) (  35,  2)
+ StL                                                                  PAGE    8
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ FRAME REACTION FORCES AT BASELINE (AT EACH COLUMN LINE)
+
+ VALUES ARE IN THE LOCAL COORDINATE SYSTEM OF THE FRAME
+
+ FRAME ID ....                                 
+
+  COL OUTPUT     FORCE     FORCE     FORCE    MOMENT    MOMENT    MOMENT
+   ID     ID   ALONG-X   ALONG-Y   ALONG-Z  ABOUT-XX  ABOUT-YY  ABOUT-ZZ
+   21 CASE 1      0.00      0.05      0.66      0.00      0.01      0.00
+   21 CASE 2      0.00      0.07      0.98     -0.01      0.02      0.00
+ 
+   23 CASE 1      0.00      0.00      0.00     -0.01      0.00      0.00
+   23 CASE 2      0.00      0.01      0.00     -0.03      0.02      0.00
+ 
+   24 CASE 1      0.00      0.00      0.00     -0.01      0.01      0.00
+   24 CASE 2      0.00      0.00      0.00     -0.02      0.02      0.00
+ 
+   25 CASE 1      0.00      0.00      0.00     -0.01      0.00      0.00
+   25 CASE 2      0.00      0.00      0.00      0.00      0.02      0.00
+ 
+   26 CASE 1      0.00      0.00      0.00     -0.01      0.01      0.00
+   26 CASE 2      0.00      0.00      0.00      0.01      0.02      0.00
+ 
+   27 CASE 1      0.00      0.00      0.00     -0.01      0.00      0.00
+   27 CASE 2      0.00      0.00      0.00      0.02      0.02      0.00
+ 
+   35 CASE 1      0.00      0.00      0.02     -0.01      0.00      0.00
+   35 CASE 2      0.01      0.00      0.03     -0.01      0.00      0.00
+ 
+   36 CASE 1      0.00      0.00      0.10     -0.01      0.00      0.00
+   36 CASE 2      0.00      0.00      0.12     -0.03      0.00      0.00
+ 
+   37 CASE 1      0.00      0.04      1.94     -0.01      0.00      0.00
+   37 CASE 2      0.00      0.05      2.88     -0.02      0.00      0.00
+ 
+   77 CASE 1      0.00      0.00      0.00     -0.01      0.00      0.00
+   77 CASE 2      0.00      0.01      0.00     -0.04      0.00      0.00
+ 
+   83 CASE 1      0.00      0.00      0.02      0.00      0.00      0.00
+   83 CASE 2      0.00      0.00      0.00      0.00      0.00      0.00
+ 
+ StL                                                                  PAGE    9
+                                PROGRAM:ETABS/FILE:\etabsn\resmod01\remod25.SUM
+ RESIDENCE REMODEL                                                     
+ SEISMIC IMPROVEMENTS                                                  
+
+
+ SUMMATION OF FRAME REACTION FORCES AT BASELINE
+
+ VALUES ARE IN THE LOCAL COORDINATE SYSTEM OF THE FRAME
+
+ FRAME ID ....                                 
+
+      OUTPUT     FORCE     FORCE     FORCE
+          ID   ALONG-X   ALONG-Y   ALONG-Z
+      CASE 1      0.01      0.10      2.75
+      CASE 2      0.02      0.14      4.01

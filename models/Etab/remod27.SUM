@@ -1,0 +1,122 @@
+                                   E T A B S                                   
+            Extended Three Dimensional Analysis of Building Systems            
+                             NONLINEAR Version 6.22                            
+                            Copyright (C) 1983-1998                            
+                         COMPUTERS AND STRUCTURES, INC.                        
+                              All rights reserved                              
+                 This copy of ETABS is for the exclusive use of                
+                                      StL                                      
+           Unauthorized use is in violation of Federal copyright laws          
+               It is the responsibility of the user to verify all              
+                        results produced by this program                       
+                             30 Nov 2020  10:14:50                             
+ LOAD CASE DEFINITION DATA                   
+ LOAD LTYP       I      II     III       A       B       C      D1      D2
+    1    0   0.000   0.000   0.000   1.000   0.300   0.300   0.000   0.000
+    2    0   0.000   0.000   0.000   0.300   1.000   0.300   0.000   0.000
+ FOR DYNAMICS BY THE RESPONSE SPECTRUM METHOD
+ DYNAMIC 1 . . . SPECTRAL DIRECTION 1        
+ DYNAMIC 2 . . . SPECTRAL DIRECTION 2        
+ FOR DYNAMICS BY THE TIME HISTORY METHOD     
+ DYNAMIC 1 . . . TIME HISTORY MODAL ANALYSIS 
+ DYNAMIC 2 . . . NOT USED                    
+ DISPLACEMENT MAXIMA & MINIMA  IN FRAME                                 
+ WITH (COLUMN#,CASE#)
+                LOCAL      LOCAL      LOCAL      LOCAL      LOCAL      LOCAL
+               X-TRAN     Y-TRAN     Z-TRAN    XX-ROTN    YY-ROTN    ZZ-ROTN
+      MIN    -0.01991   -0.00393   -0.50665   -0.00895   -0.00190   -0.00139
+           (   2,  2) (  27,  1) (  63,  2) (  67,  2) (  16,  1) (   8,  2)
+      MAX     0.70005    0.81189    0.23831    0.00283    0.00679    0.00167
+           (  64,  1) (  82,  2) (  49,  2) (   2,  1) (  12,  1) (   7,  2)
+ COLUMN FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+ PROP           MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+   ID          MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+    1
+      MIN -0.4736E-01-0.6778E-03-0.6195E-01-0.1050E-02-0.3092E+00 0.0000E+00
+           (  16,  1) (  18,  2) (  29,  2) (  12,  2) (  12,  2) (   1,  1)
+      MAX  0.4002E-01 0.2240E-02 0.4004E-01 0.7049E-02 0.2517E+00 0.0000E+00
+           (  16,  1) (  10,  1) (   5,  2) (  29,  2) (   5,  2) (  77,  2)
+ BEAM   FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+ PROP           MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+   ID          MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+    1
+      MIN -0.1329E+00-0.2524E-02 0.0000E+00 0.0000E+00 0.0000E+00-0.8716E-02
+           (  26,  2) (  15,  1) (   1,  1) (   1,  1) (   1,  1) (  22,  1)
+      MAX  0.2355E+00 0.1445E-02 0.0000E+00 0.0000E+00 0.0000E+00 0.1450E-01
+           (  19,  2) (  86,  1) (  86,  2) (  86,  2) (  86,  2) (  29,  2)
+    2
+      MIN -0.3354E-02-0.1365E-03 0.0000E+00 0.0000E+00 0.0000E+00-0.1747E-02
+           (  78,  1) ( 100,  2) (  34,  1) (  34,  1) (  34,  1) (  63,  2)
+      MAX  0.4479E-02 0.1801E-03 0.0000E+00 0.0000E+00 0.0000E+00 0.1840E-02
+           (  75,  1) (  75,  1) ( 100,  2) ( 100,  2) ( 100,  2) (  59,  2)
+    3
+      MIN -0.2153E+00-0.2694E-02 0.0000E+00 0.0000E+00 0.0000E+00-0.2226E-01
+           (  26,  2) (  15,  2) (  55,  1) (  55,  1) (  55,  1) (  22,  1)
+      MAX  0.1459E+00 0.7401E-03 0.0000E+00 0.0000E+00 0.0000E+00 0.2248E-01
+           (  23,  2) (  30,  1) (  32,  2) (  32,  2) (  32,  2) (  15,  1)
+ BRACE  FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+ PROP           MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+   ID          MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+    1
+      MIN -0.2304E-01-0.2003E-03-0.3394E-02-0.1774E-03-0.4498E-01-0.5200E-03
+           (   3,  1) (   1,  1) (   4,  1) (   4,  1) (   1,  1) (   4,  1)
+      MAX  0.2582E-01 0.1397E-02 0.2812E-02 0.1733E-04 0.1828E+00 0.4769E-03
+           (   3,  1) (   3,  1) (   4,  1) (   5,  2) (   3,  1) (   3,  1)
+ WALL FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+                MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+               MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+      MIN -0.1583E+03-0.3737E+01-0.6074E-03-0.6933E-04-0.9556E+00-0.3594E-02
+           ( 101,  2) ( 101,  2) ( 104,  2) ( 104,  2) ( 107,  2) ( 108,  1)
+      MAX  0.1581E+03 0.2339E+01 0.6406E-03 0.5159E-04 0.7672E+00 0.2482E-02
+           ( 107,  2) ( 107,  2) ( 104,  2) ( 102,  2) ( 102,  2) ( 107,  2)
+ FLOOR  FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+ PROP           FORCE      FORCE
+   ID              11         22
+    1
+      MIN -0.3602E-03-0.1521E-02
+           (   8,  2) (   8,  2)
+      MAX  0.2966E-03 0.1420E-02
+           (  14,  2) (   8,  2)
+    2
+      MIN -0.9566E-04-0.4039E-03
+           (   8,  2) (   8,  2)
+      MAX  0.7878E-04 0.3771E-03
+           (  14,  2) (   8,  2)
+ SPRING FORCE MAXIMA & MINIMA  IN FRAME                                 
+ WITH (ELEM#,CASE#)
+ PROP           MAJOR      MAJOR      MINOR      MINOR      AXIAL  TORSIONAL
+   ID          MOMENT      SHEAR     MOMENT      SHEAR      FORCE     MOMENT
+    1
+      MIN  0.0000E+00-0.6231E-01 0.0000E+00-0.4631E+00-0.7758E+00 0.0000E+00
+           (   1,  1) (  32,  2) (   1,  1) (  27,  2) (   6,  2) (   1,  1)
+      MAX  0.0000E+00 0.4540E+01 0.0000E+00 0.9044E+00 0.8063E+00 0.0000E+00
+           (  34,  2) (  78,  1) (  34,  2) (  10,  2) (   5,  2) (  34,  2)
+ FRAME REACTION FORCES AT BASELINE (AT EACH COLUMN LINE)
+ VALUES ARE IN THE LOCAL COORDINATE SYSTEM OF THE FRAME
+ FRAME ID ....                                 
+  COL OUTPUT     FORCE     FORCE     FORCE    MOMENT    MOMENT    MOMENT
+   ID     ID   ALONG-X   ALONG-Y   ALONG-Z  ABOUT-XX  ABOUT-YY  ABOUT-ZZ
+   21 CASE 1      0.00      0.02      0.20      0.00      0.00      0.00
+   21 CASE 2      0.00      0.03      0.22      0.00      0.00      0.00
+   35 CASE 1      0.00      0.00      0.08      0.00      0.00      0.00
+   35 CASE 2      0.00      0.00      0.05      0.01      0.00      0.00
+   36 CASE 1      0.00      0.00      0.07      0.00      0.00      0.00
+   36 CASE 2      0.00      0.00      0.08      0.01      0.00      0.00
+   37 CASE 1      0.00      0.01      0.61      0.00      0.00      0.00
+   37 CASE 2      0.00      0.02      1.00      0.00      0.00      0.00
+   77 CASE 1      0.00      0.00      0.00      0.00      0.00      0.00
+   77 CASE 2      0.00      0.00      0.00      0.01      0.00      0.00
+   83 CASE 1      0.00      0.00      0.01      0.00      0.00      0.00
+   83 CASE 2      0.00      0.00      0.00      0.00      0.00      0.00
+ SUMMATION OF FRAME REACTION FORCES AT BASELINE
+ VALUES ARE IN THE LOCAL COORDINATE SYSTEM OF THE FRAME
+ FRAME ID ....                                 
+      OUTPUT     FORCE     FORCE     FORCE
+          ID   ALONG-X   ALONG-Y   ALONG-Z
+      CASE 1      0.00      0.03      0.96
+      CASE 2      0.00      0.04      1.35

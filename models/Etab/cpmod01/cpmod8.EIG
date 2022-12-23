@@ -1,0 +1,79 @@
+                                   E T A B S                                   
+            Extended Three Dimensional Analysis of Building Systems            
+                             NONLINEAR Version 6.22                            
+                            Copyright (C) 1983-1998                            
+                         COMPUTERS AND STRUCTURES, INC.                        
+                              All rights reserved                              
+                 This copy of ETABS is for the exclusive use of                
+                                      StL                                      
+           Unauthorized use is in violation of Federal copyright laws          
+               It is the responsibility of the user to verify all              
+                        results produced by this program                       
+                              9 Sep 2020  23:54:02                             
+ HEADING DATA 1                                                        
+ HEADING DATA 2                                                        
+ STRUCTURAL TIME PERIODS AND FREQUENCIES
+   MODE                   PERIOD           FREQUENCY       CIRCULAR/FREQ
+ NUMBER                   (TIME)  (CYCLES/UNIT TIME) (RADIANS/UNIT TIME)
+      1                  0.10389             9.62518            60.47680
+      2                  0.07670            13.03831            81.92211
+      3                  0.07388            13.53555            85.04634
+ HEADING DATA 1                                                        
+ HEADING DATA 2                                                        
+ MODAL PARTICIPATION FACTORS
+   MODE                  X-TRANS             Y-TRANS              Z-ROTN
+ NUMBER                DIRECTION           DIRECTION           DIRECTION
+      1                  0.08742             0.00014             3.76153
+      2                  0.04461            -0.00144            -7.24857
+      3                 -0.00053            -0.09825             0.11143
+ HEADING DATA 1                                                        
+ HEADING DATA 2                                                        
+ MODAL DIRECTION FACTORS
+   MODE                  X-TRANS             Y-TRANS              Z-ROTN
+ NUMBER                DIRECTION           DIRECTION           DIRECTION
+      1                 85.62771             0.00109            14.37120
+      2                 46.50584             0.02462            53.46954
+      3                  0.00889            99.97847             0.01264
+ HEADING DATA 1                                                        
+ HEADING DATA 2                                                        
+ EFFECTIVE MASS FACTORS
+ NUMBER        %-MASS  <%-SUM>     %-MASS  <%-SUM>     %-MASS  <%-SUM>
+      1         79.08  < 79.1>       0.00  <  0.0>      14.36  < 14.4>
+      2         20.59  < 99.7>       0.02  <  0.0>      53.34  < 67.7>
+      3          0.00  < 99.7>      99.87  < 99.9>       0.01  < 67.7>
+ HEADING DATA 1                                                        
+ HEADING DATA 2                                                        
+ STRUCTURAL MODE SHAPES FOR DIAPHRAGM     1
+ VALUES ARE AT THE CENTERS OF MASS OF THE
+ CORRESPONDING DIAPHRAGM IN GLOBAL COORDINATES
+ LEVEL     DIRN     MODE  1     MODE  2     MODE  3
+ HITRIM       X  4.6373E+00  1.3689E+01 -1.9347E-01
+ HITRIM       Y  7.8509E-03 -1.4138E-01 -1.0252E+01
+ HITRIM    ROTZ  3.8318E-02 -7.4823E-02  1.1317E-03
+ HICOL        X  5.5534E+00  1.1887E+01 -1.6571E-01
+ HICOL        Y  8.9000E-03 -1.3808E-01 -1.0238E+01
+ HICOL     ROTZ  3.8300E-02 -7.4781E-02  1.1552E-03
+ HIBRAC1      X  6.1517E+00  1.0701E+01 -1.4724E-01
+ HIBRAC1      Y -4.4371E-02 -3.0386E-02 -1.0237E+01
+ HIBRAC1   ROTZ  3.8308E-02 -7.4754E-02  1.1737E-03
+ HIBRAC2      X  6.7511E+00  9.5167E+00 -1.2859E-01
+ HIBRAC2      Y  5.5575E-02 -2.2267E-01 -1.0231E+01
+ HIBRAC2   ROTZ  3.8313E-02 -7.4731E-02  1.1815E-03
+ LOWBRC2      X  1.1499E+01  3.9946E-02  1.5504E-02
+ LOWBRC2      Y  8.6279E-03 -1.4035E-01 -1.0314E+01
+ LOWBRC2   ROTZ  3.8502E-02 -7.5119E-02  1.1440E-03
+ LOWBRC1      X  1.2073E+01 -1.1214E+00  3.3142E-02
+ LOWBRC1      Y  8.4683E-03 -1.4003E-01 -1.0279E+01
+ LOWBRC1   ROTZ  3.8510E-02 -7.4861E-02  1.1395E-03
+ LOWCOL       X  1.2729E+01 -2.4377E+00  5.3126E-02
+ LOWCOL       Y  8.2582E-03 -1.3957E-01 -1.0230E+01
+ LOWCOL    ROTZ  3.8526E-02 -7.4504E-02  1.1336E-03
+ LOWTRIM      X  1.2179E+01 -1.4719E+00  3.8358E-02
+ LOWTRIM      Y  1.0380E-01 -3.2309E-01 -1.0168E+01
+ LOWTRIM   ROTZ  3.8630E-02 -7.3958E-02  1.1246E-03
+ LOWBC1       X  8.9837E+00  3.2799E+00 -3.4553E-02
+ LOWBC1       Y  6.8577E-03 -1.3530E-01 -9.8287E+00
+ LOWBC1    ROTZ  3.9196E-02 -7.0135E-02  1.0696E-03
+ LOWBC2       X  7.3964E+00  2.3822E+00 -2.3404E-02
+ LOWBC2       Y  6.0495E-03 -1.1955E-01 -8.7105E+00
+ LOWBC2    ROTZ  3.5095E-02 -6.0963E-02  9.3516E-04

@@ -1,0 +1,40 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+                                   E T A B S                                   
+ 
+            Extended Three Dimensional Analysis of Building Systems            
+ 
+                             NONLINEAR Version 6.22                            
+ 
+                            Copyright (C) 1983-1998                            
+                         COMPUTERS AND STRUCTURES, INC.                        
+                              All rights reserved                              
+ 
+                 This copy of ETABS is for the exclusive use of                
+ 
+                                      StL                                      
+ 
+           Unauthorized use is in violation of Federal copyright laws          
+ 
+               It is the responsibility of the user to verify all              
+                        results produced by this program                       
+                              9 Sep 2020  20:32:48                             
+StL                                                                  PAGE    2
+                                  PROGRAM:ETABS/FILE:\etabsn\cpmod01\cpmod6.EIG
+ HEADING DATA 1                                                        
+ HEADING DATA 2                                                        
+
+ >>  FATAL >> INSTABILITY IN STRUCTURE/EXCESSIVE P-DELTA AT LEVEL 1         

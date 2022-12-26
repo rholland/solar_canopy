@@ -1,6 +1,0 @@
-﻿variable,value,description,unit,[unit]
-ld1,2,Urethane foam (4 inch thick),PSF,KPA
-ld2,1,Three-ply roofing,PSF,KPA
-ld3,5,"Decking, 2-in. wood (DF)",PSF,KPA
-ld4,1,Beams 4x12 at 12 ft o.c. (DF),PSF,KPA
-roofld0,9,Roof unit load,PSF,KPA

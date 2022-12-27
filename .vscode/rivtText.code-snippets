@@ -1,10 +1,18 @@
 {
-    "github1": {
-        "prefix": "git",
+    "searchgh": {
+        "prefix": "sgh",
+        "description": "search github rivt READMEs",
+        "scope": "python",
+        "body": [
+            "https://github.com/search?q=rivt+${0:added search terms}+in%3Areadme&ref=simplesearch"
+        ]
+    },
+    "github2": {
+        "prefix": "ghu",
         "description": "github repo settings",
         "scope": "python",
         "body": [
-            "\"|| github | $(1:repo_name} | ${2:param1} | ${0:param2}    "
+            "|| github | $(1:repo_name} | ${2:param1} | ${0:param2}    "
         ]
     },
     "new R method": {

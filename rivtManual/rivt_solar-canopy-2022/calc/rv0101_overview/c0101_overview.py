@@ -2,28 +2,30 @@
 # %%
 import rivt.rivtapi as rv
 
-rv.R("""Overview | Solar Canopy - Loads | inter | 1
+rv.R("""Solar Canopy Structural Calculations | inter | 1
 
-    This permitting document describes the structural design of a solar canopy
+    [[readme]]
+    This permit document addresses the structural design of a solar canopy
     located on a residential site in the City of Larkspur, County of Marin,
-    California. The document includes the structural design of a concrete slab
-    and stem wall, a steel tube frame, and attachment of solar panels to the
-    frame.
-    
+    California. The document includes the structural design of the canopy
+    including a concrete slab and stem wall, steel tube frame, and attachment
+    of solar panels to the frame.
+
+    The calculation document is divided into four divisions:
+
+    - 01 Loads: gravity, wind, seismic
+    - 02 Foundation: slab, stem wall 
+    - 03 Frame: steel tubes, connections
+    - 04 Panel clips: wind uplift and shear load
+    [[end]]
+
     || project | proj_info.txt | default
-
-    The report is divided into four divisions:
-
-    - 01 Loads
-    - 02 Foundation
-    - 03 Frame
-    - 04 Panel clips
 
     """)
 # %%
 rv.I("""-Building Codes and Site | default
     
-    The canopy is under the approval jurisdiction of the City of Fairfax,
+    The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the
     2019 California Residential Code [CRC] as the basis for permiting
     construction work. The canopy is designed under the requirements of the

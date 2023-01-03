@@ -168,14 +168,6 @@
         }
     },
     {
-        "key": "ctrl+alt+g",
-        "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus",
-        "args": {
-            "snippet": "https://github.com/search?q=rivt+${0:added+search+terms}+in%3Areadme&ref=simplesearch"
-        }
-    },
-    {
         "key": "ctrl+shift+right",
         "command": "-cursorWordAccessibilityRightSelect",
         "when": "accessibilityModeEnabled && textInputFocus"
@@ -211,5 +203,10 @@
     {
         "key": "alt+left",
         "command": "workbench.action.focusLeftGroup"
-    }
+    },
+    {
+        "key": "ctrl+alt+=",
+        "command": "workbench.action.tasks.runTask",
+        "args": "rivtsearch"
+    },
 ]

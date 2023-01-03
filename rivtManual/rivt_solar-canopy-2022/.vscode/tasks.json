@@ -25,5 +25,25 @@
         "panel": "new"
       }
     },
+    {
+      "label": "rivtsearch",
+      "type": "shell",
+      "command": "xdg-open start https://github.com/search?q=rivt+${input:rivsearch}+in%3Areadmeref=simplesearch",
+      "windows": {
+        "command": "start https://github.com/search?q=rivt+${input:rivsearch}+in%3Areadme"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+  ],
+  "inputs": [
+    {
+      "id": "rivsearch",
+      "description": "rivt+search+terms:",
+      "default": "beam",
+      "type": "promptString"
+    },
   ]
 }

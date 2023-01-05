@@ -1,3 +1,0 @@
-01-03 20:45 root         INFO     calc short path: calc\rv0101_overview
-01-03 20:45 root         INFO     log short path: file\f00
-01-03 20:45 root         INFO     calc read and backup written to calc folder

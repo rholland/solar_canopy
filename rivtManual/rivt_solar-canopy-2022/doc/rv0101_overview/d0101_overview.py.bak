@@ -2,9 +2,10 @@
 # %%
 import rivt.rivtapi as rv
 # %%
-rv.R("""Solar Canopy Structural Calculations | utf | 1
+rv.R("""Overview | default | Solar Canopy Structural Calculations | utf | 80#1
 
     _[[read]] 
+
     This permit report documents the structural design of a residential solar
     canopy in the City of Larkspur, County of Marin, California. The report
     includes the design of a concrete slab and stem wall, steel tube frame, and
@@ -15,6 +16,7 @@ rv.R("""Solar Canopy Structural Calculations | utf | 1
     - 01 Loads: gravity, wind, seismic
     - 02 Frame: steel tubes, connections, clips
     - 03 Foundation: slab, stem wall 
+    
     _[[end]]
 
     || project | proj_info.txt | default

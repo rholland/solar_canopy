@@ -1,6 +1,6 @@
 #! python
 # %%
-import rivt.rivtapi as rv
+import rivt.rvtext as rv
 # %%
 rv.R("""Overview | default | Solar Canopy Structural Calculations | utf | 80#1
 

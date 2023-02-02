@@ -4,8 +4,6 @@ import rivt.text as rv
 # %%
 rv.R("""Overview | utf | 80#1
 
-   || github | params
-
     This permit report documents the structural design of a residential solar
     canopy in the City of Larkspur, County of Marin, California. The report
     includes the design of a concrete slab and stem wall, steel tube frame, and
@@ -19,6 +17,8 @@ rv.R("""Overview | utf | 80#1
 
     || project | proj_info.txt | default
     
+    || github | params
+
     """)
 # %%
 rv.I("""-Solar Canopy Location | default

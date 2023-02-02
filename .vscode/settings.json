@@ -1,5 +1,5 @@
 {
     "editor.inlayHints.enabled": "off",
-    "cSpell.enabled": false,
-    "editor.lineNumbers": "off"
+    "editor.lineNumbers": "off",
+    "cSpell.enabled": false
 }

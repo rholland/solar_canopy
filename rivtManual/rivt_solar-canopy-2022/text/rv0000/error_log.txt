@@ -1,5 +1,0 @@
-01-18 15:16 root         INFO     rivt file path : c:\git\solar_canopy\rivtManual\rivt_solar-canopy-2022\text\rv0101_overview\r0101_overview.py
-01-18 15:16 root         INFO     binary path: c:\git\solar_canopy\rivtManual\rivt_solar-canopy-2022\binary\b01
-01-18 15:16 root         INFO     doc short path: text\rv0101_overview
-01-18 15:16 root         INFO     log short path: binary\b00
-01-18 15:16 root         INFO     rivt file read and backed up to text folder

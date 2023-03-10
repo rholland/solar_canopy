@@ -12,7 +12,7 @@
         "description": "add new Repo method",
         "scope": "python",
         "body": [
-            "rv.R(\"\"\"${1:section label} | ${2:calc title} | ${3:utf;pdf;html;inter} | ${4:start}",
+            "rv.R(\"\"\"${1:section label} | $(2:default) | ${3:utf;pdf;html;inter} | ${4:width},${5:start}",
             "    ",
             "    ${0:new Repo text}",
             "    ",

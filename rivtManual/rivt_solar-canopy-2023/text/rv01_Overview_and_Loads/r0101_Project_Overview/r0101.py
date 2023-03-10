@@ -11,8 +11,9 @@ rv.R("""Overview | utf | 80#1
 
     The calculation document is divided into three divisions:  
 
-    - 01 Loads: gravity, wind, seismic - 02 Frame: steel tubes, connections,
-    clips - 03 Foundation: slab, stem wall
+    - 01 Loads: gravity, wind, seismic 
+    - 02 Frame: steel tubes, connections, clips 
+    - 03 Foundation: slab, stem wall
 
     || project | proj_info.txt | default
     
@@ -28,7 +29,7 @@ rv.I("""-Solar Canopy Location | default
 
     """)
 
-rv.I("""-Building Codes | default
+rv.I("""--Building Codes | default
     
     The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the

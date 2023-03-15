@@ -1,12 +1,49 @@
 #! python
 # %%
-import rivtlib.rv_lib as rv
-
-rv.D("dev", "default", "Loads - Residence Renovations", "9")
-
+import rivt.text as rv
 # %%
+rv.R("""Overview | default | inter | 80,1
+
+    This structural design report for a residential solar canopy in the
+    County of Marin, City of Larkspur, California includes the design of a
+    concrete slab, stem wall, steel tube frame, and attachments of solar
+    panels to the frame.
+
+    The document is divided into three divisions:  
+
+    - 01 Loads: gravity, wind, seismic 
+    - 02 Frame: steel tubes, connections, clips 
+    - 03 Foundation: slab, stem wall
+
+    || project | default | proj_info.txt 
+    
+
+    """)
 # %%
-rv.I("""[01]_  Load Combinations 
+rv.I("""Solar Canopy Location | default
+    
+    || image2 | site01.jpg | 35 | site02.jpg | 35 
+    Site map - Marin County web site _[f]
+    Site map - Google Earth _[f]
+
+    """)
+
+rv.I("""Building Codes | default
+    
+    The permit approval is under the jurisdiction of the City of Larkspur,
+    California which adopted the 2019 California Building Code [CBC] and the
+    2019 California Residential Code [CRC] as the basis for permiting
+    construction work. The canopy is designed under the requirements of the
+    CBC.
+
+    || table | default | cbc2019_stds.syk | 53,L | [:]
+    
+    _[new]
+    
+    
+    """)
+
+rv.V("""Load Combinations | default | nosub | nosave
  
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
@@ -19,9 +56,7 @@ rv.I("""[01]_  Load Combinations
     
     """)
 # %%
-rv.V("""[02]_  Gravity Loads and Seismic Mass
- 
-    || config | nosub | 2,2
+rv.V("""Gravity Loads and Seismic Mass | default | nosub | nosave
     
                                                        Roof unit dead loads [t]_
     || value | dlroof0.csv
@@ -59,7 +94,7 @@ rv.V("""[02]_  Gravity Loads and Seismic Mass
     
     """)
 # %%
-rv.V("""[03]_  Material Densities - Seismic Models
+rv.V("""Material Densities - Seismic Models | default | nosub | nosave
 
     Because the T&G roof is relatively more flexible, the effective floor load
     for seismic models is calculated as the sum of the floor and all of the
@@ -76,3 +111,30 @@ rv.V("""[03]_  Material Densities - Seismic Models
     ewalldens1 = extwalldl1/(0.5*IN)                    |PCI, KNCM
     
     """)
+# %%
+rv.I("""References | default
+ 
+    || insert | text | references.txt | literal
+
+    [page]_
+
+    """)
+
+rv.I("""--Drawing List | default 
+ 
+    || insert | text | drawing_list.txt | literal
+
+    || insert | image | residence01.jpg | 90
+    Residence and Carport [f]_
+
+    [page]_
+
+    """)
+
+rv.T("""--Math and Text Abbreviations | default | nocode
+ 
+    || insert | text | abbrev_all.txt | raw
+
+    """)
+
+rv.Write()

@@ -1,4 +1,4 @@
-03-15 00:24 root         INFO     rivt file short path : rv01_Overview_and_Loads\rv0101_Project_Overview
-03-15 00:24 root         INFO     resource short path: rv0101_Project_Overview\re01_resource
-03-15 00:24 root         INFO     log folder short path: rivt_solar-canopy-2023\resource
-03-15 00:24 root         INFO     rivt file backup written: rv01_Overview_and_Loads\rv0101_Project_Overview
+03-15 00:45 root         INFO     rivt file short path : rv01_Overview_and_Loads\rv0101_Project_Overview
+03-15 00:45 root         INFO     resource short path: rv0101_Project_Overview\re01_resource
+03-15 00:45 root         INFO     log folder short path: rivt_solar-canopy-2023\resource
+03-15 00:45 root         INFO     rivt file backup written: rv01_Overview_and_Loads\rv0101_Project_Overview

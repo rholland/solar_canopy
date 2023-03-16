@@ -1,13 +1,13 @@
 #! python
 # %%
-import rivt.text as rv
+import rivt.rivttext as rv
 # %%
-rv.R("""Overview | default | inter | 80,1
+rv.R("""Overview | inter | 80,1
 
-    This structural design report for a residential solar canopy in the
-    County of Marin, City of Larkspur, California includes the design of a
-    concrete slab, stem wall, steel tube frame, and attachments of solar
-    panels to the frame.
+    This structural design report for a residential solar canopy in the County
+    of Marin, City of Larkspur, California includes the design of a concrete
+    slab, stem wall, steel tube frame, and attachments of solar panels to the
+    frame.
 
     The document is divided into three divisions:  
 
@@ -15,20 +15,22 @@ rv.R("""Overview | default | inter | 80,1
     - 02 Frame: steel tubes, connections, clips 
     - 03 Foundation: slab, stem wall
 
-    || project | default | proj_info.txt 
-    
+    || project | default | proj_info.txt | center, 30
 
+    The project is nearly complete.
     """)
 # %%
-rv.I("""Solar Canopy Location | default
+rv.I("""Solar Canopy Location
+
+    The project is located in Larkspur.
     
-    || image2 | site01.jpg | 35 | site02.jpg | 35 
+    || image2 | fig1.png | 35 | fig2.png | 35 
     Site map - Marin County web site _[f]
     Site map - Google Earth _[f]
 
     """)
 
-rv.I("""Building Codes | default
+rv.I("""Building Codes 
     
     The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the
@@ -39,11 +41,9 @@ rv.I("""Building Codes | default
     || table | default | cbc2019_stds.syk | 53,L | [:]
     
     _[new]
-    
-    
     """)
 
-rv.V("""Load Combinations | default | nosub | nosave
+rv.V("""Load Combinations | nosub | nosave
  
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
@@ -56,7 +56,7 @@ rv.V("""Load Combinations | default | nosub | nosave
     
     """)
 # %%
-rv.V("""Gravity Loads and Seismic Mass | default | nosub | nosave
+rv.V("""Gravity Loads and Seismic Mass | nosub | nosave
     
                                                        Roof unit dead loads [t]_
     || value | dlroof0.csv
@@ -94,7 +94,7 @@ rv.V("""Gravity Loads and Seismic Mass | default | nosub | nosave
     
     """)
 # %%
-rv.V("""Material Densities - Seismic Models | default | nosub | nosave
+rv.V("""Material Densities - Seismic Models | nosub | nosave
 
     Because the T&G roof is relatively more flexible, the effective floor load
     for seismic models is calculated as the sum of the floor and all of the
@@ -112,7 +112,7 @@ rv.V("""Material Densities - Seismic Models | default | nosub | nosave
     
     """)
 # %%
-rv.I("""References | default
+rv.I("""References 
  
     || insert | text | references.txt | literal
 
@@ -120,8 +120,8 @@ rv.I("""References | default
 
     """)
 
-rv.I("""--Drawing List | default 
- 
+rv.I("""--Drawing List 
+
     || insert | text | drawing_list.txt | literal
 
     || insert | image | residence01.jpg | 90
@@ -131,7 +131,7 @@ rv.I("""--Drawing List | default
 
     """)
 
-rv.T("""--Math and Text Abbreviations | default | nocode
+rv.T("""Math and Text Abbreviations | hide
  
     || insert | text | abbrev_all.txt | raw
 

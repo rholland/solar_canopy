@@ -2,7 +2,7 @@
 # %%
 import rivt.rivttext as rv
 # %%
-rv.R("""Overview | inter | 80,1
+rv.R("""Overview | utf | 80,1
 
     This structural design report for a residential solar canopy in the County
     of Marin, City of Larkspur, California includes the design of a concrete
@@ -70,11 +70,11 @@ rv.V("""Gravity Loads and Seismic Mass | data | areas | nosub
     || values | data | dlextwall0.csv
     
     Areas _[t]
-    arearf1 = 1700             | SF, SM   | roof area 
-    areaflr1 = 1200            | SF, SM   | floor area
-    htwall1 = 9                | FT, M    | wall height   
-    lenwall1 = 110             | FT, M    | interior wall length 
-    lenwall2 = 155             | FT, M    | exterior wall length 2
+    arearf1 = 1700             | SF, SM | roof area 
+    areaflr1 = 1200            | SF, SM | floor area
+    htwall1 = 9                | FT, M  | wall height   
+    lenwall1 = 110             | FT, M  | interior wall length 
+    lenwall2 = 155             | FT, M  | exterior wall length 2
 
     Roof weight _[e]                    
     rfwt1 := arearf1 * roofdl1                           |LBF, KN|2,2

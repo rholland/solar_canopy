@@ -2,7 +2,7 @@
 # %%
 import rivt.rivttext as rv
 # %%
-rv.R("""Overview | inter | 80,1
+rv.R("""Overview | utf | 80,1
 
     This structural design report for a residential solar canopy in the County
     of Marin, City of Larkspur, California includes the design of a concrete

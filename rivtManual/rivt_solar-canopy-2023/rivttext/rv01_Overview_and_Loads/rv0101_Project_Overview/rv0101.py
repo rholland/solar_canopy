@@ -15,7 +15,7 @@ rv.R("""Overview | inter | 80,1
     - 02 Frame: steel tubes, connections, clips 
     - 03 Foundation: slab, stem wall
 
-    || project | default | proj_info.txt | center, 30
+    || project | resource | proj_info.txt | center, 30
 
     The project is nearly complete.
     """)
@@ -38,7 +38,7 @@ rv.I("""Building Codes
     construction work. The canopy is designed under the requirements of the
     CBC.
 
-    || table | default | cbc2019_stds.syk | 53,L | [:]
+    || table | data | cbc2019_stds.syk | 53,L | [:]
     
     _[new]
     """)

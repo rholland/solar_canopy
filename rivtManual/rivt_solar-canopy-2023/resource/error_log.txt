@@ -1,0 +1,5 @@
+03-20 17:45  rivttext   INFO     rivt file : [rv0101.py]
+03-20 17:45  rivttext   INFO     rivt short path : [rv01_Overview_and_Loads\rv0101_Project_Overview]
+03-20 17:45  rivttext   INFO     resource short path: [rivt_solar-canopy-2023\resource]
+03-20 17:45  rivttext   INFO     log folder short path: [rivt_solar-canopy-2023\resource]
+03-20 17:45  rivttext   INFO     rivt backup: [rv01_Overview_and_Loads\rv0101_Project_Overview]

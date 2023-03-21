@@ -42,7 +42,7 @@ rv.I("""Building Codes
 
     """)
 
-rv.V("""Load Combinations | nosub | nosave
+rv.I("""Load Combinations 
  
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
@@ -55,59 +55,59 @@ rv.V("""Load Combinations | nosub | nosave
 
     """)
 # %%
-rv.V("""Gravity Loads and Seismic Mass | nosub | nosave
+rv.V("""Gravity Loads and Seismic Mass | data | areas | nosub
     
-                                                       Roof unit dead loads [t]_
+    Roof unit dead loads _[t]
     || values | data | dlroof0.csv
 
-                                                      Floor unit dead loads [t]_
+    Floor unit dead loads _[t]
     || values | data | dlfloor0.csv
 
-                                              Interior wall unit dead loads [t]_
+    Interior wall unit dead loads _[t]
     || values | data | dlintwall0.csv
 
-                                              Exterior wall unit dead loads [t]_
+    Exterior wall unit dead loads _[t]
     || values | data | dlextwall0.csv
     
-                                                                      Areas [t]_
+    Areas _[t]
     arearf1 = 1700             | SF, SM   | roof area 
     areaflr1 = 1200            | SF, SM   | floor area
     htwall1 = 9                | FT, M    | wall height   
     lenwall1 = 110             | FT, M    | interior wall length 
     lenwall2 = 155             | FT, M    | exterior wall length 2
 
-    Roof weight [e]_                    
+    Roof weight _[e]                    
     rfwt1 := arearf1 * roofdl1                           |LBF, KN|2,2
 
-    Floor weight [e]_
+    Floor weight _[e]
     flrwt1 := areaflr1 * floordl1                        |LBF, KN|2,2   
 
-    Partition weight [e]_
+    Partition weight _[e]
     partwt1 :=  htwall1 * lenwall1 * intwalldl1          |LBF, KN|2,2
 
-    Exterior wall weight [e]_                               
+    Exterior wall weight _[e]                               
     exwallwt1 := htwall1 * lenwall2 * extwalldl1         |LBF, KN|2,2
 
-    Total building weight [e]_
+    Total building weight _[e]
     totwt1 := rfwt1 + flrwt1 + partwt1 + exwallwt1       |LBF, KN|2,2
     
     """)
 # %%
-rv.V("""Material Densities - Seismic Models | nosub | nosave
+rv.V("""Material Densities - Seismic Models | data | none | nosub
 
     Because the T&G roof is relatively more flexible, the effective floor load
     for seismic models is calculated as the sum of the floor and all of the
     partition weight.
 
-    Floor load including partitions [e]_  
-    eflrdl1 = (flrwt1 + partwt1)/(areaflr1)             |PSF, KPA
+    Floor load including partitions _[e]  
+    eflrdl1 := (flrwt1 + partwt1)/(areaflr1)             |PSF, KPA|2,2
 
-    Effective floor, roof and wall densities [e]_  
-    eflrdens1 = eflrdl1/(0.5*IN)                        |PCI, KNCM
+    Effective floor, roof and wall densities _[e]  
+    eflrdens1 := eflrdl1/(0.5*IN)                        |PCI, KNCM|2,2
 
-    erfdens1 = roofdl1/(1.5*IN)                         |PCI, KNCM
+    erfdens1 := roofdl1/(1.5*IN)                         |PCI, KNCM|2,2
 
-    ewalldens1 = extwalldl1/(0.5*IN)                    |PCI, KNCM
+    ewalldens1 := extwalldl1/(0.5*IN)                    |PCI, KNCM|2,2
     
     """)
 # %%
@@ -123,10 +123,10 @@ rv.I("""--Drawing List
 
     || insert | text | drawing_list.txt | literal
 
+    Residence and Carport _[f]
     || insert | image | residence01.jpg | 90
-    Residence and Carport [f]_
 
-    [page]_
+    _[page]
 
     """)
 

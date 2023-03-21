@@ -15,7 +15,7 @@ rv.R("""Overview | inter | 80,1
     - 02 Frame: steel tubes, connections, clips 
     - 03 Foundation: slab, stem wall
 
-    || project | resource | proj_info.txt | center, 30
+    || project | resource | proj_info.txt | 30,C
 
     The project is nearly complete.
     """)
@@ -38,9 +38,8 @@ rv.I("""Building Codes
     construction work. The canopy is designed under the requirements of the
     CBC.
 
-    || table | data | cbc2019_stds.syk | 53,L | [:]
-    
-    _[new]
+    || table | data | cbc2019_stds.xlsx | 53,L | [:]
+
     """)
 
 rv.V("""Load Combinations | nosub | nosave
@@ -48,49 +47,49 @@ rv.V("""Load Combinations | nosub | nosave
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
 
-    || table | load_types01.csv | 30,L | [:]
+    || table | data | load_types01.csv | 30,L | [:]
 
-    || table | asce7_load_comb.csv | 55,C | [:]
+    || table | data | asce7_load_comb.csv | 55,C | [:]
 
-    [page]_
-    
+    _[page]
+
     """)
 # %%
 rv.V("""Gravity Loads and Seismic Mass | nosub | nosave
     
                                                        Roof unit dead loads [t]_
-    || value | dlroof0.csv
+    || values | data | dlroof0.csv
 
                                                       Floor unit dead loads [t]_
-    || value | dlfloor0.csv
+    || values | data | dlfloor0.csv
 
                                               Interior wall unit dead loads [t]_
-    || value | dlintwall0.csv
+    || values | data | dlintwall0.csv
 
                                               Exterior wall unit dead loads [t]_
-    || value | dlextwall0.csv
+    || values | data | dlextwall0.csv
     
                                                                       Areas [t]_
-    arearf1 = 1700             | SF, SM | roof area 
-    areaflr1 = 1200            | SF, SM | floor area
+    arearf1 = 1700             | SF, SM   | roof area 
+    areaflr1 = 1200            | SF, SM   | floor area
     htwall1 = 9                | FT, M    | wall height   
     lenwall1 = 110             | FT, M    | interior wall length 
     lenwall2 = 155             | FT, M    | exterior wall length 2
 
     Roof weight [e]_                    
-    rfwt1 = arearf1 * roofdl1                           |LBF, KN
+    rfwt1 := arearf1 * roofdl1                           |LBF, KN|2,2
 
     Floor weight [e]_
-    flrwt1 = areaflr1 * floordl1                        |LBF, KN   
+    flrwt1 := areaflr1 * floordl1                        |LBF, KN|2,2   
 
     Partition weight [e]_
-    partwt1 =  htwall1 * lenwall1 * intwalldl1          |LBF, KN
+    partwt1 :=  htwall1 * lenwall1 * intwalldl1          |LBF, KN|2,2
 
     Exterior wall weight [e]_                               
-    exwallwt1 = htwall1 * lenwall2 * extwalldl1         |LBF, KN
+    exwallwt1 := htwall1 * lenwall2 * extwalldl1         |LBF, KN|2,2
 
     Total building weight [e]_
-    totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1       |LBF, KN
+    totwt1 := rfwt1 + flrwt1 + partwt1 + exwallwt1       |LBF, KN|2,2
     
     """)
 # %%
@@ -116,7 +115,7 @@ rv.I("""References
  
     || insert | text | references.txt | literal
 
-    [page]_
+    _[page]
 
     """)
 

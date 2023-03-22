@@ -57,6 +57,8 @@ rv.I("""Load Combinations
 # %%
 rv.V("""Gravity Loads and Seismic Mass | data | areas | nosub
     
+    Some filler text
+
     Roof unit dead loads _[t]
     || values | data | dlroof0.csv
 
@@ -70,26 +72,26 @@ rv.V("""Gravity Loads and Seismic Mass | data | areas | nosub
     || values | data | dlextwall0.csv
     
     Areas _[t]
-    arearf1 = 1700             | SF, SM | roof area 
-    areaflr1 = 1200            | SF, SM | floor area
-    htwall1 = 9                | FT, M  | wall height   
-    lenwall1 = 110             | FT, M  | interior wall length 
-    lenwall2 = 155             | FT, M  | exterior wall length 2
+    arearf1 := 1700             | SF, SM | roof area 
+    areaflr1 := 1200            | SF, SM | floor area
+    htwall1 := 9                | FT, M  | wall height   
+    lenwall1 := 110             | FT, M  | interior wall length 
+    lenwall2 := 155             | FT, M  | exterior wall length 2
 
     Roof weight _[e]                    
-    rfwt1 := arearf1 * roofdl1                           |LBF, KN|2,2
+    rfwt1 = arearf1 * roofdl1                           |LBF, KN|2,2
 
     Floor weight _[e]
-    flrwt1 := areaflr1 * floordl1                        |LBF, KN|2,2   
+    flrwt1 = areaflr1 * floordl1                        |LBF, KN|2,2   
 
     Partition weight _[e]
-    partwt1 :=  htwall1 * lenwall1 * intwalldl1          |LBF, KN|2,2
+    partwt1 =  htwall1 * lenwall1 * intwalldl1          |LBF, KN|2,2
 
     Exterior wall weight _[e]                               
-    exwallwt1 := htwall1 * lenwall2 * extwalldl1         |LBF, KN|2,2
+    exwallwt1 = htwall1 * lenwall2 * extwalldl1         |LBF, KN|2,2
 
     Total building weight _[e]
-    totwt1 := rfwt1 + flrwt1 + partwt1 + exwallwt1       |LBF, KN|2,2
+    totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1       |LBF, KN|2,2
     
     """)
 # %%
@@ -100,14 +102,14 @@ rv.V("""Material Densities - Seismic Models | data | none | nosub
     partition weight.
 
     Floor load including partitions _[e]  
-    eflrdl1 := (flrwt1 + partwt1)/(areaflr1)             |PSF, KPA|2,2
+    eflrdl1 = (flrwt1 + partwt1)/(areaflr1)             |PSF, KPA|2,2
 
     Effective floor, roof and wall densities _[e]  
-    eflrdens1 := eflrdl1/(0.5*IN)                        |PCI, KNCM|2,2
+    eflrdens1 = eflrdl1/(0.5*IN)                        |PCI, KNCM|2,2
 
-    erfdens1 := roofdl1/(1.5*IN)                         |PCI, KNCM|2,2
+    erfdens1 = roofdl1/(1.5*IN)                         |PCI, KNCM|2,2
 
-    ewalldens1 := extwalldl1/(0.5*IN)                    |PCI, KNCM|2,2
+    ewalldens1 = extwalldl1/(0.5*IN)                    |PCI, KNCM|2,2
     
     """)
 # %%

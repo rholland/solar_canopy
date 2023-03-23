@@ -55,7 +55,7 @@ rv.I("""Load Combinations
 
     """)
 # %%
-rv.V("""Gravity Loads and Seismic Mass | data | areas | nosub
+rv.V("""Gravity Loads and Seismic Mass | data | save | nosub
     
     Some filler text
 

@@ -20,7 +20,7 @@ rv.R("""Overview | utf | 80,1
     The project is nearly complete.
     """)
 # %%
-rv.I("""Solar Canopy Location
+rv.I("""Solar Canopy Location | data
 
     The project is located in Larkspur.
     
@@ -30,7 +30,7 @@ rv.I("""Solar Canopy Location
 
     """)
 
-rv.I("""Building Codes 
+rv.I("""Building Codes | data
     
     The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the
@@ -42,7 +42,7 @@ rv.I("""Building Codes
 
     """)
 
-rv.I("""Load Combinations 
+rv.I("""Load Combinations | data  
  
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
@@ -72,70 +72,71 @@ rv.V("""Gravity Loads and Seismic Mass | data | save | nosub
     || values | data | dlextwall0.csv
     
     Areas _[t]
-    arearf1 := 1700             | SF, SM | roof area 
-    areaflr1 := 1200            | SF, SM | floor area
-    htwall1 := 9                | FT, M  | wall height   
-    lenwall1 := 110             | FT, M  | interior wall length 
-    lenwall2 := 155             | FT, M  | exterior wall length 2
+    arearf1 := 1700             |SF,SM| roof area 
+    areaflr1 := 1200            |SF,SM| floor area
+    htwall1 := 9                |FT, M| wall height   
+    lenwall1 := 110             |FT, M| interior wall length 
+    lenwall2 := 155             |FT, M| exterior wall length 2
 
     Roof weight _[e]                    
-    rfwt1 = arearf1 * roofdl1                           |LBF, KN|2,2
+    rfwt1 = arearf1 * roofdl1                           |LBF,KN|2,2
 
     Floor weight _[e]
-    flrwt1 = areaflr1 * floordl1                        |LBF, KN|2,2   
+    flrwt1 = areaflr1 * floordl1                        |LBF,KN|2,2   
 
     Partition weight _[e]
-    partwt1 =  htwall1 * lenwall1 * intwalldl1          |LBF, KN|2,2
+    partwt1 =  htwall1 * lenwall1 * intwalldl1          |LBF,KN|2,2
 
     Exterior wall weight _[e]                               
-    exwallwt1 = htwall1 * lenwall2 * extwalldl1         |LBF, KN|2,2
+    exwallwt1 = htwall1 * lenwall2 * extwalldl1         |LBF,KN|2,2
 
     Total building weight _[e]
-    totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1       |LBF, KN|2,2
+    totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1       |LBF,KN|2,2
     
     """)
 # %%
-rv.V("""Material Densities - Seismic Models | data | none | nosub
+rv.V("""Material Densities and Seismic Models | data | save | nosub
 
     Because the T&G roof is relatively more flexible, the effective floor load
     for seismic models is calculated as the sum of the floor and all of the
     partition weight.
 
     Floor load including partitions _[e]  
-    eflrdl1 = (flrwt1 + partwt1)/(areaflr1)             |PSF, KPA|2,2
+    eflrdl1 = (flrwt1 + partwt1)/(areaflr1)                     |PSF, KPA|2,2
 
-    Effective floor, roof and wall densities _[e]  
-    eflrdens1 = eflrdl1/(0.5*IN)                        |PCI, KNCM|2,2
+    Effective floor, roof and wall model densities _[e]  
+    eflrdens1 = eflrdl1/(0.5*IN)                                |PCI, KNCM|2,2
 
-    erfdens1 = roofdl1/(1.5*IN)                         |PCI, KNCM|2,2
+    erfdens1 = roofdl1/(1.5*IN)                                 |PCI, KNCM|2,2
 
-    ewalldens1 = extwalldl1/(0.5*IN)                    |PCI, KNCM|2,2
+    ewalldens1 = extwalldl1/(0.5*IN)                            |PCI, KNCM|2,2
     
     """)
 # %%
-rv.I("""References 
+rv.I("""Variables, Codes and Drawing References | data
  
-    || insert | text | references.txt | literal
+    References _[c]
+    || text | data | references.txt | literal | noshade
 
     _[page]
 
     """)
 
-rv.I("""--Drawing List 
+rv.I("""--Drawing List | data
 
-    || insert | text | drawing_list.txt | literal
-
-    Residence and Carport _[f]
-    || insert | image | residence01.jpg | 90
+    Drawings _[c]
+    || text | data | drawing_list.txt | literal | noshade
 
     _[page]
 
     """)
 
-rv.T("""Math and Text Abbreviations | hide
- 
-    || insert | text | abbrev_all.txt | raw
-
+rv.I("""--Abbreviation | data
+    
+    Abbreviations _[c]
+    || text | data | abbrev_all.tex | raw | noshade
+    
     """)
 
-rv.Write()
+
+# rv.Write()

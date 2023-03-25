@@ -133,8 +133,11 @@ rv.I("""--Drawing List | data
 
 rv.I("""--Abbreviation | data
     
-    Abbreviations _[c]
-    || text | data | abbrev_all.tex | raw | noshade
+    Abbreviations - Terms _[c]
+    || text | data | abbrev_terms.tex | raw | noshade
+    
+    Abbreviations - Math _[c]
+    || text | data | abbrev_math.tex | raw | noshade
     
     """)
 

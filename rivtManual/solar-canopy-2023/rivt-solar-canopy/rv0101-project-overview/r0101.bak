@@ -78,21 +78,19 @@ rv.V("""Gravity Loads and Seismic Mass | data | save | nosub
     lenwall1 := 110             |FT, M| interior wall length 
     lenwall2 := 155             |FT, M| exterior wall length 2
 
+  
     Roof weight _[e]                    
-    rfwt1 = arearf1 * roofdl1                           |LBF,KN|2,2
-
+    rfwt1 = arearf1 * roofdl1                           |KIP,KN|2,2
     Floor weight _[e]
-    flrwt1 = areaflr1 * floordl1                        |LBF,KN|2,2   
-
+    flrwt1 = areaflr1 * floordl1                        |KIP,KN|2,2   
     Partition weight _[e]
-    partwt1 =  htwall1 * lenwall1 * intwalldl1          |LBF,KN|2,2
-
+    partwt1 =  htwall1 * lenwall1 * intwalldl1          |KIP,KN|2,2
     Exterior wall weight _[e]                               
-    exwallwt1 = htwall1 * lenwall2 * extwalldl1         |LBF,KN|2,2
-
+    exwallwt1 = htwall1 * lenwall2 * extwalldl1         |KIP,KN|2,2
     Total building weight _[e]
-    totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1       |LBF,KN|2,2
-    
+    totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1       |KIP,KN|2,2
+    Weights _[t]
+      
     """)
 # %%
 rv.V("""Material Densities and Seismic Models | data | save | nosub
@@ -101,19 +99,19 @@ rv.V("""Material Densities and Seismic Models | data | save | nosub
     for seismic models is calculated as the sum of the floor and all of the
     partition weight.
 
-    Floor load including partitions _[e]  
+    Effective model floor load  _[e]  
     eflrdl1 = (flrwt1 + partwt1)/(areaflr1)                     |PSF, KPA|2,2
-
-    Effective floor, roof and wall model densities _[e]  
+    Effective model floor density _[e]  
     eflrdens1 = eflrdl1/(0.5*IN)                                |PCI, KNCM|2,2
-
+    Effective model roof density _[e]  
     erfdens1 = roofdl1/(1.5*IN)                                 |PCI, KNCM|2,2
-
+    Effective model wall density _[e]  
     ewalldens1 = extwalldl1/(0.5*IN)                            |PCI, KNCM|2,2
-    
+    Model loads _[t]
+
     """)
 # %%
-rv.I("""Variables, Codes and Drawing References | data
+rv.I("""Abbreviations and References | data
  
     References _[c]
     || text | data | references.txt | literal | noshade

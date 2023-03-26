@@ -1,6 +1,6 @@
 #! python
 # %%
-import rivt.rivtapi as rv
+import rivt.rivttext as rv
 # %%
 rv.V("""[01]  Minimum Wall Sheathing CRC - First Floor
  

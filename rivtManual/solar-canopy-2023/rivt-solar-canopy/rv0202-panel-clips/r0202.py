@@ -1,7 +1,6 @@
 #! python
 # %%
-import rivtlib.rv_lib as rv
-rv.D("pdf", "default", "Code Minimums - Carport Renovations", "21")
+import rivt.rivttext as rv
 
 # %%
 rv.I("""[01] Structural Deficiencies

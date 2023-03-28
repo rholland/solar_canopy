@@ -15,7 +15,7 @@ rv.R("""Overview | utf | 80
     - 02 Frame: steel tubes, connections and clips 
     - 03 Foundation: slab and stem wall
 
-    || page | data | page.txt 
+    || page | data | page.txt | header
     || project | resource | proj_info.txt | 30,C
 
     """)
@@ -109,6 +109,7 @@ rv.V("""Material Densities and Seismic Models | data | save | nosub
     ewalldens1 = extwalldl1/(0.5*IN)                            |PCI, KNCM|2,2
     Model loads _[t]
 
+    _[page]
     """)
 # %%
 rv.I("""Abbreviations and References | data
@@ -117,7 +118,6 @@ rv.I("""Abbreviations and References | data
     || text | data | references.txt | literal | noshade
 
     _[page]
-
     """)
 
 rv.I("""--Drawing List | data

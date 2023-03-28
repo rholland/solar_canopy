@@ -2,22 +2,22 @@
 # %%
 import rivt.rivttext as rv
 # %%
-rv.R("""Overview | utf | 80,1
+rv.R("""Overview | utf | 80
 
     This structural design report is for a residential solar canopy in the
     County of Marin, City of Larkspur, California. It includes the design of a
     concrete slab, stem wall, steel tube frame, and attachments of solar panels
     to the frame.
 
-    The document is divided into three divisions:  
+    The document division are:  
 
-    - 01 Loads: gravity, wind, seismic 
-    - 02 Frame: steel tubes, connections, clips 
-    - 03 Foundation: slab, stem wall
+    - 01 Loads: gravity, wind and seismic 
+    - 02 Frame: steel tubes, connections and clips 
+    - 03 Foundation: slab and stem wall
 
+    || page | data | page.txt 
     || project | resource | proj_info.txt | 30,C
 
-    The project is nearly complete.
     """)
 # %%
 rv.I("""Solar Canopy Location | data

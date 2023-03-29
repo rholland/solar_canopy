@@ -2,36 +2,32 @@
 # %%
 import rivt.rivttext as rv
 # %%
-rv.R("""Overview | utf | 80
+rv.R("""Overview | 80 | 1
 
-    This structural design report is for a residential solar canopy in the
-    County of Marin, City of Larkspur, California. It includes the design of a
-    concrete slab, stem wall, steel tube frame, and attachments of solar panels
-    to the frame.
+    This report describes the structural design residential solar canopy in
+    the City of Larkspur, California. It includes the design of a concrete
+    slab, stem wall, steel tube frame, and attachments of solar panels to the
+    frame.
 
-    The document division are:  
+    The document divisions are:  
 
     - 01 Loads: gravity, wind and seismic 
     - 02 Frame: steel tubes, connections and clips 
     - 03 Foundation: slab and stem wall
 
-    || page | data | page.txt | header
+    || pages | data | head1.txt | head
     || project | resource | proj_info.txt | 30,C
 
     """)
 # %%
-rv.I("""Solar Canopy Location | data
+rv.I("""Solar Canopy Location and Applicable Codes 
 
-    The project is located in Larkspur.
-    
-    || image2 | fig1.png | 35 | fig2.png | 35 
+    The project is located in Larkspur, California.
+
+    || image2 | resource | fig1.png | 35 | fig2.png | 35 
     Site map - Marin County web site _[f]
     Site map - Google Earth _[f]
 
-    """)
-
-rv.I("""Building Codes | data
-    
     The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the
     2019 California Residential Code [CRC] as the basis for permiting
@@ -39,10 +35,6 @@ rv.I("""Building Codes | data
     CBC.
 
     || table | data | cbc2019_stds.xlsx | 53,L | [:]
-
-    """)
-
-rv.I("""Load Combinations | data  
  
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
@@ -52,10 +44,9 @@ rv.I("""Load Combinations | data
     || table | data | asce7_load_comb.csv | 55,C | [:]
 
     _[page]
-
     """)
 # %%
-rv.V("""Gravity Loads and Seismic Mass | data | save | nosub
+rv.V("""Gravity Loads and Seismic Mass | save | nosub
     
     Some filler text
 
@@ -93,7 +84,7 @@ rv.V("""Gravity Loads and Seismic Mass | data | save | nosub
       
     """)
 # %%
-rv.V("""Material Densities and Seismic Models | data | save | nosub
+rv.V("""Material Densities and Seismic Models | save | nosub
 
     Because the T&G roof is relatively more flexible, the effective floor load
     for seismic models is calculated as the sum of the floor and all of the
@@ -112,13 +103,12 @@ rv.V("""Material Densities and Seismic Models | data | save | nosub
     _[page]
     """)
 # %%
-rv.I("""Abbreviations and References | data
+rv.I("""Abbreviations and References
  
     References _[c]
     || text | data | references.txt | literal | noshade
 
     _[page]
-
     """)
 
 rv.I("""--Drawing List | data
@@ -130,7 +120,7 @@ rv.I("""--Drawing List | data
 
     """)
 
-rv.I("""--Abbreviations | data
+rv.I("""--Abbreviations
     
     Abbreviations - Terms _[c]
     || text | data | abbrev_terms.tex | raw | noshade
@@ -140,5 +130,4 @@ rv.I("""--Abbreviations | data
     
     """)
 
-
-# rv.Write()
+rv.write("utf")

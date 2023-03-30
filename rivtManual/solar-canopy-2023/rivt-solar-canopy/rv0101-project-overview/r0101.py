@@ -31,8 +31,8 @@ rv.I("""Solar Canopy Location and Applicable Codes
     The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the
     2019 California Residential Code [CRC] as the basis for permiting
-    construction work. The canopy is designed under the requirements of the
-    CBC.
+    construction work. The canopy _[*] is designed under the requirements of
+    the CBC.
 
     || table | data | cbc2019_stds.xlsx | 53,L | [:]
  
@@ -42,6 +42,8 @@ rv.I("""Solar Canopy Location and Applicable Codes
     || table | data | load_types01.csv | 30,L | [:]
 
     || table | data | asce7_load_comb.csv | 55,C | [:]
+
+    Constructed by abc fabricators _[d]
 
     _[page]
     """)
@@ -107,21 +109,16 @@ rv.I("""Abbreviations and References
  
     References _[c]
     || text | data | references.txt | literal | noshade
-
-    _[page]
     """)
 
 rv.I("""--Drawing List | data
-
+    _[page]
     Drawings _[c]
     || text | data | drawing_list.txt | literal | noshade
-
-    _[page]
-
     """)
 
 rv.I("""--Abbreviations
-    
+    _[page]
     Abbreviations - Terms _[c]
     || text | data | abbrev_terms.tex | raw | noshade
     

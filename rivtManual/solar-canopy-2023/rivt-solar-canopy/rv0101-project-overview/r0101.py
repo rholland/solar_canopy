@@ -115,16 +115,16 @@ rv.I("""--Drawing List | data
     _[page]
     Drawings _[c]
     || text | data | drawing_list.txt | literal | noshade
+    _[page]
     """)
 
 rv.I("""--Abbreviations
-    _[page]
     Abbreviations - Terms _[c]
     || text | data | abbrev_terms.tex | raw | noshade
     
     Abbreviations - Math _[c]
     || text | data | abbrev_math.tex | raw | noshade
-    
+    _[page]
     """)
 
-rv.write("utf", "pdf")
+rv.writedoc("utf, pdf")

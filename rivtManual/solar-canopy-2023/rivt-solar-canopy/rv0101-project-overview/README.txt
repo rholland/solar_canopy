@@ -8,17 +8,16 @@ the City of Larkspur, California. It includes the design of a concrete
 slab, stem wall, steel tube frame, and attachments of solar panels to the
 frame.
 
-The document divisions are:  
+The report is divided into the following three divisions:
 
 - 01 Loads: gravity, wind and seismic 
 - 02 Frame: steel tubes, connections and clips 
 - 03 Foundation: slab and stem wall
 
-This is some project information.
---------------------------------
-Client
-Date
-Location
+
+Client:
+Date:
+Location:
 
 --------------------------------------------------------------------------------
  Solar Canopy Location and Applicable Codes                         [0101] - 2
@@ -26,103 +25,70 @@ Location
 
 The project is located in Larkspur, California.
 
- image:: c:\git\solar_canopy\rivtManual\solar-canopy-2023\resource\rv01-loads\fig1.png
-   :width:  35 
+Figure path: resource\rv01-loads\fig1.png
+Wind load 1                                                         Fig. 01 [02]
 
-..  image:: c:\git\solar_canopy\rivtManual\solar-canopy-2023\resource\rv01-loads\fig2.png
-   :width:  35 
-Site map - Marin County web site                                    [02] Fig. 01
-Site map - Google Earth                                             [02] Fig. 03
+Figure path: resource\rv01-loads\fig2.png
+Wind load 2                                                         Fig. 03 [02]
 
 The permit approval is under the jurisdiction of the City of Larkspur,
 California which adopted the 2019 California Building Code [CBC] and the
 2019 California Residential Code [CRC] as the basis for permiting
-the CBC.
+requirements of the CBC.
 
-.. raw:: latex
-
-   \begin{tabulary}{1.0\textwidth}{leftleftleft}
-  \begin{tabular}{llr}
-  \hline
-   Category                                            & Standard   &   Year \\
-  \hline
-   Loading                                             & ASCE-7     &   2016 \\
-   Concrete                                            & ACI-318    &   2014 \\
-   Wood-National Design Specifications                 & AWC-NDS    &   2018 \\
-   Wood-Special Design Provisions for Wind and Seismic & AWC-SDPWS  &   2015 \\
-   Wood Frame Construction Manual                      & AWC-WFCM   &   2018 \\
-  \hline
-  \end{tabular}
-  \end{tabulary}
-  \vspace{.15in}
-
+===================================================  ==========  ======
+Category                                             Standard      Year
+===================================================  ==========  ======
+Loading                                              ASCE-7        2016
+Concrete                                             ACI-318       2014
+Wood-National Design Specifications                  AWC-NDS       2018
+Wood-Special Design Provisions for Wind and Seismic  AWC-SDPWS     2015
+Wood Frame Construction Manual                       AWC-WFCM      2018
+===================================================  ==========  ======
 Basic loads and load combinations are derived from the California Building
 and Residential Codes.
 
-.. raw:: latex
-
-   \begin{tabulary}{1.0\textwidth}{leftleftleft}
-  \begin{tabular}{lll}
-  \hline
-      & Load Effect               & Notes   \\
-  \hline
-   D  & Dead load                 & See IBC 1606 and Chapter 3 of
-  this publication         \\
-   E  & Combined effect of horizontal
-  and vertical earthquake-
-  induced forces as defined in
-  ASCE/SEI 12.4.2                           & See IBC 1613, ASCE/SEI 12.4.2
-  and Chapter 6 of this
-  publication         \\
-   Em & Maximum seismic load effect of
-  horizontal and vertical forces
-  as set forth in ASCE/SEI
-  12.4.3                           & See IBC 1613, ASCE/SEI 12.4.3
-  and Chapter 6 of this
-  publication         \\
-   H  & Load due to lateral earth
-  pressures, ground water
-  pressure or pressure of bulk
-  materials                           & See IBC 1610 for soil lateral
-  loads         \\
-   L  & Live load, except roof live
-  load, including any permitted
-  live load reduction                           & See IBC 1607 and Chapter 3 of
-  this publication         \\
-   Li & Roof live load including any
-  permitted live load reduction                           & See IBC 1607 and Chapter 3 of
-  this publication         \\
-   R  & Rain load                 & See IBC 1611 and Chapter 3 of
-  this publication         \\
-   W  & Load due to wind pressure & See IBC 1609 and Chapter 5 of
-  this publication         \\
-  \hline
-  \end{tabular}
-  \end{tabulary}
-  \vspace{.15in}
-
-.. raw:: latex
-
-   \begin{tabulary}{1.0\textwidth}{centercenter}
-  \begin{tabular}{cc}
-  \hline
-    CBC 2019 reference  &                        Equation                       \\
-  \hline
-      Equation 16-1     &                       1.4(D +F)                       \\
-      Equation 16-2     &            1.2(D + F) + l.6(L + H) + 0.5(L            \\
-      Equation 16-3     & 1.2(D + F) + l.6(Lr or S or R) + l.6H + (f1L or 0.5W) \\
-      Equation 16-4     &   1.2(D + F) + 1.0W + f1L +1.6H + 0.5(Lr or S or R)   \\
-      Equation 16-5     &         1.2(D + F) + 1.0E + f1L + l.6H + f2S          \\
-      Equation 16-6     &                   0.9D+ l.0W+ l.6H                    \\
-      Equation 16-7     &                0.9(D + F) + 1.0E+ l.6H                \\
-  \hline
-  \end{tabular}
-  \end{tabulary}
-  \vspace{.15in}
+=====  ==============================  =============================
+Sym    Load Effect                     Notes
+=====  ==============================  =============================
+D      Dead load                       See IBC 1606 and Chapter 3 of
+                                       this publication
+E      Combined effect of horizontal   See IBC 1613, ASCE/SEI 12.4.2
+       and vertical earthquake-        and Chapter 6 of this
+       induced forces as defined in    publication
+       ASCE/SEI 12.4.2
+Em     Maximum seismic load effect of  See IBC 1613, ASCE/SEI 12.4.3
+       horizontal and vertical forces  and Chapter 6 of this
+       as set forth in ASCE/SEI        publication
+       12.4.3
+H      Load due to lateral earth       See IBC 1610 for soil lateral
+       pressures, ground water         loads
+       pressure or pressure of bulk
+       materials
+L      Live load, except roof live     See IBC 1607 and Chapter 3 of
+       load, including any permitted   this publication
+       live load reduction
+Li     Roof live load including any    See IBC 1607 and Chapter 3 of
+       permitted live load reduction   this publication
+R      Rain load                       See IBC 1611 and Chapter 3 of
+                                       this publication
+W      Load due to wind pressure       See IBC 1609 and Chapter 5 of
+                                       this publication
+=====  ==============================  =============================
+====================  =====================================================
+ CBC 2019 reference                          Equation
+====================  =====================================================
+   Equation 16-1                            1.4(D +F)
+   Equation 16-2                 1.2(D + F) + l.6(L + H) + 0.5(L
+   Equation 16-3      1.2(D + F) + l.6(Lr or S or R) + l.6H + (f1L or 0.5W)
+   Equation 16-4        1.2(D + F) + 1.0W + f1L +1.6H + 0.5(Lr or S or R)
+   Equation 16-5              1.2(D + F) + 1.0E + f1L + l.6H + f2S
+   Equation 16-6                        0.9D+ l.0W+ l.6H
+   Equation 16-7                     0.9(D + F) + 1.0E+ l.6H
+====================  =====================================================
 
 
-
-2023-03-30 18:13              Solar Canopy - Larkspur, Ca.              page 2
+2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 2
 ________________________________________________________________________________
 
 
@@ -133,7 +99,7 @@ ________________________________________________________________________________
 
 Some filler text
 
-Roof unit dead loads                                              [03] Table: 01
+Roof unit dead loads                                              Table: 01 [03]
 
 ==========  =======  =========  =================================
 variable      value    [value]  description
@@ -145,7 +111,7 @@ ld4         1.0 psf   0.05 KPa  Doug Fir beams 4x12 at 12 ft o.c.
 ------       ------     ------  ------
 roofdl1     9.0 psf   0.43 KPa  Total roof unit load
 ==========  =======  =========  =================================
-Floor unit dead loads                                             [03] Table: 03
+Floor unit dead loads                                             Table: 03 [03]
 
 ==========  ========  =========  ==========================
 variable       value    [value]  description
@@ -157,7 +123,7 @@ ld4          1.5 psf   0.07 KPa  fixtures
 ------        ------     ------  ------
 floordl1    10.5 psf   0.50 KPa  Total floor unit load
 ==========  ========  =========  ==========================
-Interior wall unit dead loads                                     [03] Table: 05
+Interior wall unit dead loads                                     Table: 05 [03]
 
 ==========  =======  =========  =============================
 variable      value    [value]  description
@@ -168,7 +134,7 @@ ld3         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
 ==========  =======  =========  =============================
-Exterior wall unit dead loads                                     [03] Table: 07
+Exterior wall unit dead loads                                     Table: 07 [03]
 
 ==========  =======  =========  =============================
 variable      value    [value]  description
@@ -180,7 +146,7 @@ ld4         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
 ==========  =======  =========  =============================
-Areas                                                             [03] Table: 09
+Areas                                                             Table: 09 [03]
 
 ==========  =======  =========  ======================
 variable      value    [value]  description
@@ -198,22 +164,22 @@ lenwall2     155 ft    47.24 m  exterior wall length 2
 ==========  =======  =========  ======================
 
 
-Roof weight                                                         [03] Equ. 01
+Roof weight                                                         Equ. 01 [03]
 
 rfwt₁ = arearf₁⋅roofdl₁
-Floor weight                                                        [03] Equ. 04
+Floor weight                                                        Equ. 04 [03]
 
 flrwt₁ = areaflr₁⋅floordl₁
-Partition weight                                                    [03] Equ. 07
+Partition weight                                                    Equ. 07 [03]
 
 partwt₁ = htwall₁⋅intwalldl₁⋅lenwall₁
-Exterior wall weight                                                [03] Equ. 10
+Exterior wall weight                                                Equ. 10 [03]
 
 exwallwt₁ = extwalldl₁⋅htwall₁⋅lenwall₂
-Total building weight                                               [03] Equ. 13
+Total building weight                                               Equ. 13 [03]
 
 totwt₁ = exwallwt₁ + flrwt₁ + partwt₁ + rfwt₁
-Weights                                                           [03] Table: 11
+Weights                                                           Table: 11 [03]
 
 ==========  =========  =========  ===========================
 variable        value    [value]  description [eq. number]
@@ -234,27 +200,27 @@ Because the T&G roof is relatively more flexible, the effective floor load
 for seismic models is calculated as the sum of the floor and all of the
 partition weight.
 
-Effective model floor load                                          [04] Equ. 16
+Effective model floor load                                          Equ. 16 [04]
 
           flrwt₁ + partwt₁
 eflrdl₁ = ────────────────
               areaflr₁    
-Effective model floor density                                       [04] Equ. 19
+Effective model floor density                                       Equ. 19 [04]
 
             eflrdl₁
 eflrdens₁ = ───────
              0.5⋅IN
-Effective model roof density                                        [04] Equ. 22
+Effective model roof density                                        Equ. 22 [04]
 
            roofdl₁
 erfdens₁ = ───────
             1.5⋅IN
-Effective model wall density                                        [04] Equ. 25
+Effective model wall density                                        Equ. 25 [04]
 
              extwalldl₁
 ewalldens₁ = ──────────
                0.5⋅IN  
-Model loads                                                       [04] Table: 13
+Model loads                                                       Table: 13 [04]
 
 ==========  =========  ==========  ===================================
 variable        value     [value]  description [eq. number]
@@ -266,7 +232,7 @@ ewalldens1   0.12 pci  32.57 KNcM  Effective model wall density  [25]
 ==========  =========  ==========  ===================================
 
 
-2023-03-30 18:13              Solar Canopy - Larkspur, Ca.              page 3
+2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 3
 ________________________________________________________________________________
 
 
@@ -276,224 +242,204 @@ ________________________________________________________________________________
 --------------------------------------------------------------------------------
 
                                   References                                    
+    ACI 
+    American Concrete Institute 
+    38800 Country Club Drive 
+    Farmington Hills, MI 48331 
+    318—14 
+
+    AISC 
+    American Institute of Steel 
+    130 East Randolph Street, Suite 2000 
+    Chicago, IL 60601-6219 
+    ANSI/AISC 341—16 
+    Seismic Provisions for Structural Steel Buildings 
+
+    AISI 
+    American Iron and Steel Institute 
+    25 Massachusetts Avenue, NW Suite 800 
+    Washington, DC 20001 
+    AISI S100—16 
+    North American Specification for the Design of Cold-formed 
+    Steel Structural Members, 2016 
+
+    ASCE/SEI 
+    American Society of Civil Engineers 
+    Structural Engineering Institute 
+    1801 Alexander Bell Drive 
+    Reston, VA 20191-4400 
+    7—16 Minimum Design Loads and Associated Criteria for 
+    Buildings and Other Structures with Supplement No. 1 
+
+    AWC 
+    American Wood Council 
+    222 Catoctin Circle SE, Suite 201 
+    Leesburg, VA 20175 
+    ANSI/AWC NDS—2018 
+    National Design Specification (NDS) for 
+    Wood Construction—with 2018 NDS Supplement 
+    ANSI/AWC SDPWS—2015 
+    Special Design Provisions for Wind and Seismic 
+
+    CBC
+    International Code Council
+    500 New Jersey Avenue, NW
+    6th Floor, Washington, DC 20001
+    California Building Standards Commission
+    2525 Natomas Park Dr # 130, Sacramento, CA 95833
+    California Building Code 
+    Part 2 of Title 24, 2019 Edition
+
+    CRC
+    International Code Council
+    500 New Jersey Avenue, NW
+    6th Floor, Washington, DC 20001
+    California Building Standards Commission
+    2525 Natomas Park Dr # 130, Sacramento, CA 95833
+    California Residential Code 
+    Part 2.5 of Title 24, 2019 Edition
 
 
-::
-
-       ACI 
-       American Concrete Institute 
-       38800 Country Club Drive 
-       Farmington Hills, MI 48331 
-       318—14 
-   
-       AISC 
-       American Institute of Steel 
-       130 East Randolph Street, Suite 2000 
-       Chicago, IL 60601-6219 
-       ANSI/AISC 341—16 
-       Seismic Provisions for Structural Steel Buildings 
-   
-       AISI 
-       American Iron and Steel Institute 
-       25 Massachusetts Avenue, NW Suite 800 
-       Washington, DC 20001 
-       AISI S100—16 
-       North American Specification for the Design of Cold-formed 
-       Steel Structural Members, 2016 
-   
-       ASCE/SEI 
-       American Society of Civil Engineers 
-       Structural Engineering Institute 
-       1801 Alexander Bell Drive 
-       Reston, VA 20191-4400 
-       7—16 Minimum Design Loads and Associated Criteria for 
-       Buildings and Other Structures with Supplement No. 1 
-   
-       AWC 
-       American Wood Council 
-       222 Catoctin Circle SE, Suite 201 
-       Leesburg, VA 20175 
-       ANSI/AWC NDS—2018 
-       National Design Specification (NDS) for 
-       Wood Construction—with 2018 NDS Supplement 
-       ANSI/AWC SDPWS—2015 
-       Special Design Provisions for Wind and Seismic 
-   
-       CBC
-       International Code Council
-       500 New Jersey Avenue, NW
-       6th Floor, Washington, DC 20001
-       California Building Standards Commission
-       2525 Natomas Park Dr # 130, Sacramento, CA 95833
-       California Building Code 
-       Part 2 of Title 24, 2019 Edition
-   
-       CRC
-       International Code Council
-       500 New Jersey Avenue, NW
-       6th Floor, Washington, DC 20001
-       California Building Standards Commission
-       2525 Natomas Park Dr # 130, Sacramento, CA 95833
-       California Residential Code 
-       Part 2.5 of Title 24, 2019 Edition
-
-
-
-
-2023-03-30 18:13              Solar Canopy - Larkspur, Ca.              page 4
+2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 4
 ________________________________________________________________________________
+
 
 
                                    Drawings                                     
+    
+    55 LORING - RESIDENCE REMODEL AND SEISMIC STRENGTHENING
+    
+    PR.01: COVER AND INDEX
+    PR.02: PROJECT SCOPE
+    PR.03: GENERAL NOTES, CONTRACTORS
+    PR.04: SITE PLAN
+    PR.05: PLANS
+    PR.06: ELEVATIONS
+    PR.07: KITCHEN AND BATH REMODEL
+    PR.08: MASTER BATH, CLOSET, LAUNDRY
+    PR.09: RESIDENCE STRENGTHENING
+    PR.10: CARPORT STRENGTHENING
+    PR.11: SITE IMPROVEMENTS
 
 
-::
-
-       
-       55 LORING - RESIDENCE REMODEL AND SEISMIC STRENGTHENING
-       
-       PR.01: COVER AND INDEX
-       PR.02: PROJECT SCOPE
-       PR.03: GENERAL NOTES, CONTRACTORS
-       PR.04: SITE PLAN
-       PR.05: PLANS
-       PR.06: ELEVATIONS
-       PR.07: KITCHEN AND BATH REMODEL
-       PR.08: MASTER BATH, CLOSET, LAUNDRY
-       PR.09: RESIDENCE STRENGTHENING
-       PR.10: CARPORT STRENGTHENING
-       PR.11: SITE IMPROVEMENTS
-
-
-
-
-2023-03-30 18:13              Solar Canopy - Larkspur, Ca.              page 5
+2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 5
 ________________________________________________________________________________
 
 
+
                              Abbreviations - Terms                              
-.. raw:: latex
+Text0.2in4cm = 
+ASD       Allowable Stress Design
+ACI       American Concrete Institute
+AISC      American Institute of Steel Construction
+AISI      American Iron and Steel Institute
+ASTM      American Society for Testing and Materials
+AWS       American Welding Society
+AB        Anchor Bolt
+BDRY      Boundry
+CBC       Califiornia Building Code
+CRC       Califiornia Residential Code
+CIP       Cast-In-Place
+CLR       Clear
+CONC      Concrete
+CMU       Concrete Masonry Unit
+CRSI      Concrete Reinforcing Steel Institute
+CONST JT  Construction Joint
+CONT      Continuous
+CJ        Control Joint
+D-C       Demand-Capacity (ratio)
+DIA       Diameter
+DIM       Dimension
+EA        Each
+EF        Each Face
+EJ        Expansion Joint
+ES        Each Side
+EW        Each Way
+EXP Bolt  Expansion Bolt
+EXP JT    Expansion Joint
+FTG       Footing
+FND       Foundation
+GALV      Galvanized
+GA        Gauge
+GR        Grade
+HT        Height
+IN        Inch
+ID        Inside Diameter
+ICBO      International Conference of Building Officials
+K         Kip (1000 Pounds)
+LWC       Light Weight Concrete
+LRFD      Load and Resistance Factor Design
+NWC       Normal Weight Concrete
+NIC       Not in Contract
+OC        On Center
+OD        Outside Diameter
+OPNG      Opening
+PVC       Polyvinyl Chloride
+PSF       Pounds per Square Foot
+PSI       Pounds per Square Inch
+R         Radius
+REINF     Reinforced
+SIM       Similar
+SOG       Slab on Grade
+SL        Splice Length
+SQ        Square
+STD       Standard
+SDI       Steel Deck Institute
+SF        Step Footing or Square Foot
+SYM       Symmetrical
+THK       Thick or Thickness
+T  & B    Top and Bottom
+T  & G    Tongue and Groove
+TOC       Top of Concrete
+TOF       Top of Foundation
+TOS       Top of Steel
+TOW       Top of Wall
+TYP       Typical
+UNO       Unless Noted Otherwise
+WWF       Welded Wire Fabric
+W/        With
+WP        Working Point
 
-   \begin{center}\textbf{Text}\end{center}
-   \setlength{\parindent}{0.2in}
-   \hspace*{4cm} \= \kill
-   \begin{tabbing}
-       \indent\textbf{}         \>  {}\\
-       \indent\textbf{ASD}      \>  {Allowable Stress Design}\\
-       \indent\textbf{ACI}      \>  {American Concrete Institute}\\
-       \indent\textbf{AISC}     \>  {American Institute of Steel Construction}\\
-       \indent\textbf{AISI}     \>  {American Iron and Steel Institute}\\
-       \indent\textbf{ASTM}     \>  {American Society for Testing and Materials}\\
-       \indent\textbf{AWS}      \>  {American Welding Society}\\
-       \indent\textbf{AB}       \>  {Anchor Bolt}\\
-       \indent\textbf{BDRY}     \>  {Boundry}\\
-       \indent\textbf{CBC}      \>  {Califiornia Building Code}\\
-       \indent\textbf{CRC}      \>  {Califiornia Residential Code}\\
-       \indent\textbf{CIP}      \>  {Cast-In-Place}\\
-       \indent\textbf{CLR}      \>  {Clear}\\
-       \indent\textbf{CONC}     \>  {Concrete}\\
-       \indent\textbf{CMU}      \>  {Concrete Masonry Unit}\\
-       \indent\textbf{CRSI}     \>  {Concrete Reinforcing Steel Institute}\\
-       \indent\textbf{CONST JT} \>  {Construction Joint}\\
-       \indent\textbf{CONT}     \>  {Continuous}\\
-       \indent\textbf{CJ}       \>  {Control Joint}\\
-       \indent\textbf{D-C}      \>  {Demand-Capacity (ratio)}\\
-       \indent\textbf{DIA}      \>  {Diameter}\\
-       \indent\textbf{DIM}      \>  {Dimension}\\
-       \indent\textbf{EA}       \>  {Each}\\
-       \indent\textbf{EF}       \>  {Each Face}\\
-       \indent\textbf{EJ}       \>  {Expansion Joint}\\
-       \indent\textbf{ES}       \>  {Each Side}\\
-       \indent\textbf{EW}       \>  {Each Way}\\
-       \indent\textbf{EXP Bolt} \>  {Expansion Bolt}\\
-       \indent\textbf{EXP JT}   \>  {Expansion Joint}\\
-       \indent\textbf{FTG}      \>  {Footing}\\
-       \indent\textbf{FND}      \>  {Foundation}\\
-       \indent\textbf{GALV}     \>  {Galvanized}\\
-       \indent\textbf{GA}       \>  {Gauge}\\
-       \indent\textbf{GR}       \>  {Grade}\\
-       \indent\textbf{HT}       \>  {Height}\\
-       \indent\textbf{IN}       \>  {Inch}\\
-       \indent\textbf{ID}       \>  {Inside Diameter}\\
-       \indent\textbf{ICBO}     \>  {International Conference of Building Officials}\\
-       \indent\textbf{K}        \>  {Kip (1000 Pounds)}\\
-       \indent\textbf{LWC}      \>  {Light Weight Concrete}\\
-       \indent\textbf{LRFD}     \>  {Load and Resistance Factor Design}\\
-       \indent\textbf{NWC}      \>  {Normal Weight Concrete}\\
-       \indent\textbf{NIC}      \>  {Not in Contract}\\
-       \indent\textbf{OC}       \>  {On Center}\\
-       \indent\textbf{OD}       \>  {Outside Diameter}\\
-       \indent\textbf{OPNG}     \>  {Opening}\\
-       \indent\textbf{PVC}      \>  {Polyvinyl Chloride}\\
-       \indent\textbf{PSF}      \>  {Pounds per Square Foot}\\
-       \indent\textbf{PSI}      \>  {Pounds per Square Inch}\\
-       \indent\textbf{R}        \>  {Radius}\\
-       \indent\textbf{REINF}    \>  {Reinforced}\\
-       \indent\textbf{SIM}      \>  {Similar}\\
-       \indent\textbf{SOG}      \>  {Slab on Grade}\\
-       \indent\textbf{SL}       \>  {Splice Length}\\
-       \indent\textbf{SQ}       \>  {Square}\\
-       \indent\textbf{STD}      \>  {Standard}\\
-       \indent\textbf{SDI}      \>  {Steel Deck Institute}\\
-       \indent\textbf{SF}       \>  {Step Footing or Square Foot}\\
-       \indent\textbf{SYM}      \>  {Symmetrical}\\
-       \indent\textbf{THK}      \>  {Thick or Thickness}\\
-       \indent\textbf{T \& B}   \>  {Top and Bottom}\\
-       \indent\textbf{T \& G}   \>  {Tongue and Groove}\\
-       \indent\textbf{TOC}      \>  {Top of Concrete}\\
-       \indent\textbf{TOF}      \>  {Top of Foundation}\\
-       \indent\textbf{TOS}      \>  {Top of Steel}\\
-       \indent\textbf{TOW}      \>  {Top of Wall}\\
-       \indent\textbf{TYP}      \>  {Typical}\\
-       \indent\textbf{UNO}      \>  {Unless Noted Otherwise}\\
-       \indent\textbf{WWF}      \>  {Welded Wire Fabric}\\
-       \indent\textbf{W/}       \>  {With}\\
-       \indent\textbf{WP}       \>  {Working Point}\\
-   \end{tabbing}
-   
 
+
+2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 6
+________________________________________________________________________________
 
 
                              Abbreviations - Math                               
-.. raw:: latex
-
-   \begin{align}
-       \bm{D}       & = \textrm{dead load}                               \\
-       \bm{L}       & = \textrm{live load}                               \\
-       \bm{D_m}     & = \textrm{module dead load}                        \\
-       \bm{E}       & = \textrm{earthquake load}                         \\
-       \bm{F_a}     & = \textrm{acceleration site coefficient}           \\
-       \bm{F_v}     & = \textrm{velocity site coefficient}               \\
-       \bm{F_N}     & = \textrm{normal wind force}                       \\
-       \bm{GC_M_s}  & = \textrm{net moment static coefficient}           \\
-       \bm{GC_M_d}  & = \textrm{net moment dynamic coefficient}          \\
-       \bm{GC_M}    & = \textrm{net moment coefficient}                  \\
-       \bm{GC_P}    & = \textrm{net pressure coefficient}                \\
-       \bm{GC_P_s}  & = \textrm{net static pressure coefficient}         \\
-       \bm{GC_P_d}  & = \textrm{net dynamic pressure coefficient}        \\
-       \bm{k_1}     & = \textrm{hazard coefficient}                      \\
-       \bm{k_2}     & = \textrm{terrain and structure coefficient}       \\
-       \bm{k_3}     & = \textrm{topography coefficient}                  \\
-       \bm{Kzt}     & = \textrm{topographic Factor}                      \\
-       \bm{K_z}     & = \textrm{velocity pressure exposure coefficient}  \\
-       \bm{MRI}     & = \textrm{mean return interval}                    \\
-       \bm{p_d}     & = \textrm{net design wind pressure on module - Pa} \\
-       \bm{SDOF}    & = \textrm{single degree of freedom}                \\
-       \bm{S_s}     & = \textrm{short period mapped acceleration}        \\
-       \bm{S_D_S}   & = \textrm{site design response acceleration}       \\
-       \bm{S_1}     & = \textrm{1 second period mapped acceleration}     \\
-       \bm{S_M_S}   & = \textrm{short period parameter}                  \\
-       \bm{S_M_1}   & = \textrm{1 second period parameter}               \\
-       \bm{T}       & = \textrm{fundamental period of structure}         \\
-       \bm{M_t_o_r} & = \textrm{wind moment about panel center }         \\
-       \bm{T_0}     & = \textrm{short period spectral cap }              \\
-       \bm{T_S}     & = \textrm{long period spectral cap}                \\
-       \bm{V_b}     & = \textrm{basic wind speed}                        \\
-       \bm{V_B}     & = \textrm{seismic design base shear}               \\
-       \bm{W}       & = \textrm{wind load}                               \\
-       \bm{W}       & = \textrm{seismic weight of structure }            \\
-   \end{align}
-
-
+D          = dead load
+L          = live load
+D_m        = module dead load
+E          = earthquake load
+F_a        = acceleration site coefficient
+F_v        = velocity site coefficient
+F_N        = normal wind force
+GC_M_s     = net moment static coefficient
+GC_M_d     = net moment dynamic coefficient
+GC_M       = net moment coefficient
+GC_P       = net pressure coefficient
+GC_P_s     = net static pressure coefficient
+GC_P_d     = net dynamic pressure coefficient
+k_1        = hazard coefficient
+k_2        = terrain and structure coefficient
+k_3        = topography coefficient
+Kzt        = topographic Factor
+K_z        = velocity pressure exposure coefficient
+MRI        = mean return interval
+p_d        = net design wind pressure on module - Pa
+SDOF       = single degree of freedom
+S_s        = short period mapped acceleration
+S_D_S      = site design response acceleration
+S_1        = 1 second period mapped acceleration
+S_M_S      = short period parameter
+S_M_1      = 1 second period parameter
+T          = fundamental period of structure
+M_t_o_r    = wind moment about panel center 
+T_0        = short period spectral cap 
+T_S        = long period spectral cap
+V_b        = basic wind speed
+V_B        = seismic design base shear
+W          = wind load
+W          = seismic weight of structure 
 
 

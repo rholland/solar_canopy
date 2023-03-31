@@ -1,14 +1,47 @@
 
-This is some project information.
---------------------------------
-Client
-Date
-Location image:: c:\git\solar_canopy\rivtManual\solar-canopy-2023\resource\rv01-loads\fig1.png
-   :width:  35 
 
-..  image:: c:\git\solar_canopy\rivtManual\solar-canopy-2023\resource\rv01-loads\fig2.png
-   :width:  35 
-**Site map - Marin County web site ** ?x?hfill [02] Fig. 02 - 2**Site map - Google Earth ** ?x?hfill [02] Fig. 04 - 2.. raw:: latex
+This report describes the structural design residential solar canopy in
+the City of Larkspur, California. It includes the design of a concrete
+slab, stem wall, steel tube frame, and attachments of solar panels to the
+frame.
+
+The report is divided into the following three divisions:
+
+- 01 Loads: gravity, wind and seismic 
+- 02 Frame: steel tubes, connections and clips 
+- 03 Foundation: slab and stem wall
+
+
+
+Client:
+
+Date:
+
+Location:
+
+
+The project is located in Larkspur, California.
+
+
+.. image:: c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1.png
+   :scale:  30%
+   :align: center
+
+**Wind load 1** ?x?hfill  Fig. 02 [02]
+
+
+.. image:: c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png
+   :scale:  45%
+   :align: center
+
+**Wind load 2** ?x?hfill  Fig. 04 [02]
+
+The permit approval is under the jurisdiction of the City of Larkspur,
+California which adopted the 2019 California Building Code [CBC] and the
+2019 California Residential Code [CRC] as the basis for permiting
+requirements of the CBC.
+
+.. raw:: latex
 
    \begin{tabulary}{1.0\textwidth}{leftleftleft}
   \begin{tabular}{llr}
@@ -24,47 +57,52 @@ Location image:: c:\git\solar_canopy\rivtManual\solar-canopy-2023\resource\rv01-
   \end{tabular}
   \end{tabulary}
   \vspace{.15in}
+
+Basic loads and load combinations are derived from the California Building
+and Residential Codes.
+
 .. raw:: latex
 
    \begin{tabulary}{1.0\textwidth}{leftleftleft}
   \begin{tabular}{lll}
   \hline
-      & Load Effect               & Notes   \\
+   Sym   & Load Effect               & Notes   \\
   \hline
-   D  & Dead load                 & See IBC 1606 and Chapter 3 of
+   D     & Dead load                 & See IBC 1606 and Chapter 3 of
   this publication         \\
-   E  & Combined effect of horizontal
+   E     & Combined effect of horizontal
   and vertical earthquake-
   induced forces as defined in
   ASCE/SEI 12.4.2                           & See IBC 1613, ASCE/SEI 12.4.2
   and Chapter 6 of this
   publication         \\
-   Em & Maximum seismic load effect of
+   Em    & Maximum seismic load effect of
   horizontal and vertical forces
   as set forth in ASCE/SEI
   12.4.3                           & See IBC 1613, ASCE/SEI 12.4.3
   and Chapter 6 of this
   publication         \\
-   H  & Load due to lateral earth
+   H     & Load due to lateral earth
   pressures, ground water
   pressure or pressure of bulk
   materials                           & See IBC 1610 for soil lateral
   loads         \\
-   L  & Live load, except roof live
+   L     & Live load, except roof live
   load, including any permitted
   live load reduction                           & See IBC 1607 and Chapter 3 of
   this publication         \\
-   Li & Roof live load including any
+   Li    & Roof live load including any
   permitted live load reduction                           & See IBC 1607 and Chapter 3 of
   this publication         \\
-   R  & Rain load                 & See IBC 1611 and Chapter 3 of
+   R     & Rain load                 & See IBC 1611 and Chapter 3 of
   this publication         \\
-   W  & Load due to wind pressure & See IBC 1609 and Chapter 5 of
+   W     & Load due to wind pressure & See IBC 1609 and Chapter 5 of
   this publication         \\
   \hline
   \end{tabular}
   \end{tabulary}
   \vspace{.15in}
+
 .. raw:: latex
 
    \begin{tabulary}{1.0\textwidth}{centercenter}
@@ -83,10 +121,18 @@ Location image:: c:\git\solar_canopy\rivtManual\solar-canopy-2023\resource\rv01-
   \end{tabular}
   \end{tabulary}
   \vspace{.15in}
+
+
 .. raw:: latex 
 
  ?x?newpage 
-**[03] Table: 02** ?x?hfill  [03] Table: 02==========  =======  =========  =================================
+
+
+
+Some filler text
+
+** Table: 02 [03]** ?x?hfill   Table: 02 [03]
+==========  =======  =========  =================================
 variable      value    [value]  description
 ==========  =======  =========  =================================
 ld1         2.0 psf   0.10 KPa  Urethane foam (4 inch thick)
@@ -95,7 +141,9 @@ ld3         5.0 psf   0.24 KPa  Doug Fir decking 2-in.
 ld4         1.0 psf   0.05 KPa  Doug Fir beams 4x12 at 12 ft o.c.
 ------       ------     ------  ------
 roofdl1     9.0 psf   0.43 KPa  Total roof unit load
-==========  =======  =========  =================================**[03] Table: 04** ?x?hfill  [03] Table: 04==========  ========  =========  ==========================
+==========  =======  =========  =================================
+** Table: 04 [03]** ?x?hfill   Table: 04 [03]
+==========  ========  =========  ==========================
 variable       value    [value]  description
 ==========  ========  =========  ==========================
 ld1          3.0 psf   0.14 KPa  3/4 in. hardwood flooring
@@ -104,7 +152,9 @@ ld3          4.0 psf   0.19 KPa  2x10 joists at 16 in. o.c.
 ld4          1.5 psf   0.07 KPa  fixtures
 ------        ------     ------  ------
 floordl1    10.5 psf   0.50 KPa  Total floor unit load
-==========  ========  =========  ==========================**[03] Table: 06** ?x?hfill  [03] Table: 06==========  =======  =========  =============================
+==========  ========  =========  ==========================
+** Table: 06 [03]** ?x?hfill   Table: 06 [03]
+==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
 ld1         5.5 psf   0.26 KPa  5/8" sheet rock (2)
@@ -112,7 +162,9 @@ ld2           2 psf   0.10 KPa  2x4 studs at 16" o.c.
 ld3         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
-==========  =======  =========  =============================**[03] Table: 08** ?x?hfill  [03] Table: 08==========  =======  =========  =============================
+==========  =======  =========  =============================
+** Table: 08 [03]** ?x?hfill   Table: 08 [03]
+==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
 ld1         2.0 psf   0.10 KPa  1/2 in plywood sheathing
@@ -121,19 +173,61 @@ ld3         3.0 psf   0.14 KPa  5/8 in sheet rock
 ld4         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
-==========  =======  =========  =============================**[03] Table: 10** ?x?hfill  [03] Table: 10**Roof weight ** ?x?hfill [03] Equ. 02**rfwt1 = arearf1 * roofdl1                           ** ?x?hfill [03] Equ. 03
-**Floor weight ** ?x?hfill [03] Equ. 05**flrwt1 = areaflr1 * floordl1                        ** ?x?hfill [03] Equ. 06
-**Partition weight ** ?x?hfill [03] Equ. 08**partwt1 =  htwall1 * lenwall1 * intwalldl1          ** ?x?hfill [03] Equ. 09
-**Exterior wall weight ** ?x?hfill [03] Equ. 11**exwallwt1 = htwall1 * lenwall2 * extwalldl1         ** ?x?hfill [03] Equ. 12
-**Total building weight ** ?x?hfill [03] Equ. 14**totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1       ** ?x?hfill [03] Equ. 15
-**[03] Table: 12** ?x?hfill  [03] Table: 12**Effective model floor load  ** ?x?hfill [04] Equ. 17**eflrdl1 = (flrwt1 + partwt1)/(areaflr1)                     ** ?x?hfill [04] Equ. 18
-**Effective model floor density ** ?x?hfill [04] Equ. 20**eflrdens1 = eflrdl1/(0.5*IN)                                ** ?x?hfill [04] Equ. 21
-**Effective model roof density ** ?x?hfill [04] Equ. 23**erfdens1 = roofdl1/(1.5*IN)                                 ** ?x?hfill [04] Equ. 24
-**Effective model wall density ** ?x?hfill [04] Equ. 26**ewalldens1 = extwalldl1/(0.5*IN)                            ** ?x?hfill [04] Equ. 27
-**[04] Table: 14** ?x?hfill  [04] Table: 14.. raw:: latex 
+==========  =======  =========  =============================
+** Table: 10 [03]** ?x?hfill   Table: 10 [03]
+
+**Roof weight** ?x?hfill  Equ. 02 [03]
+
+**rfwt1 = arearf1 * roofdl1** ?x?hfill  Equ. 03 [03]
+
+**Floor weight** ?x?hfill  Equ. 05 [03]
+
+**flrwt1 = areaflr1 * floordl1** ?x?hfill  Equ. 06 [03]
+
+**Partition weight** ?x?hfill  Equ. 08 [03]
+
+**partwt1 =  htwall1 * lenwall1 * intwalldl1** ?x?hfill  Equ. 09 [03]
+
+**Exterior wall weight** ?x?hfill  Equ. 11 [03]
+
+**exwallwt1 = htwall1 * lenwall2 * extwalldl1** ?x?hfill  Equ. 12 [03]
+
+**Total building weight** ?x?hfill  Equ. 14 [03]
+
+**totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1** ?x?hfill  Equ. 15 [03]
+
+** Table: 12 [03]** ?x?hfill   Table: 12 [03]
+
+
+Because the T&G roof is relatively more flexible, the effective floor load
+for seismic models is calculated as the sum of the floor and all of the
+partition weight.
+
+**Effective model floor load** ?x?hfill  Equ. 17 [04]
+
+**eflrdl1 = (flrwt1 + partwt1)/(areaflr1)** ?x?hfill  Equ. 18 [04]
+
+**Effective model floor density** ?x?hfill  Equ. 20 [04]
+
+**eflrdens1 = eflrdl1/(0.5*IN)** ?x?hfill  Equ. 21 [04]
+
+**Effective model roof density** ?x?hfill  Equ. 23 [04]
+
+**erfdens1 = roofdl1/(1.5*IN)** ?x?hfill  Equ. 24 [04]
+
+**Effective model wall density** ?x?hfill  Equ. 26 [04]
+
+**ewalldens1 = extwalldl1/(0.5*IN)** ?x?hfill  Equ. 27 [04]
+
+** Table: 14 [04]** ?x?hfill   Table: 14 [04]
+.. raw:: latex 
 
  ?x?newpage 
-?x?begin{center} References ?x?end{center}
+
+
+
+?x?begin{center} References?x?end{center}
+
 
 ::
 
@@ -195,10 +289,14 @@ extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
        Part 2.5 of Title 24, 2019 Edition
 
 
+
 .. raw:: latex 
 
  ?x?newpage 
-?x?begin{center} Drawings ?x?end{center}
+
+
+?x?begin{center} Drawings?x?end{center}
+
 
 ::
 
@@ -218,10 +316,14 @@ extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
        PR.11: SITE IMPROVEMENTS
 
 
+
 .. raw:: latex 
 
  ?x?newpage 
-?x?begin{center} Abbreviations - Terms ?x?end{center}.. raw:: latex
+
+
+?x?begin{center} Abbreviations - Terms?x?end{center}
+.. raw:: latex
 
    \begin{center}\textbf{Text}\end{center}
    \setlength{\parindent}{0.2in}
@@ -302,7 +404,13 @@ extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
    
 
 
-?x?begin{center} Abbreviations - Math ?x?end{center}.. raw:: latex
+
+.. raw:: latex 
+
+ ?x?newpage 
+
+?x?begin{center} Abbreviations - Math?x?end{center}
+.. raw:: latex
 
    \begin{align}
        \bm{D}       & = \textrm{dead load}                               \\
@@ -340,5 +448,6 @@ extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
        \bm{W}       & = \textrm{wind load}                               \\
        \bm{W}       & = \textrm{seismic weight of structure }            \\
    \end{align}
+
 
 

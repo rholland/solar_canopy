@@ -1,5 +1,4 @@
-This is some project information.
---------------------------------
-Client
-Date
-Location
+
+Client:
+Date:
+Location:

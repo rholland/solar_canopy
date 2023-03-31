@@ -8,31 +8,33 @@ rv.R("""Overview | 80 | 1
     the City of Larkspur, California. It includes the design of a concrete
     slab, stem wall, steel tube frame, and attachments of solar panels to the
     frame.
-
-    The document divisions are:  
-
+ 
+    The report is divided into the following three divisions:
+ 
     - 01 Loads: gravity, wind and seismic 
     - 02 Frame: steel tubes, connections and clips 
     - 03 Foundation: slab and stem wall
 
     || pages | data | head1.txt | head
     || project | resource | proj_info.txt | 30,C
-
+ 
     """)
 # %%
 rv.I("""Solar Canopy Location and Applicable Codes 
 
     The project is located in Larkspur, California.
 
-    || image2 | resource | fig1.png | 35 | fig2.png | 35 
-    Site map - Marin County web site _[f]
-    Site map - Google Earth _[f]
+    || image | resource | fig1.png | 30
+    Wind load 1 _[f]
+    
+    || image | resource | fig2.png | 45
+    Wind load 2 _[f]
 
     The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the
     2019 California Residential Code [CRC] as the basis for permiting
-    construction work. The canopy _[*] is designed under the requirements of
-    the CBC.
+    construction work. The canopy _[*] is designed compliant with the
+    requirements of the CBC.
 
     || table | data | cbc2019_stds.xlsx | 53,L | [:]
  
@@ -111,20 +113,22 @@ rv.I("""Abbreviations and References
     || text | data | references.txt | literal | noshade
     """)
 
-rv.I("""--Drawing List | data
+rv.I("""--Drawing List 
     _[page]
+
     Drawings _[c]
     || text | data | drawing_list.txt | literal | noshade
     """)
 
 rv.I("""--Abbreviations
-    _[page]
+     _[page]
+
     Abbreviations - Terms _[c]
     || text | data | abbrev_terms.tex | raw | noshade
-    
+
+    _[page]
     Abbreviations - Math _[c]
     || text | data | abbrev_math.tex | raw | noshade
-    
     """)
 
 rv.writedoc("utf, pdf")

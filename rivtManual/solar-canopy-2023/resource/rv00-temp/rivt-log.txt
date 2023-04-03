@@ -1,0 +1,11 @@
+04-03 13:51  rivttext   INFO     start rivt file : [r0101.py]
+04-03 13:51  rivttext   INFO     rivt short path : [rivt-solar-canopy\rv0101-project-overview]
+04-03 13:51  rivttext   INFO     resource short path: [resource\rv01-loads]
+04-03 13:51  rivttext   INFO     log folder short path: [solar-canopy-2023\resource]
+04-03 13:51  rivttext   INFO     rivt backup: [rivt-solar-canopy\rv0101-project-overview]
+04-03 13:51  rivttext   INFO     end rivt file: [r0101.py]
+04-03 13:51  rivttext   INFO     utf doc written: rivt-solar-canopy\rv0101-project-overview\README.txt
+04-03 13:51  rivttext   INFO     reST file written: c:\git\solar_canopy\rivtManual\solar-canopy-2023\rivt-solar-canopy\rv0101-project-overview\r0101.rst
+04-03 13:51  rivttext   INFO     tex call:tex1S='python C:\\Python38\\Lib\\site-packages\\rivt\\scripts\\rst2xetex.py --embed-stylesheet  --documentclass=report  --documentoptions=12pt,notitle,letterpaper  --stylesheet=c:\\git\\solar_canopy\\rivtManual\\solar-canopy-2023\\rivt-solar-canopy\\rv0000-config\\pdf-style.sty c:\\git\\solar_canopy\\rivtManual\\solar-canopy-2023\\resource\\rv00-temp\\r0101.rst c:\\git\\solar_canopy\\rivtManual\\solar-canopy-2023\\resource\\rv00-temp\\r0101.tex'
+04-03 13:51  rivttext   INFO     tex file written: texfileP=WindowsPath('c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv00-temp/r0101.tex')
+04-03 13:52  rivttext   INFO     PDF doc written: c:\git\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.tex

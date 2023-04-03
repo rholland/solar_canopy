@@ -26,10 +26,10 @@ Location:
 The project is located in Larkspur, California.
 
 Figure path: resource\rv01-loads\fig1.png
-Wind load 1                                                         Fig. 01 [02]
+Fig. 01 - Wind load 1                                                  F01 - 02
 
 Figure path: resource\rv01-loads\fig2.png
-Wind load 2                                                         Fig. 03 [02]
+Fig. 02 - Wind load 2                                                  F02 - 02
 
 The permit approval is under the jurisdiction of the City of Larkspur,
 California which adopted the 2019 California Building Code [CBC] and the
@@ -88,9 +88,6 @@ W      Load due to wind pressure       See IBC 1609 and Chapter 5 of
 ====================  =====================================================
 
 
-2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 2
-________________________________________________________________________________
-
 
 
 --------------------------------------------------------------------------------
@@ -99,8 +96,7 @@ ________________________________________________________________________________
 
 Some filler text
 
-Roof unit dead loads                                              Table: 01 [03]
-
+Table 01 - Roof unit dead loads                                         T01 - 03
 ==========  =======  =========  =================================
 variable      value    [value]  description
 ==========  =======  =========  =================================
@@ -111,8 +107,7 @@ ld4         1.0 psf   0.05 KPa  Doug Fir beams 4x12 at 12 ft o.c.
 ------       ------     ------  ------
 roofdl1     9.0 psf   0.43 KPa  Total roof unit load
 ==========  =======  =========  =================================
-Floor unit dead loads                                             Table: 03 [03]
-
+Table 02 - Floor unit dead loads                                        T02 - 03
 ==========  ========  =========  ==========================
 variable       value    [value]  description
 ==========  ========  =========  ==========================
@@ -123,8 +118,7 @@ ld4          1.5 psf   0.07 KPa  fixtures
 ------        ------     ------  ------
 floordl1    10.5 psf   0.50 KPa  Total floor unit load
 ==========  ========  =========  ==========================
-Interior wall unit dead loads                                     Table: 05 [03]
-
+Table 03 - Interior wall unit dead loads                                T03 - 03
 ==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
@@ -134,8 +128,7 @@ ld3         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
 ==========  =======  =========  =============================
-Exterior wall unit dead loads                                     Table: 07 [03]
-
+Table 04 - Exterior wall unit dead loads                                T04 - 03
 ==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
@@ -146,8 +139,7 @@ ld4         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
 ==========  =======  =========  =============================
-Areas                                                             Table: 09 [03]
-
+Table 05 - Areas                                                        T05 - 03
 ==========  =======  =========  ======================
 variable      value    [value]  description
 ==========  =======  =========  ======================
@@ -164,31 +156,30 @@ lenwall2     155 ft    47.24 m  exterior wall length 2
 ==========  =======  =========  ======================
 
 
-Roof weight                                                         Equ. 01 [03]
+Equ. 01 - Roof weight                                                   E01 - 03
 
 rfwt₁ = arearf₁⋅roofdl₁
-Floor weight                                                        Equ. 04 [03]
+Equ. 02 - Floor weight                                                  E02 - 03
 
 flrwt₁ = areaflr₁⋅floordl₁
-Partition weight                                                    Equ. 07 [03]
+Equ. 03 - Partition weight                                              E03 - 03
 
 partwt₁ = htwall₁⋅intwalldl₁⋅lenwall₁
-Exterior wall weight                                                Equ. 10 [03]
+Equ. 04 - Exterior wall weight                                          E04 - 03
 
 exwallwt₁ = extwalldl₁⋅htwall₁⋅lenwall₂
-Total building weight                                               Equ. 13 [03]
+Equ. 05 - Total building weight                                         E05 - 03
 
 totwt₁ = exwallwt₁ + flrwt₁ + partwt₁ + rfwt₁
-Weights                                                           Table: 11 [03]
-
+Table 06 - Weights                                                      T06 - 03
 ==========  =========  =========  ===========================
 variable        value    [value]  description [eq. number]
 ==========  =========  =========  ===========================
 rfwt1        15.3 kip   68.06 KN  Roof weight  [01]
-flrwt1       12.6 kip   56.05 KN  Floor weight  [04]
-partwt1      8.91 kip   39.63 KN  Partition weight  [07]
-exwallwt1   11.86 kip   52.76 KN  Exterior wall weight  [10]
-totwt1      48.67 kip  216.49 KN  Total building weight  [13]
+flrwt1       12.6 kip   56.05 KN  Floor weight  [02]
+partwt1      8.91 kip   39.63 KN  Partition weight  [03]
+exwallwt1   11.86 kip   52.76 KN  Exterior wall weight  [04]
+totwt1      48.67 kip  216.49 KN  Total building weight  [05]
 ==========  =========  =========  ===========================
 
 
@@ -200,40 +191,36 @@ Because the T&G roof is relatively more flexible, the effective floor load
 for seismic models is calculated as the sum of the floor and all of the
 partition weight.
 
-Effective model floor load                                          Equ. 16 [04]
+Equ. 06 - Effective model floor load                                    E06 - 04
 
           flrwt₁ + partwt₁
 eflrdl₁ = ────────────────
               areaflr₁    
-Effective model floor density                                       Equ. 19 [04]
+Equ. 07 - Effective model floor density                                 E07 - 04
 
             eflrdl₁
 eflrdens₁ = ───────
              0.5⋅IN
-Effective model roof density                                        Equ. 22 [04]
+Equ. 08 - Effective model roof density                                  E08 - 04
 
            roofdl₁
 erfdens₁ = ───────
             1.5⋅IN
-Effective model wall density                                        Equ. 25 [04]
+Equ. 09 - Effective model wall density                                  E09 - 04
 
              extwalldl₁
 ewalldens₁ = ──────────
                0.5⋅IN  
-Model loads                                                       Table: 13 [04]
-
+Table 07 - Model loads                                                  T07 - 04
 ==========  =========  ==========  ===================================
 variable        value     [value]  description [eq. number]
 ==========  =========  ==========  ===================================
-eflrdl1     17.93 psf    0.86 KPa  Effective model floor load   [16]
-eflrdens1    0.25 pci  67.86 KNcM  Effective model floor density  [19]
-erfdens1     0.04 pci  10.86 KNcM  Effective model roof density  [22]
-ewalldens1   0.12 pci  32.57 KNcM  Effective model wall density  [25]
+eflrdl1     17.93 psf    0.86 KPa  Effective model floor load   [06]
+eflrdens1    0.25 pci  67.86 KNcM  Effective model floor density  [07]
+erfdens1     0.04 pci  10.86 KNcM  Effective model roof density  [08]
+ewalldens1   0.12 pci  32.57 KNcM  Effective model wall density  [09]
 ==========  =========  ==========  ===================================
 
-
-2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 3
-________________________________________________________________________________
 
 
 
@@ -300,9 +287,6 @@ ________________________________________________________________________________
     Part 2.5 of Title 24, 2019 Edition
 
 
-2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 4
-________________________________________________________________________________
-
 
 
                                    Drawings                                     
@@ -321,9 +305,6 @@ ________________________________________________________________________________
     PR.10: CARPORT STRENGTHENING
     PR.11: SITE IMPROVEMENTS
 
-
-2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 5
-________________________________________________________________________________
 
 
 
@@ -401,9 +382,6 @@ W/        With
 WP        Working Point
 
 
-
-2023-03-31 05:07              Solar Canopy - Larkspur, Ca.              page 6
-________________________________________________________________________________
 
 
                              Abbreviations - Math                               

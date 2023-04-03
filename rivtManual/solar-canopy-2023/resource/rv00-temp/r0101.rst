@@ -27,14 +27,16 @@ The project is located in Larkspur, California.
    :scale:  30%
    :align: center
 
-**Wind load 1** ?x?hfill  Fig. 02 [02]
+**Fig. 02 - **Wind load 1 ?x?hfill F02 - 02
+
 
 
 .. image:: c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png
    :scale:  45%
    :align: center
 
-**Wind load 2** ?x?hfill  Fig. 04 [02]
+**Fig. 03 - **Wind load 2 ?x?hfill F03 - 02
+
 
 The permit approval is under the jurisdiction of the City of Larkspur,
 California which adopted the 2019 California Building Code [CBC] and the
@@ -131,7 +133,8 @@ and Residential Codes.
 
 Some filler text
 
-** Table: 02 [03]** ?x?hfill   Table: 02 [03]
+**Table 02 - **Roof unit dead loads ?x?hfill T02 - 03
+
 ==========  =======  =========  =================================
 variable      value    [value]  description
 ==========  =======  =========  =================================
@@ -142,7 +145,8 @@ ld4         1.0 psf   0.05 KPa  Doug Fir beams 4x12 at 12 ft o.c.
 ------       ------     ------  ------
 roofdl1     9.0 psf   0.43 KPa  Total roof unit load
 ==========  =======  =========  =================================
-** Table: 04 [03]** ?x?hfill   Table: 04 [03]
+**Table 03 - **Floor unit dead loads ?x?hfill T03 - 03
+
 ==========  ========  =========  ==========================
 variable       value    [value]  description
 ==========  ========  =========  ==========================
@@ -153,7 +157,8 @@ ld4          1.5 psf   0.07 KPa  fixtures
 ------        ------     ------  ------
 floordl1    10.5 psf   0.50 KPa  Total floor unit load
 ==========  ========  =========  ==========================
-** Table: 06 [03]** ?x?hfill   Table: 06 [03]
+**Table 04 - **Interior wall unit dead loads ?x?hfill T04 - 03
+
 ==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
@@ -163,7 +168,8 @@ ld3         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
 ==========  =======  =========  =============================
-** Table: 08 [03]** ?x?hfill   Table: 08 [03]
+**Table 05 - **Exterior wall unit dead loads ?x?hfill T05 - 03
+
 ==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
@@ -174,52 +180,55 @@ ld4         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
 ==========  =======  =========  =============================
-** Table: 10 [03]** ?x?hfill   Table: 10 [03]
+**Table 06 - **Areas ?x?hfill T06 - 03
 
-**Roof weight** ?x?hfill  Equ. 02 [03]
 
-**rfwt1 = arearf1 * roofdl1** ?x?hfill  Equ. 03 [03]
+**Equ. 02 - **Roof weight ?x?hfill E02 - 03
 
-**Floor weight** ?x?hfill  Equ. 05 [03]
+**Equ. 02 - **rfwt1 = arearf1 * roofdl1 ?x?hfill E02 - 03
 
-**flrwt1 = areaflr1 * floordl1** ?x?hfill  Equ. 06 [03]
+**Equ. 03 - **Floor weight ?x?hfill E03 - 03
 
-**Partition weight** ?x?hfill  Equ. 08 [03]
+**Equ. 03 - **flrwt1 = areaflr1 * floordl1 ?x?hfill E03 - 03
 
-**partwt1 =  htwall1 * lenwall1 * intwalldl1** ?x?hfill  Equ. 09 [03]
+**Equ. 04 - **Partition weight ?x?hfill E04 - 03
 
-**Exterior wall weight** ?x?hfill  Equ. 11 [03]
+**Equ. 04 - **partwt1 =  htwall1 * lenwall1 * intwalldl1 ?x?hfill E04 - 03
 
-**exwallwt1 = htwall1 * lenwall2 * extwalldl1** ?x?hfill  Equ. 12 [03]
+**Equ. 05 - **Exterior wall weight ?x?hfill E05 - 03
 
-**Total building weight** ?x?hfill  Equ. 14 [03]
+**Equ. 05 - **exwallwt1 = htwall1 * lenwall2 * extwalldl1 ?x?hfill E05 - 03
 
-**totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1** ?x?hfill  Equ. 15 [03]
+**Equ. 06 - **Total building weight ?x?hfill E06 - 03
 
-** Table: 12 [03]** ?x?hfill   Table: 12 [03]
+**Equ. 06 - **totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1 ?x?hfill E06 - 03
+
+**Table 07 - **Weights ?x?hfill T07 - 03
+
 
 
 Because the T&G roof is relatively more flexible, the effective floor load
 for seismic models is calculated as the sum of the floor and all of the
 partition weight.
 
-**Effective model floor load** ?x?hfill  Equ. 17 [04]
+**Equ. 07 - **Effective model floor load ?x?hfill E07 - 04
 
-**eflrdl1 = (flrwt1 + partwt1)/(areaflr1)** ?x?hfill  Equ. 18 [04]
+**Equ. 07 - **eflrdl1 = (flrwt1 + partwt1)/(areaflr1) ?x?hfill E07 - 04
 
-**Effective model floor density** ?x?hfill  Equ. 20 [04]
+**Equ. 08 - **Effective model floor density ?x?hfill E08 - 04
 
-**eflrdens1 = eflrdl1/(0.5*IN)** ?x?hfill  Equ. 21 [04]
+**Equ. 08 - **eflrdens1 = eflrdl1/(0.5*IN) ?x?hfill E08 - 04
 
-**Effective model roof density** ?x?hfill  Equ. 23 [04]
+**Equ. 09 - **Effective model roof density ?x?hfill E09 - 04
 
-**erfdens1 = roofdl1/(1.5*IN)** ?x?hfill  Equ. 24 [04]
+**Equ. 09 - **erfdens1 = roofdl1/(1.5*IN) ?x?hfill E09 - 04
 
-**Effective model wall density** ?x?hfill  Equ. 26 [04]
+**Equ. 10 - **Effective model wall density ?x?hfill E10 - 04
 
-**ewalldens1 = extwalldl1/(0.5*IN)** ?x?hfill  Equ. 27 [04]
+**Equ. 10 - **ewalldens1 = extwalldl1/(0.5*IN) ?x?hfill E10 - 04
 
-** Table: 14 [04]** ?x?hfill   Table: 14 [04]
+**Table 08 - **Model loads ?x?hfill T08 - 04
+
 .. raw:: latex 
 
  ?x?newpage 

@@ -2,7 +2,7 @@
 # %%
 import rivt.rivttext as rv
 # %%
-rv.R("""Overview | 80 | 1
+rv.R("""Overview | 80 
 
     This report describes the structural design residential solar canopy in
     the City of Larkspur, California. It includes the design of a concrete
@@ -15,8 +15,8 @@ rv.R("""Overview | 80 | 1
     - 02 Frame: steel tubes, connections and clips 
     - 03 Foundation: slab and stem wall
 
-    || pages | data | head1.txt | head
-    || project | resource | proj_info.txt | 30,C
+    || pages | config | rivt-config.ini | pdf-style.sty | 1
+    || project | resource | proj-info.txt | 30,C
  
     """)
 # %%

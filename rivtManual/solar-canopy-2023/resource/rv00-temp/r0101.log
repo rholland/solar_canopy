@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.2)  3 APR 2023 13:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.2)  3 APR 2023 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1121,6 +1121,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks29
 )
 \DUadmonitionbox=\box57
+\DUlineblockindent=\skip64
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 (c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -1227,7 +1228,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip64
+\Hy@SectionHShift=\skip65
 ) (c:/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (c:/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
@@ -1241,70 +1242,70 @@ LaTeX Warning: Unused global option(s):
 (./r0101.aux)
 \openout1 = `r0101.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 130.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 150.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 130.
+ 150.
 (c:/texlive/2021/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-30.
+50.
 (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 150.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-130.
+150.
 (c:/texlive/2021/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 150.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 130.
+ 150.
 (c:/texlive/2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 150.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 130.
+e 150.
 (c:/texlive/2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 130.
+(lastpage)             ! on input line 150.
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/LinLibertine(0)/m/n --> TS1/LinLibertine(0)/b/n on 
-input line 130.
-Package gensymb Info: Math companion symbols declared on input line 130.
-LaTeX Info: Redefining \degree on input line 130.
-LaTeX Info: Redefining \celsius on input line 130.
+input line 150.
+Package gensymb Info: Math companion symbols declared on input line 150.
+LaTeX Info: Redefining \degree on input line 150.
+LaTeX Info: Redefining \celsius on input line 150.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 130.
-LaTeX Info: Redefining \ohm on input line 130.
-Package gensymb Info: Using \textohm for \ohm on input line 130.
-Package gensymb Info: Using \textmu for \micro on input line 130.
+erthousand on input line 150.
+LaTeX Info: Redefining \ohm on input line 150.
+Package gensymb Info: Using \textohm for \ohm on input line 150.
+Package gensymb Info: Using \textmu for \micro on input line 150.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1339,7 +1340,7 @@ Package gensymb Info: Using \textmu for \micro on input line 130.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 130.
+Package hyperref Info: Link coloring ON on input line 150.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1349,69 +1350,717 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 130.
-LaTeX Info: Redefining \pageref on input line 130.
-LaTeX Info: Redefining \nameref on input line 130.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 133.
-Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
-apping=tex-text;" at 14.4pt
- -> c:/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLibertine_R.o
-tf
+LaTeX Info: Redefining \ref on input line 150.
+LaTeX Info: Redefining \pageref on input line 150.
+LaTeX Info: Redefining \nameref on input line 150.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 133.
-Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
-mapping=tex-text;" at 14.4pt
- -> c:/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RB.
-otf
-(./r0101.toc)
-\tf@toc=\write3
-\openout3 = `r0101.toc'.
-
-[7
-
-
-] (./r0101.lot)
-\tf@lot=\write4
-\openout4 = `r0101.lot'.
-
-[8
-
-] (./r0101.lof)
-\tf@lof=\write5
-\openout5 = `r0101.lof'.
-
-File: C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1
-.png Graphic file (type bmp)
-<C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1.png>
-
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 161.
+(Font)              scaled to size 12.0pt on input line 157.
 Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 12.0pt
  -> c:/texlive/2021/texmf-dist/fonts/opentype/public/libertine/LinLibertine_RB.
 otf
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 182.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7
+
+]
+File: C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1
+.png Graphic file (type bmp)
+<C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1.png>
+
+File: C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2
+.png Graphic file (type bmp)
+<C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png>
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 199.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+! LaTeX Error: Environment tabulary undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210  \begin{tabulary}
+                       {1.0\textwidth}{leftleftleft}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.210  \begin{tabulary}{1.0\textwidth}
+                                      {leftleftleft}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.210  \begin{tabulary}{1.0\textwidth}
+                                      {leftleftleft}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.212 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced alignment tab character &.
+l.213 ...                                        &
+                                                   Standard   &   Year \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.213 ...                           & Standard   &
+                                                     Year \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.214 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+! Misplaced alignment tab character &.
+l.215 ...                                        &
+                                                   ASCE-7     &   2016 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.215 ...                           & ASCE-7     &
+                                                     2016 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216 ...                                        &
+                                                   ACI-318    &   2014 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.216 ...                           & ACI-318    &
+                                                     2014 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.217 ...l Design Specifications                 &
+                                                   AWC-NDS    &   2018 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.217 ...ifications                 & AWC-NDS    &
+                                                     2018 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.218 ... Design Provisions for Wind and Seismic &
+                                                   AWC-SDPWS  &   2015 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.218 ...sions for Wind and Seismic & AWC-SDPWS  &
+                                                     2015 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.219 ...onstruction Manual                      &
+                                                   AWC-WFCM   &   2018 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.219 ...anual                      & AWC-WFCM   &
+                                                     2018 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.220 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--220
+
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{tabulary}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 \end{tabulary}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment tabulary undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228  \begin{tabulary}
+                       {1.0\textwidth}{leftleftleft}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.228  \begin{tabulary}{1.0\textwidth}
+                                      {leftleftleft}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.228  \begin{tabulary}{1.0\textwidth}
+                                      {leftleftleft}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.230 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced alignment tab character &.
+l.231  Sym   &
+               Load Effect               & Notes   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.231  Sym   & Load Effect               &
+                                           Notes   \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.232 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+! Misplaced alignment tab character &.
+l.233  D     &
+               Dead load                 & See IBC 1606 and Chapter 3 of
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.233  D     & Dead load                 &
+                                           See IBC 1606 and Chapter 3 of
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.235  E     &
+               Combined effect of horizontal
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.238 ASCE/SEI 12.4.2                           &
+                                                  See IBC 1613, ASCE/SEI 12.4.2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.241  Em    &
+               Maximum seismic load effect of
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.244 12.4.3                           &
+                                         See IBC 1613, ASCE/SEI 12.4.3
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.247  H     &
+               Load due to lateral earth
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.250 materials                           &
+                                            See IBC 1610 for soil lateral
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.252  L     &
+               Live load, except roof live
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.254 ...oad reduction                           &
+                                                   See IBC 1607 and Chapter ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.256  Li    &
+               Roof live load including any
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.257 ...oad reduction                           &
+                                                   See IBC 1607 and Chapter ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.259  R     &
+               Rain load                 & See IBC 1611 and Chapter 3 of
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.259  R     & Rain load                 &
+                                           See IBC 1611 and Chapter 3 of
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.261  W     &
+               Load due to wind pressure & See IBC 1609 and Chapter 5 of
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.261  W     & Load due to wind pressure &
+                                           See IBC 1609 and Chapter 5 of
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.263 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--263
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 263.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+! LaTeX Error: \begin{document} ended by \end{tabulary}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 \end{tabulary}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment tabulary undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268  \begin{tabulary}
+                       {1.0\textwidth}{centercenter}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.268  \begin{tabulary}{1.0\textwidth}
+                                      {centercenter}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.268  \begin{tabulary}{1.0\textwidth}
+                                      {centercenter}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.270 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced alignment tab character &.
+l.271   CBC 2019 reference  &
+                                                     Equation               ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.272 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+! Misplaced alignment tab character &.
+l.273     Equation 16-1     &
+                                                    1.4(D +F)               ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.274     Equation 16-2     &
+                                         1.2(D + F) + l.6(L + H) + 0.5(L    ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.275     Equation 16-3     &
+                              1.2(D + F) + l.6(Lr or S or R) + l.6H + (f1L o...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.276     Equation 16-4     &
+                                1.2(D + F) + 1.0W + f1L +1.6H + 0.5(Lr or S ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.277     Equation 16-5     &
+                                      1.2(D + F) + 1.0E + f1L + l.6H + f2S  ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.278     Equation 16-6     &
+                                                0.9D+ l.0W+ l.6H            ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.279     Equation 16-7     &
+                                             0.9(D + F) + 1.0E+ l.6H        ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.280 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--280
+
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{tabulary}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 \end{tabulary}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 285.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
 LaTeX Font Info:    Font shape `TU/DejaVuSansMono(1)/m/n' will be
-(Font)              scaled to size 9.60004pt on input line 169.
+(Font)              scaled to size 9.60004pt on input line 305.
 Requested font "DejaVu Sans Mono/OT:script=latn;language=dflt;" at 9.60004pt
  -> C:/texlive/2021/texmf-dist/fonts/truetype/public/dejavu/DejaVuSansMono.ttf
 
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 169--170
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
+Overfull \hbox (68.09235pt too wide) in paragraph at lines 305--306
+[]\TU/LinLibertine(0)/m/n/12 ERROR/3[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git\s
+olar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinLib
+ertine(0)/m/n/12 ,
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+LinLibertine(0) on 
-input line 173.
-LaTeX Font Info:    No file OT1LinLibertine(0).fd. on input line 173.
+input line 324.
+LaTeX Font Info:    No file OT1LinLibertine(0).fd. on input line 324.
 
 LaTeX Font Warning: Font shape `OT1/LinLibertine(0)/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 173.
+(Font)              using `OT1/cmr/m/n' instead on input line 324.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 173.
+(Font)              size <12> substituted on input line 324.
 
 Requested font "cmr12" at 12.0pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -1430,7 +2079,7 @@ Requested font "ntxexx" at 13.0pt
 Requested font "ntxexx" at 11.0pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-173.
+324.
 (c:/texlive/2021/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
@@ -1439,7 +2088,7 @@ Requested font "nxlmia" at 13.0pt
 Requested font "nxlmia" at 11.0pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/public/newtx/nxlmia.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-173.
+324.
 (c:/texlive/2021/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
@@ -1448,7 +2097,7 @@ Requested font "ntxsym" at 13.0pt
 Requested font "ntxsym" at 11.0pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-173.
+324.
 (c:/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
@@ -1462,12 +2111,12 @@ Requested font "ntxexa" at 11.0pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 
 LaTeX Font Warning: Font shape `OT1/LinLibertine(0)/sb/n' undefined
-(Font)              using `OT1/LinLibertine(0)/m/n' instead on input line 173.
+(Font)              using `OT1/LinLibertine(0)/m/n' instead on input line 324.
 
 
 LaTeX Font Warning: Font shape `OT1/LinLibertine(0)/m/n' in size <13> not avail
 able
-(Font)              size <12> substituted on input line 173.
+(Font)              size <12> substituted on input line 324.
 
 Requested font "nxlbmi" at 13.0pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/public/newtx/nxlbmi.tfm
@@ -1482,684 +2131,36 @@ Requested font "ntxbexx" at 13.0pt
 Requested font "ntxbexx" at 11.0pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/public/newtx/ntxbexx.tfm
 LaTeX Font Info:    Trying to load font information for TS1+LinLibertine(0) on 
-input line 173.
-LaTeX Font Info:    No file TS1LinLibertine(0).fd. on input line 173.
+input line 324.
+LaTeX Font Info:    No file TS1LinLibertine(0).fd. on input line 324.
 
 LaTeX Font Warning: Font shape `TS1/LinLibertine(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 173.
+(Font)              using `TS1/cmr/m/n' instead on input line 324.
 
 
 LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 173.
+(Font)              size <12> substituted on input line 324.
 
 Requested font "tcrm1200" at 12.0pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 Requested font "tcrm1095" at 10.95pt
  -> c:/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
-[9
 
-]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 181--182
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-File: C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2
-.png Graphic file (type bmp)
-<C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png>
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 199--200
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
+Overfull \hbox (68.09235pt too wide) in paragraph at lines 338--339
+[]\TU/LinLibertine(0)/m/n/12 ERROR/3[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git\s
+olar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinLib
+ertine(0)/m/n/12 ,
  []
 
 
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 211--212
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
+Overfull \hbox (68.09235pt too wide) in paragraph at lines 371--372
+[]\TU/LinLibertine(0)/m/n/12 ERROR/3[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git\s
+olar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinLib
+ertine(0)/m/n/12 ,
  []
 
 
-! LaTeX Error: Environment tabulary undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.223  \begin{tabulary}
-                       {1.0\textwidth}{leftleftleft}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.223  \begin{tabulary}{1.0\textwidth}
-                                      {leftleftleft}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.223  \begin{tabulary}{1.0\textwidth}
-                                      {leftleftleft}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.225 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.226 ...                                        &
-                                                   Standard   &   Year \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.226 ...                           & Standard   &
-                                                     Year \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.227 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
- []
-
-! Misplaced alignment tab character &.
-l.228 ...                                        &
-                                                   ASCE-7     &   2016 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.228 ...                           & ASCE-7     &
-                                                     2016 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.229 ...                                        &
-                                                   ACI-318    &   2014 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.229 ...                           & ACI-318    &
-                                                     2014 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.230 ...l Design Specifications                 &
-                                                   AWC-NDS    &   2018 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.230 ...ifications                 & AWC-NDS    &
-                                                     2018 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.231 ... Design Provisions for Wind and Seismic &
-                                                   AWC-SDPWS  &   2015 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.231 ...sions for Wind and Seismic & AWC-SDPWS  &
-                                                     2015 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.232 ...onstruction Manual                      &
-                                                   AWC-WFCM   &   2018 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.232 ...anual                      & AWC-WFCM   &
-                                                     2018 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.233 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--233
-
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 233.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10]
-
-! LaTeX Error: \begin{document} ended by \end{tabulary}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 \end{tabulary}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment tabulary undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241  \begin{tabulary}
-                       {1.0\textwidth}{leftleftleft}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.241  \begin{tabulary}{1.0\textwidth}
-                                      {leftleftleft}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.241  \begin{tabulary}{1.0\textwidth}
-                                      {leftleftleft}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.243 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.244  Sym   &
-               Load Effect               & Notes   \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.244  Sym   & Load Effect               &
-                                           Notes   \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.245 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
-
- []
-
-! Misplaced alignment tab character &.
-l.246  D     &
-               Dead load                 & See IBC 1606 and Chapter 3 of
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.246  D     & Dead load                 &
-                                           See IBC 1606 and Chapter 3 of
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.248  E     &
-               Combined effect of horizontal
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.251 ASCE/SEI 12.4.2                           &
-                                                  See IBC 1613, ASCE/SEI 12.4.2
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.254  Em    &
-               Maximum seismic load effect of
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.257 12.4.3                           &
-                                         See IBC 1613, ASCE/SEI 12.4.3
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.260  H     &
-               Load due to lateral earth
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.263 materials                           &
-                                            See IBC 1610 for soil lateral
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.265  L     &
-               Live load, except roof live
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.267 ...oad reduction                           &
-                                                   See IBC 1607 and Chapter ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.269  Li    &
-               Roof live load including any
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.270 ...oad reduction                           &
-                                                   See IBC 1607 and Chapter ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.272  R     &
-               Rain load                 & See IBC 1611 and Chapter 3 of
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.272  R     & Rain load                 &
-                                           See IBC 1611 and Chapter 3 of
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.274  W     &
-               Load due to wind pressure & See IBC 1609 and Chapter 5 of
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.274  W     & Load due to wind pressure &
-                                           See IBC 1609 and Chapter 5 of
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.276 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--276
-
- []
-
-
-! LaTeX Error: \begin{document} ended by \end{tabulary}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.278 \end{tabulary}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment tabulary undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281  \begin{tabulary}
-                       {1.0\textwidth}{centercenter}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.281  \begin{tabulary}{1.0\textwidth}
-                                      {centercenter}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.281  \begin{tabulary}{1.0\textwidth}
-                                      {centercenter}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.283 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced alignment tab character &.
-l.284   CBC 2019 reference  &
-                                                     Equation               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.285 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-
- []
-
-! Misplaced alignment tab character &.
-l.286     Equation 16-1     &
-                                                    1.4(D +F)               ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.287     Equation 16-2     &
-                                         1.2(D + F) + l.6(L + H) + 0.5(L    ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.288     Equation 16-3     &
-                              1.2(D + F) + l.6(Lr or S or R) + l.6H + (f1L o...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.289     Equation 16-4     &
-                                1.2(D + F) + 1.0W + f1L +1.6H + 0.5(Lr or S ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.290     Equation 16-5     &
-                                      1.2(D + F) + 1.0E + f1L + l.6H + f2S  ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.291     Equation 16-6     &
-                                                0.9D+ l.0W+ l.6H            ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.292     Equation 16-7     &
-                                             0.9(D + F) + 1.0E+ l.6H        ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.293 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--293
-
- []
-
-
-! LaTeX Error: \begin{document} ended by \end{tabulary}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.295 \end{tabulary}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 298.
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 389.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2170,56 +2171,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 311--312
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 323--324
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (68.09235pt too wide) in paragraph at lines 335--336
+Overfull \hbox (68.09235pt too wide) in paragraph at lines 403--404
 []\TU/LinLibertine(0)/m/n/12 ERROR/3[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git\s
 olar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinLib
 ertine(0)/m/n/12 ,
  []
 
 
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 362--363
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 377--378
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 389--390
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (68.09235pt too wide) in paragraph at lines 401--402
-[]\TU/LinLibertine(0)/m/n/12 ERROR/3[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git\s
-olar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinLib
-ertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 420.
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 445.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2230,35 +2189,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 428--429
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
 
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 443--444
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 455--456
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (68.09235pt too wide) in paragraph at lines 467--468
-[]\TU/LinLibertine(0)/m/n/12 ERROR/3[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git\s
-olar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinLib
-ertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 485.
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 498.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2269,35 +2201,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 493--494
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
 
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 508--509
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 520--521
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (68.09235pt too wide) in paragraph at lines 532--533
-[]\TU/LinLibertine(0)/m/n/12 ERROR/3[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git\s
-olar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinLib
-ertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 551.
+LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 560.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2308,397 +2213,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 559--560
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 574--575
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 586--587
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 602--603
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 614--615
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 626.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 630--631
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 642--643
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 658--659
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 670--671
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 686--687
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 698--699
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 714--715
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 726--727
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 730.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 742--743
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 754--755
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 770--771
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 782--783
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 798--799
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 810--811
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 826--827
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 830.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[17]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 838--839
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 854--855
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 866--867
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 882--883
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 894--895
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 914--915
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 926--927
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 930.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[18]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 942--943
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 954--955
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 970--971
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 982--983
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 998--999
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1010--1011
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 1014.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1026--1027
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1038--1039
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1054--1055
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1066--1067
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1082--1083
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1094--1095
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1110--1111
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 1114.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20]
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1122--1123
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1138--1139
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-Overfull \hbox (85.86435pt too wide) in paragraph at lines 1150--1151
-[]\TU/LinLibertine(0)/m/n/12 WARNING/2[] in \TU/DejaVuSansMono(1)/m/n/12 c:\git
-\solar_canopy\rivtManual\solar-canopy-2023\resource\rv00-temp\r0101.rst\TU/LinL
-ibertine(0)/m/n/12 ,
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 1157.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[21]
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{
-               center\} References\end\{center\}
+l.567 \begin\{
+              center\} References\end\{center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{
-               center\} References\end\{center\}
+l.567 \begin\{
+              center\} References\end\{center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
@@ -2709,8 +2236,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1159 \begin\{
-               center\} References\end\{center\}
+l.567 \begin\{
+              center\} References\end\{center\}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2718,808 +2245,808 @@ or  <return>  to continue without it.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 ! Missing \endcsname inserted.
 <to be read again> 
                    \TU\textbraceleft 
-l.1159 \begin\{center\} References\end\{
-                                        center\}
+l.567 \begin\{center\} References\end\{
+                                       center\}
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 24982 strings out of 476493
- 483054 string characters out of 5820669
- 743456 words of memory out of 5000000
- 45061 multiletter control sequences out of 15000+600000
- 415886 words of font info for 122 fonts, out of 8000000 for 9000
+ 24964 strings out of 476493
+ 482718 string characters out of 5820669
+ 744633 words of memory out of 5000000
+ 45054 multiletter control sequences out of 15000+600000
+ 415813 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,12n,119p,336b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,12n,119p,334b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on r0101.xdv (15 pages, 211496 bytes).
+Output written on r0101.xdv (8 pages, 77576 bytes).

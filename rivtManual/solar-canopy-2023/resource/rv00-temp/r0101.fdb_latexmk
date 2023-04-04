@@ -1,12 +1,12 @@
 # Fdb version 3
-["xdvipdfmx"] 1680555119 "r0101.xdv" "r0101.pdf" "r0101" 1680555123
-  "r0101.xdv" 1680555119 211496 53700dce9547d25ae88c2956aa91459f "xelatex"
+["xdvipdfmx"] 1680570900 "r0101.xdv" "r0101.pdf" "r0101" 1680570902
+  "r0101.xdv" 1680570899 77576 191ec0f02d0c83ad77187b2b8113df6d "xelatex"
   (generated)
   "r0101.pdf"
-["xelatex"] 1680555115 "c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv00-temp/r0101.tex" "r0101.xdv" "r0101" 1680555123
+["xelatex"] 1680570896 "c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv00-temp/r0101.tex" "r0101.xdv" "r0101" 1680570902
   "C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1.png" 1651538244 134934 5acbad2af786e6870850795bfd61b0b2 ""
   "C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png" 1651538244 38109 50606425f55b0aa2a222e9e4b44e445d ""
-  "c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv00-temp/r0101.tex" 1680555100 58256 bdb17385f5551db8b05a7d3bb50d92a3 ""
+  "c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv00-temp/r0101.tex" 1680570889 28429 942190f693a04756937b69c5a1f96b31 ""
   "c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1.png" 1651538244 134934 5acbad2af786e6870850795bfd61b0b2 ""
   "c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png" 1651538244 38109 50606425f55b0aa2a222e9e4b44e445d ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1633159981 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -122,15 +122,9 @@
   "c:/texlive/2021/texmf-dist/web2c/texmf.cnf" 1633161151 40042 fe981136cbb5f3715ab1b0e46e3d3892 ""
   "c:/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt" 1633166492 5130181 5b286d30d53487a1849466a66c0028c1 ""
   "c:/texlive/2021/texmf.cnf" 1633166290 713 e69b156964470283e0530f5060668171 ""
-  "r0101.aux" 1680555119 634 01d71c0c14419d90ed20bc06c3963a0c "xelatex"
-  "r0101.lof" 1680555118 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "r0101.lot" 1680555118 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "r0101.tex" 1680555100 58256 bdb17385f5551db8b05a7d3bb50d92a3 ""
-  "r0101.toc" 1680555118 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "r0101.aux" 1680570899 634 01d71c0c14419d90ed20bc06c3963a0c "xelatex"
+  "r0101.tex" 1680570889 28429 942190f693a04756937b69c5a1f96b31 ""
   (generated)
-  "r0101.lof"
   "r0101.log"
-  "r0101.lot"
-  "r0101.xdv"
   "r0101.aux"
-  "r0101.toc"
+  "r0101.xdv"

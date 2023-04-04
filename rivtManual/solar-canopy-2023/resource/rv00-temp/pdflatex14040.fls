@@ -1,0 +1,5 @@
+PWD c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv00-temp
+INPUT c:/texlive/2021/texmf.cnf
+INPUT c:/texlive/2021/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv00-temp/r0101.tex

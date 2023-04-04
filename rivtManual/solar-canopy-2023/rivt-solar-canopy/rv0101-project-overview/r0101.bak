@@ -15,7 +15,7 @@ rv.R("""Overview | 80
     - 02 Frame: steel tubes, connections and clips 
     - 03 Foundation: slab and stem wall
 
-    || pages | config | rivt-config.ini | pdf-style.sty | 1
+    || pages | config | rivt-config.ini | pdf-style2.sty | 1
     || project | resource | proj-info.txt | 30,C
  
     """)
@@ -24,16 +24,16 @@ rv.I("""Solar Canopy Location and Applicable Codes
 
     The project is located in Larkspur, California.
 
-    || image | resource | fig1.png | 30
+    || image | resource | fig1.png | 25
     Wind load 1 _[f]
     
-    || image | resource | fig2.png | 45
+    || image | resource | fig2.png | 55
     Wind load 2 _[f]
 
     The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the
     2019 California Residential Code [CRC] as the basis for permiting
-    construction work. The canopy _[*] is designed compliant with the
+    construction work. The canopy is designed compliant with the
     requirements of the CBC.
 
     || table | data | cbc2019_stds.xlsx | 53,L | [:]
@@ -44,8 +44,6 @@ rv.I("""Solar Canopy Location and Applicable Codes
     || table | data | load_types01.csv | 30,L | [:]
 
     || table | data | asce7_load_comb.csv | 55,C | [:]
-
-    Constructed by abc fabricators _[d]
 
     _[page]
     """)

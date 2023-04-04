@@ -1,4 +1,9 @@
 
+.. raw:: latex
+
+   ?x?vspace{.2in}   ?x?textbf{Overview}   ?x?hfill?x?textbf{SECTION [0101] - 1}
+   ?x?newline   ?x?vspace{.05in}   {?x?color{black}?x?hrulefill}
+
 
 This report describes the structural design residential solar canopy in
 the City of Larkspur, California. It includes the design of a concrete
@@ -19,28 +24,44 @@ Date:
 
 Location:
 
+.. raw:: latex
+
+   \pagebreak
+
+.. raw:: latex
+
+   ?x?vspace{.2in}   ?x?textbf{Solar Canopy Location and Applicable Codes}   ?x?hfill?x?textbf{SECTION [0101] - 2}
+   ?x?newline   ?x?vspace{.05in}   {?x?color{black}?x?hrulefill}
+
 
 The project is located in Larkspur, California.
 
 
 .. image:: c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1.png
-   :scale:  30%
+   :scale:  25%
    :align: center
 
-**Fig. 02 - **Wind load 1 ?x?hfill F02 - 02
+
+| 
+
+**Figure 1** Wind load 1 ?x?hfill F01 - 02
 
 
 
 .. image:: c:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png
-   :scale:  45%
+   :scale:  55%
    :align: center
 
-**Fig. 03 - **Wind load 2 ?x?hfill F03 - 02
+
+| 
+
+**Figure 2** Wind load 2 ?x?hfill F02 - 02
 
 
 The permit approval is under the jurisdiction of the City of Larkspur,
 California which adopted the 2019 California Building Code [CBC] and the
 2019 California Residential Code [CRC] as the basis for permiting
+construction work. The canopy is designed compliant with the
 requirements of the CBC.
 
 .. raw:: latex
@@ -124,16 +145,27 @@ and Residential Codes.
   \end{tabulary}
   \vspace{.15in}
 
-
 .. raw:: latex 
 
  ?x?newpage 
 
 
+.. raw:: latex
+
+   \pagebreak
+
+.. raw:: latex
+
+   ?x?vspace{.2in}   ?x?textbf{Gravity Loads and Seismic Mass}   ?x?hfill?x?textbf{SECTION [0101] - 3}
+   ?x?newline   ?x?vspace{.05in}   {?x?color{black}?x?hrulefill}
+
 
 Some filler text
 
-**Table 02 - **Roof unit dead loads ?x?hfill T02 - 03
+
+| 
+
+**Table 01** Roof unit dead loads ?x?hfill T01 - 03
 
 ==========  =======  =========  =================================
 variable      value    [value]  description
@@ -145,7 +177,10 @@ ld4         1.0 psf   0.05 KPa  Doug Fir beams 4x12 at 12 ft o.c.
 ------       ------     ------  ------
 roofdl1     9.0 psf   0.43 KPa  Total roof unit load
 ==========  =======  =========  =================================
-**Table 03 - **Floor unit dead loads ?x?hfill T03 - 03
+
+| 
+
+**Table 02** Floor unit dead loads ?x?hfill T02 - 03
 
 ==========  ========  =========  ==========================
 variable       value    [value]  description
@@ -157,7 +192,10 @@ ld4          1.5 psf   0.07 KPa  fixtures
 ------        ------     ------  ------
 floordl1    10.5 psf   0.50 KPa  Total floor unit load
 ==========  ========  =========  ==========================
-**Table 04 - **Interior wall unit dead loads ?x?hfill T04 - 03
+
+| 
+
+**Table 03** Interior wall unit dead loads ?x?hfill T03 - 03
 
 ==========  =======  =========  =============================
 variable      value    [value]  description
@@ -168,7 +206,10 @@ ld3         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
 ==========  =======  =========  =============================
-**Table 05 - **Exterior wall unit dead loads ?x?hfill T05 - 03
+
+| 
+
+**Table 04** Exterior wall unit dead loads ?x?hfill T04 - 03
 
 ==========  =======  =========  =============================
 variable      value    [value]  description
@@ -180,59 +221,140 @@ ld4         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
 ==========  =======  =========  =============================
-**Table 06 - **Areas ?x?hfill T06 - 03
+
+| 
+
+**Table 05** Areas ?x?hfill T05 - 03
 
 
-**Equ. 02 - **Roof weight ?x?hfill E02 - 03
 
-**Equ. 02 - **rfwt1 = arearf1 * roofdl1 ?x?hfill E02 - 03
+| 
 
-**Equ. 03 - **Floor weight ?x?hfill E03 - 03
+**Eq. 1** Roof weight ?x?hfill E01 - 03
 
-**Equ. 03 - **flrwt1 = areaflr1 * floordl1 ?x?hfill E03 - 03
 
-**Equ. 04 - **Partition weight ?x?hfill E04 - 03
+| 
 
-**Equ. 04 - **partwt1 =  htwall1 * lenwall1 * intwalldl1 ?x?hfill E04 - 03
+**Eq. 1** rfwt1 = arearf1 * roofdl1 ?x?hfill E01 - 03
 
-**Equ. 05 - **Exterior wall weight ?x?hfill E05 - 03
 
-**Equ. 05 - **exwallwt1 = htwall1 * lenwall2 * extwalldl1 ?x?hfill E05 - 03
+| 
 
-**Equ. 06 - **Total building weight ?x?hfill E06 - 03
+**Eq. 2** Floor weight ?x?hfill E02 - 03
 
-**Equ. 06 - **totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1 ?x?hfill E06 - 03
 
-**Table 07 - **Weights ?x?hfill T07 - 03
+| 
 
+**Eq. 2** flrwt1 = areaflr1 * floordl1 ?x?hfill E02 - 03
+
+
+| 
+
+**Eq. 3** Partition weight ?x?hfill E03 - 03
+
+
+| 
+
+**Eq. 3** partwt1 =  htwall1 * lenwall1 * intwalldl1 ?x?hfill E03 - 03
+
+
+| 
+
+**Eq. 4** Exterior wall weight ?x?hfill E04 - 03
+
+
+| 
+
+**Eq. 4** exwallwt1 = htwall1 * lenwall2 * extwalldl1 ?x?hfill E04 - 03
+
+
+| 
+
+**Eq. 5** Total building weight ?x?hfill E05 - 03
+
+
+| 
+
+**Eq. 5** totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1 ?x?hfill E05 - 03
+
+
+| 
+
+**Table 06** Weights ?x?hfill T06 - 03
+
+
+.. raw:: latex
+
+   \pagebreak
+
+.. raw:: latex
+
+   ?x?vspace{.2in}   ?x?textbf{Material Densities and Seismic Models}   ?x?hfill?x?textbf{SECTION [0101] - 4}
+   ?x?newline   ?x?vspace{.05in}   {?x?color{black}?x?hrulefill}
 
 
 Because the T&G roof is relatively more flexible, the effective floor load
 for seismic models is calculated as the sum of the floor and all of the
 partition weight.
 
-**Equ. 07 - **Effective model floor load ?x?hfill E07 - 04
 
-**Equ. 07 - **eflrdl1 = (flrwt1 + partwt1)/(areaflr1) ?x?hfill E07 - 04
+| 
 
-**Equ. 08 - **Effective model floor density ?x?hfill E08 - 04
+**Eq. 6** Effective model floor load ?x?hfill E06 - 04
 
-**Equ. 08 - **eflrdens1 = eflrdl1/(0.5*IN) ?x?hfill E08 - 04
 
-**Equ. 09 - **Effective model roof density ?x?hfill E09 - 04
+| 
 
-**Equ. 09 - **erfdens1 = roofdl1/(1.5*IN) ?x?hfill E09 - 04
+**Eq. 6** eflrdl1 = (flrwt1 + partwt1)/(areaflr1) ?x?hfill E06 - 04
 
-**Equ. 10 - **Effective model wall density ?x?hfill E10 - 04
 
-**Equ. 10 - **ewalldens1 = extwalldl1/(0.5*IN) ?x?hfill E10 - 04
+| 
 
-**Table 08 - **Model loads ?x?hfill T08 - 04
+**Eq. 7** Effective model floor density ?x?hfill E07 - 04
+
+
+| 
+
+**Eq. 7** eflrdens1 = eflrdl1/(0.5*IN) ?x?hfill E07 - 04
+
+
+| 
+
+**Eq. 8** Effective model roof density ?x?hfill E08 - 04
+
+
+| 
+
+**Eq. 8** erfdens1 = roofdl1/(1.5*IN) ?x?hfill E08 - 04
+
+
+| 
+
+**Eq. 9** Effective model wall density ?x?hfill E09 - 04
+
+
+| 
+
+**Eq. 9** ewalldens1 = extwalldl1/(0.5*IN) ?x?hfill E09 - 04
+
+
+| 
+
+**Table 07** Model loads ?x?hfill T07 - 04
 
 .. raw:: latex 
 
  ?x?newpage 
 
+
+.. raw:: latex
+
+   \pagebreak
+
+.. raw:: latex
+
+   ?x?vspace{.2in}   ?x?textbf{Abbreviations and References}   ?x?hfill?x?textbf{SECTION [0101] - 5}
+   ?x?newline   ?x?vspace{.05in}   {?x?color{black}?x?hrulefill}
 
 
 ?x?begin{center} References?x?end{center}

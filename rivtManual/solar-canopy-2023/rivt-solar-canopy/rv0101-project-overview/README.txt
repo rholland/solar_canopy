@@ -26,14 +26,15 @@ Location:
 The project is located in Larkspur, California.
 
 Figure path: resource\rv01-loads\fig1.png
-Fig. 01 - Wind load 1                                                  F01 - 02
+Fig. 00 - Wind load 1                                                  F00 - 02
 
 Figure path: resource\rv01-loads\fig2.png
-Fig. 02 - Wind load 2                                                  F02 - 02
+Fig. 01 - Wind load 2                                                  F01 - 02
 
 The permit approval is under the jurisdiction of the City of Larkspur,
 California which adopted the 2019 California Building Code [CBC] and the
 2019 California Residential Code [CRC] as the basis for permiting
+construction work. The canopy is designed compliant with the
 requirements of the CBC.
 
 ===================================================  ==========  ======
@@ -89,14 +90,13 @@ W      Load due to wind pressure       See IBC 1609 and Chapter 5 of
 
 
 
-
 --------------------------------------------------------------------------------
  Gravity Loads and Seismic Mass                                     [0101] - 3
 --------------------------------------------------------------------------------
 
 Some filler text
 
-Table 01 - Roof unit dead loads                                         T01 - 03
+Table 00 - Roof unit dead loads                                         T00 - 03
 ==========  =======  =========  =================================
 variable      value    [value]  description
 ==========  =======  =========  =================================
@@ -107,7 +107,7 @@ ld4         1.0 psf   0.05 KPa  Doug Fir beams 4x12 at 12 ft o.c.
 ------       ------     ------  ------
 roofdl1     9.0 psf   0.43 KPa  Total roof unit load
 ==========  =======  =========  =================================
-Table 02 - Floor unit dead loads                                        T02 - 03
+Table 01 - Floor unit dead loads                                        T01 - 03
 ==========  ========  =========  ==========================
 variable       value    [value]  description
 ==========  ========  =========  ==========================
@@ -118,7 +118,7 @@ ld4          1.5 psf   0.07 KPa  fixtures
 ------        ------     ------  ------
 floordl1    10.5 psf   0.50 KPa  Total floor unit load
 ==========  ========  =========  ==========================
-Table 03 - Interior wall unit dead loads                                T03 - 03
+Table 02 - Interior wall unit dead loads                                T02 - 03
 ==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
@@ -128,7 +128,7 @@ ld3         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
 ==========  =======  =========  =============================
-Table 04 - Exterior wall unit dead loads                                T04 - 03
+Table 03 - Exterior wall unit dead loads                                T03 - 03
 ==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
@@ -139,7 +139,7 @@ ld4         1.5 psf   0.07 KPa  fixtures
 ------       ------     ------  ------
 extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
 ==========  =======  =========  =============================
-Table 05 - Areas                                                        T05 - 03
+Table 04 - Areas                                                        T04 - 03
 ==========  =======  =========  ======================
 variable      value    [value]  description
 ==========  =======  =========  ======================
@@ -171,7 +171,7 @@ exwallwt₁ = extwalldl₁⋅htwall₁⋅lenwall₂
 Equ. 05 - Total building weight                                         E05 - 03
 
 totwt₁ = exwallwt₁ + flrwt₁ + partwt₁ + rfwt₁
-Table 06 - Weights                                                      T06 - 03
+Table 05 - Weights                                                      T05 - 03
 ==========  =========  =========  ===========================
 variable        value    [value]  description [eq. number]
 ==========  =========  =========  ===========================
@@ -211,7 +211,7 @@ Equ. 09 - Effective model wall density                                  E09 - 04
              extwalldl₁
 ewalldens₁ = ──────────
                0.5⋅IN  
-Table 07 - Model loads                                                  T07 - 04
+Table 06 - Model loads                                                  T06 - 04
 ==========  =========  ==========  ===================================
 variable        value     [value]  description [eq. number]
 ==========  =========  ==========  ===================================

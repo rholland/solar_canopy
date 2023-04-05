@@ -10,8 +10,12 @@
 \fi
 \usepackage{ifthen}
 \usepackage{alltt}
+\usepackage{amsmath}
 \usepackage{color}
 \usepackage{graphicx}
+\usepackage{longtable,ltcaption,array}
+\setlength{\extrarowheight}{2pt}
+\newlength{\DUtablewidth} % internal use in tables
 
 %%% Custom LaTeX preamble
 % Linux Libertine (free, wide coverage, not only for Linux)
@@ -23,47 +27,50 @@
 % embedded stylesheet: c:\git\solar_canopy\rivtManual\solar-canopy-2023\rivt-solar-canopy\rv0000-config\pdf-style2.sty
 \makeatletter
 %%
-%% rivt simple LaTex report class style
+%% default LaTex report class style for rivtcalc 
 %%
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
-\usepackage[no-math]{fontspec}
-\usepackage{libertine}
-\usepackage[libertine]{newtxmath}
-\usepackage{currfile}
+\usepackage{fontspec}
+\usepackage{dejavu}
 \usepackage{bm}
 \usepackage{gensymb}
 \usepackage[normalem]{ulem}
 \usepackage{etoolbox}
-%% math font
-\setmonofont{DejaVu Sans Mono}[Scale=0.8]
-\DeclareMathSizes{12}{13}{11}{11}
-%% margins
+\usepackage{tabulary}
+\usepackage{longtable}
 \usepackage{geometry}
-\geometry{hmargin={1.0in,0.75in},vmargin={0.9in,1.0in}}
+\usepackage{mathastext}
+%% font size
+\setmainfont{DejaVu Sans}[Scale=0.8]
+\setsansfont{DejaVu Sans}[Scale=0.8]
+\setmonofont{DejaVu Sans Mono}[Scale=0.8]
+\setmathrm{Arial}
+\setmathsf{Arial}
+\setmathtt{Arial}
+\DeclareMathSizes{10}
+\renewcommand\familydefault\sfdefault
+%% \usepackage[libertine]{newtxmath}
+
+%% margins
+\geometry{hmargin={0.5in,0.5in},vmargin={0.8in,0.8in}}
 \setlength{\parindent}{0in}
-
+\setlength{\parskip}{.1in}
+\renewenvironment{quote}
+{\small\list{}{\rightmargin=0cm \leftmargin=0cm}%
+    \item\relax}
+{\endlist}
 %% pagestyle plain - table of contents
-\fancypagestyle{plain} {%
-    \fancyhf{}
-    \filename@parse{\currfilename}
-    \fancyfoot[C]{file: \filename@base .txt \hfill \today\ }
-    \renewcommand\headrulewidth{0pt}
-    \renewcommand\footrulewidth{1pt}
-}
-
-%% pagestyle fancy - calculation
 %% header
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\normalsize  Solar Canopy - Larkspur, California}
-\fancyhead[R]{\normalsize Page \thepage\ of \pageref*{LastPage} \phantom{aaaaaaaaaa}}
+\fancyhead[R]{\normalsize [0101]  page \thepage}
 \renewcommand\chaptermark[1]{\markboth{#1}{}}
 \renewcommand\sectionmark[1]{\markright{\thesection.\ #1}}
 %% footer
-\filename@parse{\currfilename}
-\fancyfoot[C]{model: \filename@base .txt \hfill \today\ }
+\fancyfoot[C]{calc file: \jobname .py \hfill \today\ }
 \renewcommand\headrulewidth{1pt}
 \renewcommand\footrulewidth{1pt}
 %% modify section headings - chapters
@@ -99,11 +106,6 @@
   {\csname end\DocutilsClassFunctionName \endcsname}%
 \fi
 
-% Provide a length variable and set default, if it is new
-\providecommand*{\DUprovidelength}[2]{
-  \ifthenelse{\isundefined{#1}}{\newlength{#1}\setlength{#1}{#2}}{}
-}
-
 % admonition environment (specially marked topic)
 \ifx\DUadmonition\undefined % poor man's "provideenvironment"
  \newbox{\DUadmonitionbox}
@@ -119,21 +121,6 @@
   }
 \fi
 
-% line block environment
-\DUprovidelength{\DUlineblockindent}{2.5em}
-\ifthenelse{\isundefined{\DUlineblock}}{
-  \newenvironment{DUlineblock}[1]{%
-    \list{}{\setlength{\partopsep}{\parskip}
-            \addtolength{\partopsep}{\baselineskip}
-            \setlength{\topsep}{0pt}
-            \setlength{\itemsep}{0.15\baselineskip}
-            \setlength{\parsep}{0pt}
-            \setlength{\leftmargin}{#1}}
-    \raggedright
-  }
-  {\endlist}
-}{}
-
 % title for topics, admonitions, unsupported section levels, and sidebar
 \providecommand*{\DUtitle}[1]{%
   \smallskip\noindent\textbf{#1}\smallskip}
@@ -148,29 +135,38 @@
 %%% Body
 \renewcommand{\contentsname}{Solar Canopy - Larkspur, California}
 \begin{document}
-\setcounter{page}{7}
+\setcounter{page}{5}
 
 \makeatletter
 \renewcommand\@dotsep{10000}\makeatother
 
 
-\vspace{.2in}   \textbf{Overview}   \hfill\textbf{SECTION [0101] - 1}
+\vspace{.2in}   \textbf{ Overview}   \hfill\textbf{SECTION [0101] - 1 }
 \newline   \vspace{.05in}   {\color{black}\hrulefill}
 
-This report describes the structural design residential solar canopy in
-the City of Larkspur, California. It includes the design of a concrete
-slab, stem wall, steel tube frame, and attachments of solar panels to the
-frame.
+This report describes the structural design of a solar canopy covering a
+residential patio located in the City of Larkspur, California. It includes
+the design of a concrete slab and stem wall, steel tube frame, and
+attachments of solar panels to the frame. The report is divided into the
+following divisions and subdivisions:
 
-The report is divided into the following three divisions:
-
-\begin{itemize}
-\item 01 Loads: gravity, wind and seismic
-
-\item 02 Frame: steel tubes, connections and clips
-
-\item 03 Foundation: slab and stem wall
-\end{itemize}
+\begin{quote}
+\begin{alltt}
+[01] Loads
+    [01] Gravity
+    [02] Wind and Seismic
+[02] Frame
+    [01] Steel tubes
+    [02] Connections and clips
+[03] Foundation
+    [01] Slab
+    [02] Stem wall
+[04] References and Abbreviations
+    [01] Codes and Standards
+    [02] Abbreviations
+    [03] Symbols
+\end{alltt}
+\end{quote}
 
 Client:
 
@@ -178,390 +174,1029 @@ Date:
 
 Location:
 
-\pagebreak
-
-\vspace{.2in}   \textbf{Solar Canopy Location and Applicable Codes}   \hfill\textbf{SECTION [0101] - 2}
+\vspace{.2in}   \textbf{ Governing Codes}   \hfill\textbf{SECTION [0101] - 2 }
 \newline   \vspace{.05in}   {\color{black}\hrulefill}
 
-The project is located in Larkspur, California.
+\noindent\makebox[\linewidth][c]{\includegraphics[scale=0.200000]{C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1.png}}
 
-\noindent\makebox[\linewidth][c]{\includegraphics[scale=0.250000]{C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig1.png}}
+\vspace{.05in}
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\textbf{Figure 1} Wind load 1 \hfill 02 - F01
 
-\textbf{Figure 1} Wind load 1 \hfill F01 - 02
+  \vspace{.05in}
 
-\noindent\makebox[\linewidth][c]{\includegraphics[scale=0.550000]{C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png}}
+\nopagebreak
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\noindent\makebox[\linewidth][c]{\includegraphics[scale=0.450000]{C:/git/solar_canopy/rivtManual/solar-canopy-2023/resource/rv01-loads/fig2.png}}
 
-\textbf{Figure 2} Wind load 2 \hfill F02 - 02
+\vspace{.05in}
+
+\textbf{Figure 2} Wind load 2 \hfill 02 - F02
+
+  \vspace{.05in}
+
+\nopagebreak
 
 The permit approval is under the jurisdiction of the City of Larkspur,
 California which adopted the 2019 California Building Code {[}CBC{]} and the
 2019 California Residential Code {[}CRC{]} as the basis for permiting
-construction work. The canopy is designed compliant with the
+construction work. The canopy is designed for compliance with the
 requirements of the CBC.
 
- \begin{tabulary}{1.0\textwidth}{leftleftleft}
-%% {llr}
+\vspace{.05in}
+
+\textbf{Table 01} Standards \hfill 02 - T01
+
+  \vspace{.05in}
+
+\nopagebreak
+
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.610\DUtablewidth}|p{0.133\DUtablewidth}|p{0.086\DUtablewidth}|}
 \hline
- Category                                            & Standard   &   Year \\
+\textbf{%
+Category
+} & \textbf{%
+Standard
+} & \textbf{%
+Year
+} \\
 \hline
- Loading                                             & ASCE-7     &   2016 \\
- Concrete                                            & ACI-318    &   2014 \\
- Wood-National Design Specifications                 & AWC-NDS    &   2018 \\
- Wood-Special Design Provisions for Wind and Seismic & AWC-SDPWS  &   2015 \\
- Wood Frame Construction Manual                      & AWC-WFCM   &   2018 \\
+\endfirsthead
 \hline
-%% 
-\end{tabulary}
-\vspace{.15in}
+\textbf{%
+Category
+} & \textbf{%
+Standard
+} & \textbf{%
+Year
+} \\
+\hline
+\endhead
+\multicolumn{3}{p{0.83\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
+
+Loading
+ & 
+ASCE-7
+ & 
+2016
+ \\
+\hline
+
+Concrete
+ & 
+ACI-318
+ & 
+2014
+ \\
+\hline
+
+Wood-National Design Specifications
+ & 
+AWC-NDS
+ & 
+2018
+ \\
+\hline
+
+Wood-Special Design Provisions for Wind and Seismic
+ & 
+AWC-SDPWS
+ & 
+2015
+ \\
+\hline
+
+Wood Frame Construction Manual
+ & 
+AWC-WFCM
+ & 
+2018
+ \\
+\hline
+\end{longtable*}
 
 Basic loads and load combinations are derived from the California Building
 and Residential Codes.
 
- \begin{tabulary}{1.0\textwidth}{leftleftleft}
-%% {lll}
-\hline
- Sym   & Load Effect               & Notes   \\
-\hline
- D     & Dead load                 & See IBC 1606 and Chapter 3 of
-this publication         \\
- E     & Combined effect of horizontal
-and vertical earthquake-
-induced forces as defined in
-ASCE/SEI 12.4.2                           & See IBC 1613, ASCE/SEI 12.4.2
-and Chapter 6 of this
-publication         \\
- Em    & Maximum seismic load effect of
-horizontal and vertical forces
-as set forth in ASCE/SEI
-12.4.3                           & See IBC 1613, ASCE/SEI 12.4.3
-and Chapter 6 of this
-publication         \\
- H     & Load due to lateral earth
-pressures, ground water
-pressure or pressure of bulk
-materials                           & See IBC 1610 for soil lateral
-loads         \\
- L     & Live load, except roof live
-load, including any permitted
-live load reduction                           & See IBC 1607 and Chapter 3 of
-this publication         \\
- Li    & Roof live load including any
-permitted live load reduction                           & See IBC 1607 and Chapter 3 of
-this publication         \\
- R     & Rain load                 & See IBC 1611 and Chapter 3 of
-this publication         \\
- W     & Load due to wind pressure & See IBC 1609 and Chapter 5 of
-this publication         \\
-\hline
-%% 
-\end{tabulary}
-\vspace{.15in}
+\vspace{.05in}
 
- \begin{tabulary}{1.0\textwidth}{centercenter}
-%% {cc}
-\hline
-  CBC 2019 reference  &                        Equation                       \\
-\hline
-    Equation 16-1     &                       1.4(D +F)                       \\
-    Equation 16-2     &            1.2(D + F) + l.6(L + H) + 0.5(L            \\
-    Equation 16-3     & 1.2(D + F) + l.6(Lr or S or R) + l.6H + (f1L or 0.5W) \\
-    Equation 16-4     &   1.2(D + F) + 1.0W + f1L +1.6H + 0.5(Lr or S or R)   \\
-    Equation 16-5     &         1.2(D + F) + 1.0E + f1L + l.6H + f2S          \\
-    Equation 16-6     &                   0.9D+ l.0W+ l.6H                    \\
-    Equation 16-7     &                0.9(D + F) + 1.0E+ l.6H                \\
-\hline
-%% 
-\end{tabulary}
-\vspace{.15in}
+\textbf{Table 02} Load Types \hfill 02 - T02
 
-\newpage
+  \vspace{.05in}
 
-\pagebreak
+\nopagebreak
 
-\vspace{.2in}   \textbf{Gravity Loads and Seismic Mass}   \hfill\textbf{SECTION [0101] - 3}
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.075\DUtablewidth}|p{0.424\DUtablewidth}|p{0.424\DUtablewidth}|}
+\hline
+\textbf{%
+Sym
+} & \textbf{%
+Load Effect
+} & \textbf{%
+Notes
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+Sym
+} & \textbf{%
+Load Effect
+} & \textbf{%
+Notes
+} \\
+\hline
+\endhead
+\multicolumn{3}{p{0.92\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
+
+D
+ & 
+Dead load
+ & 
+See IBC 1606 and Chapter 3 of this
+publication
+ \\
+\hline
+
+E
+ & 
+Combined effect of horizontal and
+vertical earthquake-induced forces
+as defined in ASCE/SEI 12.4.2
+ & 
+See IBC 1613, ASCE/SEI 12.4.2 and
+Chapter 6 of this publication
+ \\
+\hline
+
+Em
+ & 
+Maximum seismic load effect of
+horizontal and vertical forces as
+set forth in ASCE/SEI 12.4.3
+ & 
+See IBC 1613, ASCE/SEI 12.4.3 and
+Chapter 6 of this publication
+ \\
+\hline
+
+H
+ & 
+Load due to lateral earth
+pressures, ground water pressure or
+pressure of bulk materials
+ & 
+See IBC 1610 for soil lateral loads
+ \\
+\hline
+
+L
+ & 
+Live load, except roof live load,
+including any permitted live load
+reduction
+ & 
+See IBC 1607 and Chapter 3 of this
+publication
+ \\
+\hline
+
+Li
+ & 
+Roof live load including any
+permitted live load reduction
+ & 
+See IBC 1607 and Chapter 3 of this
+publication
+ \\
+\hline
+
+R
+ & 
+Rain load
+ & 
+See IBC 1611 and Chapter 3 of this
+publication
+ \\
+\hline
+
+W
+ & 
+Load due to wind pressure
+ & 
+See IBC 1609 and Chapter 5 of this
+publication
+ \\
+\hline
+\end{longtable*}
+
+\vspace{.05in}
+
+\textbf{Table 03} Load Combinations \hfill 02 - T03
+
+  \vspace{.05in}
+
+\nopagebreak
+
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.249\DUtablewidth}|p{0.633\DUtablewidth}|}
+\hline
+\textbf{%
+CBC 2019 reference
+} & \textbf{%
+Equation
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+CBC 2019 reference
+} & \textbf{%
+Equation
+} \\
+\hline
+\endhead
+\multicolumn{2}{p{0.88\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
+
+Equation 16-1
+ & 
+1.4(D +F)
+ \\
+\hline
+
+Equation 16-2
+ & 
+1.2(D + F) + l.6(L + H) + 0.5(L
+ \\
+\hline
+
+Equation 16-3
+ & 
+1.2(D + F) + l.6(Lr or S or R) + l.6H + (f1L or 0.5W)
+ \\
+\hline
+
+Equation 16-4
+ & 
+1.2(D + F) + 1.0W + f1L +1.6H + 0.5(Lr or S or R)
+ \\
+\hline
+
+Equation 16-5
+ & 
+1.2(D + F) + 1.0E + f1L + l.6H + f2S
+ \\
+\hline
+
+Equation 16-6
+ & 
+0.9D+ l.0W+ l.6H
+ \\
+\hline
+
+Equation 16-7
+ & 
+0.9(D + F) + 1.0E+ l.6H
+ \\
+\hline
+\end{longtable*}
+
+\vspace{.2in}   \textbf{ Gravity Loads and Seismic Mass}   \hfill\textbf{SECTION [0101] - 3 }
 \newline   \vspace{.05in}   {\color{black}\hrulefill}
 
 Some filler text
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\vspace{.05in}
 
-\textbf{Table 01} Roof unit dead loads \hfill T01 - 03
+\textbf{Table 04} Roof unit dead loads \hfill 03 - T04
 
-\begin{DUclass}{system-message}
-\begin{DUadmonition}
-\DUtitle{system-message
-}
+  \vspace{.05in}
 
-{\color{red}ERROR/3} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~177
+\nopagebreak
 
-Malformed table.
-Column span incomplete in table line 8.
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.133\DUtablewidth}|p{0.098\DUtablewidth}|p{0.121\DUtablewidth}|p{0.400\DUtablewidth}|}
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endhead
+\multicolumn{4}{p{0.75\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
 
-\begin{quote}
-\begin{alltt}
-==========  =======  =========  =================================
-variable      value    [value]  description
-==========  =======  =========  =================================
-ld1         2.0 psf   0.10 KPa  Urethane foam (4 inch thick)
-ld2         1.0 psf   0.05 KPa  Three-ply roofing
-ld3         5.0 psf   0.24 KPa  Doug Fir decking 2-in.
-ld4         1.0 psf   0.05 KPa  Doug Fir beams 4x12 at 12 ft o.c.
-------       ------     ------  ------
-roofdl1     9.0 psf   0.43 KPa  Total roof unit load
-==========  =======  =========  =================================
-\end{alltt}
-\end{quote}
-backrefs: \end{DUadmonition}
-\end{DUclass}
+ld1
+ & 
+2.0 psf
+ & 
+0.10 KPa
+ & 
+Urethane foam (4 inch thick)
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+ld2
+ & 
+1.0 psf
+ & 
+0.05 KPa
+ & 
+Three-ply roofing
+ \\
+\hline
 
-\textbf{Table 02} Floor unit dead loads \hfill T02 - 03
+ld3
+ & 
+5.0 psf
+ & 
+0.24 KPa
+ & 
+Doug Fir decking 2-in.
+ \\
+\hline
 
-\begin{DUclass}{system-message}
-\begin{DUadmonition}
-\DUtitle{system-message
-}
+ld4
+ & 
+1.0 psf
+ & 
+0.05 KPa
+ & 
+Doug Fir beams 4x12 at 12 ft o.c.
+ \\
+\hline
 
-{\color{red}ERROR/3} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~192
+\_ \_
+ & 
+\_ \_
+ & 
+\_ \_
+ & 
+Total
+ \\
+\hline
 
-Malformed table.
-Column span incomplete in table line 8.
+roofdl1
+ & 
+9.0 psf
+ & 
+0.43 KPa
+ & 
+Total roof unit load
+ \\
+\hline
+\end{longtable*}
 
-\begin{quote}
-\begin{alltt}
-==========  ========  =========  ==========================
-variable       value    [value]  description
-==========  ========  =========  ==========================
-ld1          3.0 psf   0.14 KPa  3/4 in. hardwood flooring
-ld2          2.0 psf   0.10 KPa  1/2 in. plywood subfloor
-ld3          4.0 psf   0.19 KPa  2x10 joists at 16 in. o.c.
-ld4          1.5 psf   0.07 KPa  fixtures
-------        ------     ------  ------
-floordl1    10.5 psf   0.50 KPa  Total floor unit load
-==========  ========  =========  ==========================
-\end{alltt}
-\end{quote}
-backrefs: \end{DUadmonition}
-\end{DUclass}
+\vspace{.05in}
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\textbf{Table 05} Floor unit dead loads \hfill 03 - T05
 
-\textbf{Table 03} Interior wall unit dead loads \hfill T03 - 03
+  \vspace{.05in}
 
-\begin{DUclass}{system-message}
-\begin{DUadmonition}
-\DUtitle{system-message
-}
+\nopagebreak
 
-{\color{red}ERROR/3} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~206
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.133\DUtablewidth}|p{0.110\DUtablewidth}|p{0.121\DUtablewidth}|p{0.319\DUtablewidth}|}
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endhead
+\multicolumn{4}{p{0.68\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
 
-Malformed table.
-Column span incomplete in table line 7.
+ld1
+ & 
+3.0 psf
+ & 
+0.14 KPa
+ & 
+3/4 in. hardwood flooring
+ \\
+\hline
 
-\begin{quote}
-\begin{alltt}
-==========  =======  =========  =============================
-variable      value    [value]  description
-==========  =======  =========  =============================
-ld1         5.5 psf   0.26 KPa  5/8" sheet rock (2)
-ld2           2 psf   0.10 KPa  2x4 studs at 16" o.c.
-ld3         1.5 psf   0.07 KPa  fixtures
-------       ------     ------  ------
-intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
-==========  =======  =========  =============================
-\end{alltt}
-\end{quote}
-backrefs: \end{DUadmonition}
-\end{DUclass}
+ld2
+ & 
+2.0 psf
+ & 
+0.10 KPa
+ & 
+1/2 in. plywood subfloor
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+ld3
+ & 
+4.0 psf
+ & 
+0.19 KPa
+ & 
+2x10 joists at 16 in. o.c.
+ \\
+\hline
 
-\textbf{Table 04} Exterior wall unit dead loads \hfill T04 - 03
+ld4
+ & 
+1.5 psf
+ & 
+0.07 KPa
+ & 
+fixtures
+ \\
+\hline
 
-\begin{DUclass}{system-message}
-\begin{DUadmonition}
-\DUtitle{system-message
-}
+\_ \_
+ & 
+\_ \_
+ & 
+\_ \_
+ & 
+Total
+ \\
+\hline
 
-{\color{red}ERROR/3} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~221
+floordl1
+ & 
+10.5 psf
+ & 
+0.50 KPa
+ & 
+Total floor unit load
+ \\
+\hline
+\end{longtable*}
 
-Malformed table.
-Column span incomplete in table line 8.
+\vspace{.05in}
 
-\begin{quote}
-\begin{alltt}
-==========  =======  =========  =============================
-variable      value    [value]  description
-==========  =======  =========  =============================
-ld1         2.0 psf   0.10 KPa  1/2 in plywood sheathing
-ld2         2.0 psf   0.10 KPa  2x4 studs at 16 in o.c.
-ld3         3.0 psf   0.14 KPa  5/8 in sheet rock
-ld4         1.5 psf   0.07 KPa  fixtures
-------       ------     ------  ------
-extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
-==========  =======  =========  =============================
-\end{alltt}
-\end{quote}
-backrefs: \end{DUadmonition}
-\end{DUclass}
+\textbf{Table 06} Interior wall unit dead loads \hfill 03 - T06
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+  \vspace{.05in}
 
-\textbf{Table 05} Areas \hfill T05 - 03
+\nopagebreak
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.133\DUtablewidth}|p{0.098\DUtablewidth}|p{0.121\DUtablewidth}|p{0.354\DUtablewidth}|}
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endhead
+\multicolumn{4}{p{0.71\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
 
-\textbf{Eq. 1} Roof weight \hfill E01 - 03
+ld1
+ & 
+5.5 psf
+ & 
+0.26 KPa
+ & 
+5/8\textquotedbl{} sheet rock (2)
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+ld2
+ & 
+2 psf
+ & 
+0.10 KPa
+ & 
+2x4 studs at 16\textquotedbl{} o.c.
+ \\
+\hline
 
-\textbf{Eq. 1} rfwt1 = arearf1 * roofdl1 \hfill E01 - 03
+ld3
+ & 
+1.5 psf
+ & 
+0.07 KPa
+ & 
+fixtures
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\_ \_
+ & 
+\_ \_
+ & 
+\_ \_
+ & 
+Total
+ \\
+\hline
 
-\textbf{Eq. 2} Floor weight \hfill E02 - 03
+intwalldl1
+ & 
+9 psf
+ & 
+0.43 KPa
+ & 
+Total interior wall unit load
+ \\
+\hline
+\end{longtable*}
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\vspace{.05in}
 
-\textbf{Eq. 2} flrwt1 = areaflr1 * floordl1 \hfill E02 - 03
+\textbf{Table 07} Exterior wall unit dead loads \hfill 03 - T07
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+  \vspace{.05in}
 
-\textbf{Eq. 3} Partition weight \hfill E03 - 03
+\nopagebreak
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.133\DUtablewidth}|p{0.098\DUtablewidth}|p{0.121\DUtablewidth}|p{0.354\DUtablewidth}|}
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endhead
+\multicolumn{4}{p{0.71\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
 
-\textbf{Eq. 3} partwt1 =  htwall1 * lenwall1 * intwalldl1 \hfill E03 - 03
+ld1
+ & 
+2.0 psf
+ & 
+0.10 KPa
+ & 
+1/2 in plywood sheathing
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+ld2
+ & 
+2.0 psf
+ & 
+0.10 KPa
+ & 
+2x4 studs at 16 in o.c.
+ \\
+\hline
 
-\textbf{Eq. 4} Exterior wall weight \hfill E04 - 03
+ld3
+ & 
+3.0 psf
+ & 
+0.14 KPa
+ & 
+5/8 in sheet rock
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+ld4
+ & 
+1.5 psf
+ & 
+0.07 KPa
+ & 
+fixtures
+ \\
+\hline
 
-\textbf{Eq. 4} exwallwt1 = htwall1 * lenwall2 * extwalldl1 \hfill E04 - 03
+\_ \_
+ & 
+\_ \_
+ & 
+\_ \_
+ & 
+Total
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+extwalldl1
+ & 
+8.5 psf
+ & 
+0.41 KPa
+ & 
+Total exterior wall unit load
+ \\
+\hline
+\end{longtable*}
 
-\textbf{Eq. 5} Total building weight \hfill E05 - 03
+\vspace{.05in}
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\textbf{Table 08} Areas \hfill 03 - T08
 
-\textbf{Eq. 5} totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1 \hfill E05 - 03
+  \vspace{.05in}
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\nopagebreak
 
-\textbf{Table 06} Weights \hfill T06 - 03
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.133\DUtablewidth}|p{0.133\DUtablewidth}|p{0.121\DUtablewidth}|p{0.272\DUtablewidth}|}
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description
+} \\
+\hline
+\endhead
+\multicolumn{4}{p{0.66\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
 
-\pagebreak
+arearf1
+ & 
+1700.00 sf
+ & 
+157.94 sM
+ & 
+roof area
+ \\
+\hline
 
-\vspace{.2in}   \textbf{Material Densities and Seismic Models}   \hfill\textbf{SECTION [0101] - 4}
+areaflr1
+ & 
+1200.00 sf
+ & 
+111.48 sM
+ & 
+floor area
+ \\
+\hline
+
+htwall1
+ & 
+9.00 ft
+ & 
+2.74 m
+ & 
+wall height
+ \\
+\hline
+
+lenwall1
+ & 
+110.00 ft
+ & 
+33.53 m
+ & 
+interior wall length
+ \\
+\hline
+
+lenwall2
+ & 
+155.00 ft
+ & 
+47.24 m
+ & 
+exterior wall length 2
+ \\
+\hline
+\end{longtable*}
+
+\textbf{Eq. 1} Roof weight \hfill 03 - E01
+%
+\begin{equation*}
+rfwt_{1} = arearf_{1} \cdot roofdl_{1}
+\end{equation*}%
+\begin{equation*}
+15300.00 psf·sf = 9.00 psf \cdot 1700.00 sf
+\end{equation*}
+\textbf{Eq. 2} Floor weight \hfill 03 - E02
+%
+\begin{equation*}
+flrwt_{1} = areaflr_{1} \cdot floordl_{1}
+\end{equation*}%
+\begin{equation*}
+12600.00 psf·sf = 10.50 psf \cdot 1200.00 sf
+\end{equation*}
+\textbf{Eq. 3} Partition weight \hfill 03 - E03
+%
+\begin{equation*}
+partwt_{1} = htwall_{1} \cdot intwalldl_{1} \cdot lenwall_{1}
+\end{equation*}%
+\begin{equation*}
+8910.00 ft²·psf = htwall_{1} \cdot intwalldl_{1} \cdot 110.00 ft
+\end{equation*}
+\textbf{Eq. 4} Exterior wall weight \hfill 03 - E04
+%
+\begin{equation*}
+exwallwt_{1} = extwalldl_{1} \cdot htwall_{1} \cdot lenwall_{2}
+\end{equation*}%
+\begin{equation*}
+11857.50 ft²·psf = extwalldl_{1} \cdot htwall_{1} \cdot 155.00 ft
+\end{equation*}
+\textbf{Eq. 5} Total building weight \hfill 03 - E05
+%
+\begin{equation*}
+totwt_{1} = exwallwt_{1} + flrwt_{1} + partwt_{1} + rfwt_{1}
+\end{equation*}%
+\begin{equation*}
+48667.50 psf·sf = 11857.50 ft²·psf + 8910.00 ft²·psf + 12600.00 psf·sf + 15300.00 psf·sf
+\end{equation*}
+\vspace{.05in}
+
+\textbf{Table 09} Weights \hfill 03 - T09
+
+  \vspace{.05in}
+
+\nopagebreak
+
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.133\DUtablewidth}|p{0.121\DUtablewidth}|p{0.121\DUtablewidth}|p{0.331\DUtablewidth}|}
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description {[}eq. number{]}
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description {[}eq. number{]}
+} \\
+\hline
+\endhead
+\multicolumn{4}{p{0.71\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
+
+rfwt1
+ & 
+15.30 kip
+ & 
+68.06 KN
+ & 
+Roof weight  {[}01{]}
+ \\
+\hline
+
+flrwt1
+ & 
+12.60 kip
+ & 
+56.05 KN
+ & 
+Floor weight  {[}02{]}
+ \\
+\hline
+
+partwt1
+ & 
+8.91 kip
+ & 
+39.63 KN
+ & 
+Partition weight  {[}03{]}
+ \\
+\hline
+
+exwallwt1
+ & 
+11.86 kip
+ & 
+52.74 KN
+ & 
+Exterior wall weight  {[}04{]}
+ \\
+\hline
+
+totwt1
+ & 
+48.67 kip
+ & 
+216.48 KN
+ & 
+Total building weight  {[}05{]}
+ \\
+\hline
+\end{longtable*}
+
+\vspace{.2in}   \textbf{ Material Densities and Seismic Models}   \hfill\textbf{SECTION [0101] - 4 }
 \newline   \vspace{.05in}   {\color{black}\hrulefill}
 
 Because the T\&G roof is relatively more flexible, the effective floor load
 for seismic models is calculated as the sum of the floor and all of the
 partition weight.
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\textbf{Eq. 6} Effective model floor load \hfill 04 - E06
+%
+\begin{equation*}
+eflrdl_{1} = \frac{flrwt_{1} + partwt_{1}}{areaflr_{1}}
+\end{equation*}%
+\begin{equation*}
+17.93 psf = \frac{8910.00 ft²·psf + 12600.00 psf·sf}{1200.00 sf}
+\end{equation*}
+\textbf{Eq. 7} Effective model floor density \hfill 04 - E07
+%
+\begin{equation*}
+eflrdens_{1} = \frac{eflrdl_{1}}{0.5 \cdot IN}
+\end{equation*}%
+\begin{equation*}
+35.85 psf/in = \frac{2.0 \cdot 17.93 psf}{in}
+\end{equation*}
+\textbf{Eq. 8} Effective model roof density \hfill 04 - E08
+%
+\begin{equation*}
+erfdens_{1} = \frac{roofdl_{1}}{1.5 \cdot IN}
+\end{equation*}%
+\begin{equation*}
+6.00 psf/in = \frac{0.666666666666667 \cdot 9.00 psf}{in}
+\end{equation*}
+\textbf{Eq. 9} Effective model wall density \hfill 04 - E09
+%
+\begin{equation*}
+ewalldens_{1} = \frac{extwalldl_{1}}{0.5 \cdot IN}
+\end{equation*}%
+\begin{equation*}
+17.00 psf/in = \frac{2.0 \cdot extwalldl_{1}}{in}
+\end{equation*}
+\vspace{.05in}
 
-\textbf{Eq. 6} Effective model floor load \hfill E06 - 04
+\textbf{Table 10} Model loads \hfill 04 - T10
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+  \vspace{.05in}
 
-\textbf{Eq. 6} eflrdl1 = (flrwt1 + partwt1)/(areaflr1) \hfill E06 - 04
+\nopagebreak
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+\setlength{\DUtablewidth}{\linewidth}%
+\begin{longtable*}{|p{0.133\DUtablewidth}|p{0.121\DUtablewidth}|p{0.133\DUtablewidth}|p{0.424\DUtablewidth}|}
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description {[}eq. number{]}
+} \\
+\hline
+\endfirsthead
+\hline
+\textbf{%
+variable
+} & \textbf{%
+value
+} & \textbf{%
+{[}value{]}
+} & \textbf{%
+description {[}eq. number{]}
+} \\
+\hline
+\endhead
+\multicolumn{4}{p{0.81\DUtablewidth}}{\raggedleft\ldots continued on next page}\\
+\endfoot
+\endlastfoot
 
-\textbf{Eq. 7} Effective model floor density \hfill E07 - 04
+eflrdl1
+ & 
+17.93 psf
+ & 
+0.86 KPa
+ & 
+Effective model floor load   {[}06{]}
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+eflrdens1
+ & 
+0.25 pci
+ & 
+67.58 KNcM
+ & 
+Effective model floor density  {[}07{]}
+ \\
+\hline
 
-\textbf{Eq. 7} eflrdens1 = eflrdl1/(0.5*IN) \hfill E07 - 04
+erfdens1
+ & 
+0.04 pci
+ & 
+11.31 KNcM
+ & 
+Effective model roof density  {[}08{]}
+ \\
+\hline
 
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
+ewalldens1
+ & 
+0.12 pci
+ & 
+32.05 KNcM
+ & 
+Effective model wall density  {[}09{]}
+ \\
+\hline
+\end{longtable*}
 
-\textbf{Eq. 8} Effective model roof density \hfill E08 - 04
-
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
-
-\textbf{Eq. 8} erfdens1 = roofdl1/(1.5*IN) \hfill E08 - 04
-
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
-
-\textbf{Eq. 9} Effective model wall density \hfill E09 - 04
-
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
-
-\textbf{Eq. 9} ewalldens1 = extwalldl1/(0.5*IN) \hfill E09 - 04
-
-\begin{DUlineblock}{0em}
-\item[] 
-\end{DUlineblock}
-
-\textbf{Table 07} Model loads \hfill T07 - 04
-
-\newpage
-
-\pagebreak
-
-\vspace{.2in}   \textbf{Abbreviations and References}   \hfill\textbf{SECTION [0101] - 5}
+\vspace{.2in}   \textbf{ Abbreviations and References}   \hfill\textbf{SECTION [0101] - 5 }
 \newline   \vspace{.05in}   {\color{black}\hrulefill}
 
 \begin\{center\} References\end\{center\}
@@ -665,7 +1300,7 @@ begin\{tabbing\}
 \DUtitle{system-message
 }
 
-{\color{red}ERROR/3} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~463
+{\color{red}ERROR/3} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~702
 
 Unexpected indentation.
 backrefs: \end{DUadmonition}
@@ -750,7 +1385,7 @@ indenttextbf\{WP\}       >  \{Working Point\}\textbackslash{}
 \DUtitle{system-message
 }
 
-{\color{red}WARNING/2} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~534
+{\color{red}WARNING/2} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~773
 
 Block quote ends without a blank line; unexpected unindent.
 backrefs: \end{DUadmonition}
@@ -809,7 +1444,7 @@ bm\{W\}       \& = textrm\{seismic weight of structure \}            \textbacksl
 \DUtitle{system-message
 }
 
-{\color{red}WARNING/2} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~581
+{\color{red}WARNING/2} in \texttt{c:\textbackslash{}git\textbackslash{}solar\_canopy\textbackslash{}rivtManual\textbackslash{}solar-canopy-2023\textbackslash{}resource\textbackslash{}rv00-temp\textbackslash{}r0101.rst}, line~820
 
 Definition list ends without a blank line; unexpected unindent.
 backrefs: \end{DUadmonition}

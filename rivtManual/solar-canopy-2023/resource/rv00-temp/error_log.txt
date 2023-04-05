@@ -1,5 +1,0 @@
-01-04 12:55 root         INFO     calc file path found: c:\git\solar_canopy\rivtManual\rivt_solar-canopy-2022\calc\rv0101_overview\c0101_overview.py
-01-04 12:55 root         INFO     default folder path found: c:\git\solar_canopy\rivtManual\rivt_solar-canopy-2022\file\f01
-01-04 12:55 root         INFO     calc short path: calc\rv0101_overview
-01-04 12:55 root         INFO     log short path: file\f00
-01-04 12:55 root         INFO     calc read and backup written to calc folder

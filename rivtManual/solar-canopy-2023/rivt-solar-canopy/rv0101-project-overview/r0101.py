@@ -4,51 +4,61 @@ import rivt.rivttext as rv
 # %%
 rv.R("""Overview | 80 
 
-    This report describes the structural design residential solar canopy in
-    the City of Larkspur, California. It includes the design of a concrete
-    slab, stem wall, steel tube frame, and attachments of solar panels to the
-    frame.
- 
-    The report is divided into the following three divisions:
- 
-    - 01 Loads: gravity, wind and seismic 
-    - 02 Frame: steel tubes, connections and clips 
-    - 03 Foundation: slab and stem wall
+    This report describes the structural design of a solar canopy covering a
+    residential patio located in the City of Larkspur, California. It includes
+    the design of a concrete slab and stem wall, steel tube frame, and
+    attachments of solar panels to the frame. The report is divided into the
+    following divisions and subdivisions::
+    
+                    [01] Loads
+                        [01] Gravity
+                        [02] Wind and Seismic
+                    [02] Frame
+                        [01] Steel tubes 
+                        [02] Connections and clips 
+                    [03] Foundation 
+                        [01] Slab
+                        [02] Stem wall
+                    [04] References and Abbreviations
+                        [01] Codes and Standards
+                        [02] Abbreviations
+                        [03] Symbols
 
     || pages | config | rivt-config.ini | pdf-style2.sty | 1
     || project | resource | proj-info.txt | 30,C
  
     """)
 # %%
-rv.I("""Solar Canopy Location and Applicable Codes 
+rv.I("""Governing Codes 
 
-    The project is located in Larkspur, California.
 
-    || image | resource | fig1.png | 25
+    || image | resource | fig1.png | 20
     Wind load 1 _[f]
     
-    || image | resource | fig2.png | 55
+    || image | resource | fig2.png | 45 
     Wind load 2 _[f]
 
     The permit approval is under the jurisdiction of the City of Larkspur,
     California which adopted the 2019 California Building Code [CBC] and the
     2019 California Residential Code [CRC] as the basis for permiting
-    construction work. The canopy is designed compliant with the
+    construction work. The canopy is designed for compliance with the
     requirements of the CBC.
 
-    || table | data | cbc2019_stds.xlsx | 53,L | [:]
+    Standards _[t]
+    || table | data | cbc2019_stds.xlsx | 53,l | [:]
  
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
 
-    || table | data | load_types01.csv | 30,L | [:]
+    Load Types _[t]
+    || table | data | load_types01.csv | 35,l | [:]
 
-    || table | data | asce7_load_comb.csv | 55,C | [:]
+    Load Combinations _[t]
+    || table | data | asce7_load_comb.csv | 55,c | [:]
 
-    _[page]
     """)
 # %%
-rv.V("""Gravity Loads and Seismic Mass | save | nosub
+rv.V("""Gravity Loads and Seismic Mass | sub
     
     Some filler text
 
@@ -71,6 +81,7 @@ rv.V("""Gravity Loads and Seismic Mass | save | nosub
     lenwall1 := 110             |FT, M| interior wall length 
     lenwall2 := 155             |FT, M| exterior wall length 2
 
+    
   
     Roof weight _[e]                    
     rfwt1 = arearf1 * roofdl1                           |KIP,KN|2,2
@@ -82,15 +93,17 @@ rv.V("""Gravity Loads and Seismic Mass | save | nosub
     exwallwt1 = htwall1 * lenwall2 * extwalldl1         |KIP,KN|2,2
     Total building weight _[e]
     totwt1 = rfwt1 + flrwt1 + partwt1 + exwallwt1       |KIP,KN|2,2
-    Weights _[t]
+    Weights _[t]  
+
       
     """)
 # %%
-rv.V("""Material Densities and Seismic Models | save | nosub
+rv.V("""Material Densities and Seismic Models | sub
 
     Because the T&G roof is relatively more flexible, the effective floor load
     for seismic models is calculated as the sum of the floor and all of the
     partition weight.
+
 
     Effective model floor load  _[e]  
     eflrdl1 = (flrwt1 + partwt1)/(areaflr1)                     |PSF, KPA|2,2
@@ -101,8 +114,8 @@ rv.V("""Material Densities and Seismic Models | save | nosub
     Effective model wall density _[e]  
     ewalldens1 = extwalldl1/(0.5*IN)                            |PCI, KNCM|2,2
     Model loads _[t]
-
-    _[page]
+   
+    
     """)
 # %%
 rv.I("""Abbreviations and References

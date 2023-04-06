@@ -32,8 +32,7 @@
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
-\usepackage{fontspec}
-\usepackage{dejavu}
+% \usepackage{fontspec}
 \usepackage{bm}
 \usepackage{gensymb}
 \usepackage[normalem]{ulem}
@@ -41,16 +40,23 @@
 \usepackage{tabulary}
 \usepackage{longtable}
 \usepackage{geometry}
-\usepackage{mathastext}
+\usepackage{amsmath}
+\usepackage[mathrm=sym]{unicode-math}
+\setmathfont{Fira Math}[Scale=0.9]
+% \usepackage[mathastext]
+
+
 %% font size
 \setmainfont{DejaVu Sans}[Scale=0.8]
 \setsansfont{DejaVu Sans}[Scale=0.8]
 \setmonofont{DejaVu Sans Mono}[Scale=0.8]
-\setmathrm{Arial}
-\setmathsf{Arial}
-\setmathtt{Arial}
-\DeclareMathSizes{10}
-\renewcommand\familydefault\sfdefault
+% \DeclareMathSizes{9}
+% \setmathfont{TeX Gyre DejaVu Math}[version=dejavu]
+% \setmathrm{Arial}
+% \setmathsf{Arial}
+% \setmathtt{Arial}
+
+% \renewcommand\familydefault\sfdefault
 %% \usepackage[libertine]{newtxmath}
 
 %% margins
